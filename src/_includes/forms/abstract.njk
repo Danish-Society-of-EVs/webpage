@@ -133,7 +133,7 @@
 
             /* Generate formdata element */
             let formElement = document.getElementById("abstract");
-            let body = new URLSearchParams(new FormData(formElement)).toString();
+            let body = new URLSearchParams(new FormData(formElement));
 
                 /* Submit form */
                 return fetch("/", {
