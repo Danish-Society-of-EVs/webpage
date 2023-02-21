@@ -1,0 +1,124 @@
+{
+  "board_members": [
+    {
+      "name": "Malene Møller Jørgensen",
+      "photo": "/images/malenemoller.jpg",
+      "position": "President",
+      "current_board_member": true,
+      "start_date": "2020",
+      "end_date": "",
+      "email": "",
+      "web_url": ""
+    },
+    {
+      "name": "Aase Handberg",
+      "photo": "/images/250px-aase_handberg.jpg",
+      "position": "Vice president",
+      "current_board_member": true,
+      "start_date": "2020",
+      "end_date": "",
+      "email": "aaha@rn.dk",
+      "web_url": ""
+    },
+    {
+      "name": "Anne Borup",
+      "photo": "/images/unnamed.jpg",
+      "position": "Treasurer",
+      "current_board_member": true,
+      "start_date": "2020",
+      "end_date": "",
+      "email": "anneborup@clin.au.dk",
+      "web_url": "linkedin.com/in/anne-borup-5a5185108"
+    },
+    {
+      "name": "Anders Askeland",
+      "photo": "/images/tdhixnpq_400x400.jpg",
+      "position": "Web manager",
+      "current_board_member": true,
+      "start_date": "2020",
+      "end_date": "",
+      "email": "a.askeland@rn.dk",
+      "web_url": "www.askeland.me"
+    },
+    {
+      "name": "Per Svenningsen",
+      "photo": "/images/per.png",
+      "position": "Secretary",
+      "current_board_member": true,
+      "start_date": "2021",
+      "end_date": "",
+      "email": "psvenningsen@health.sdu.dk",
+      "web_url": "https://portal.findresearcher.sdu.dk/da/persons/psvenningsen  "
+    },
+    {
+      "name": "Marie Stampe Ostenfeld",
+      "photo": "/images/marie.jpg",
+      "position": "Member at large",
+      "current_board_member": true,
+      "start_date": "2019",
+      "end_date": "",
+      "email": "mstos@arlafoods.com",
+      "web_url": "https://www.arlafoodsingredients.com/about/our-capabilities/nutrition-science/"
+    },
+    {
+      "name": "Peter Nejsum",
+      "photo": "/images/peter.jpg",
+      "position": "Member at large",
+      "current_board_member": true,
+      "start_date": "2019",
+      "end_date": "",
+      "email": "pn@clin.au.dk",
+      "web_url": "www.pure.au.dk/portal/en/persons/peter-lindberg-nejsum(ee468e32-0a8b-4cd3-9473-60335cf27df9).html"
+    },
+    {
+      "name": "Jonas Ellegaard Nielsen",
+      "photo": "/images/jonas.jpg",
+      "position": "Member at large",
+      "current_board_member": true,
+      "start_date": "2021",
+      "end_date": "",
+      "email": " Jonas.Ellegaard.Nielsen@rsyd.dk",
+      "web_url": ""
+    },
+    {
+      "name": "Ole Østergaard",
+      "photo": "/images/images.png",
+      "position": "Member at large",
+      "current_board_member": true,
+      "start_date": "2019",
+      "end_date": "",
+      "email": "",
+      "web_url": ""
+    },
+    {
+      "name": "Fabio Antenucci",
+      "photo": "/images/images.png",
+      "position": "PR manager",
+      "current_board_member": false,
+      "start_date": "2019",
+      "end_date": "2022",
+      "email": "",
+      "web_url": ""
+    },
+    {
+      "name": "Kim Ryun Drasbek",
+      "photo": "/images/csm_kim_ryun_drasbek_2017_e784d4c535.jpg",
+      "position": "Secretary",
+      "current_board_member": false,
+      "start_date": "2019",
+      "end_date": "2021",
+      "email": "",
+      "web_url": ""
+    },
+    {
+      "name": "Reza Yarani",
+      "photo": "/images/dsc02587-min.JPG",
+      "position": "Member at large",
+      "current_board_member": true,
+      "start_date": "2022",
+      "end_date": "",
+      "email": "Reza.yarani.01@regionh.dk",
+      "web_url": "www.linkedin.com/in/reza-yarani-8b326439/"
+    }
+  ]
+}

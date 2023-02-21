@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Metadata -->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DSEV - DSEV - The Danish Society for Extracellular Vesicles</title>
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="/style.css" />
+
+        <!-- Alpine js -->
+        <script type="module" src="/scripts/alpine.js"></script>
+        <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+        <!-- Analytics -->
+        <script data-goatcounter="https://dsev.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script> 
+    </head>
+
+    <!-- Main content -->
+    <body class="bg-light-primary text-gray-900 dark:text-gray-100 dark:bg-dark-primary  font-montserrat">
+        <div class="flex flex-col h-screen justify-between">
+            <!-- Navbar -->
+            <header class="container mx-auto flex max-w-6xl justify-between"><!-- Navbar -->
+<nav class="w-full flex flex-col h-auto" x-data="{ accordion: false }" x-cloak>
+    <div class="flex flex-col justify-between mx-auto w-full h-auto font-montserrat text-md p-3">
+        <!-- Main menu -->
+        <div class="flex flex-row justify-between w-full">
+            <!-- Logo -->
+            <a class="" href="/">
+                <div class="dark:hidden"><picture><source type="image/avif" srcset="/images/dPaEeCDteA-300.avif 300w, /images/dPaEeCDteA-600.avif 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/png" srcset="/images/dPaEeCDteA-300.png 300w, /images/dPaEeCDteA-600.png 600w" sizes="(min-width: 10em) 20vw, 10vw"><img alt="DSEV logo (Light theme)" loading="lazy" decoding="async" class="object-fill w-52" src="/images/dPaEeCDteA-300.png" width="600" height="366"></picture></div>
+                <div class="hidden dark:block"><picture><source type="image/avif" srcset="/images/Ej-7Q-JA-g-300.avif 300w, /images/Ej-7Q-JA-g-600.avif 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/png" srcset="/images/Ej-7Q-JA-g-300.png 300w, /images/Ej-7Q-JA-g-600.png 600w" sizes="(min-width: 10em) 20vw, 10vw"><img alt="DSEV logo (Dark theme)" loading="lazy" decoding="async" class="object-fill w-52" src="/images/Ej-7Q-JA-g-300.png" width="600" height="366"></picture></div>
+            </a>
+
+            <!-- Desktop menu (lg) -->
+            <div class="hidden md:flex flex-row items-end">
+                <!-- Buttons -->
+                <div class="md:flex flex-row space-x-5">
+                    <!-- Home -->
+                    <a href="/" class="menu-button">Home</a>
+
+                    <!-- Rest of pages -->
+                    
+                    <nav x-data="{ dropdownOpen: false }" class="relative" x-cloak>
+                        <!-- Button -->
+                        <button class="menu-button flex flex-row justify-center space-x-1" @click="dropdownOpen = !dropdownOpen">
+                            <span>About</span>
+                            <svg viewBox="0 0 20 20" :class="{'rotate-180': dropdownOpen, 'rotate-0': !dropdownOpen}" class="inline w-4 h-4 my-auto transition-transform duration-200 transform fill-current"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </button>
+
+                        <!-- Dropdown -->
+                        <div x-show="dropdownOpen" @click.away="dropdownOpen = false" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="z-50 absolute right-0 mt-2 lg:max-w-xl max-w-xs w-screen origin-top-right shadow-xl">
+                            <div class="px-2 pt-2 pb-4 bg-light-secondary dark:bg-dark-secondary rounded-md shadow-xl dark-mode:bg-gray-700 z-50">
+                                <div class="grid lg:grid-cols-2 grid-cols-1 gap-4">
+                                    
+                                    <a class="flex row items-start rounded-lg bg-transparent p-2 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 dark:text-gray-900 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="/pages/bylaws/">
+                                        <!-- Inner menu -->
+                                        <div class="flex flex-row">
+                                            <div class="w-1/5 mx-auto text-gray-50 pl-2 pr-2 bg-red-900 rounded-lg h-24">
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000" class="fill-current mx-auto h-full w-full"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M1 21h12v2H1v-2zM5.24 8.07l2.83-2.83 14.14 14.14-2.83 2.83L5.24 8.07zM12.32 1l5.66 5.66-2.83 2.83-5.66-5.66L12.32 1zM3.83 9.48l5.66 5.66-2.83 2.83L1 12.31l2.83-2.83z"/></svg>
+                                            </div>
+                                            <div class="ml-3 w-4/5">
+                                                <p class="font-semibold">Bylaws</p>
+                                                <p class="text-sm">Bylaws for the Danish Society of Extracellular Vesicles (DSEV)</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    
+                                    <a class="flex row items-start rounded-lg bg-transparent p-2 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 dark:text-gray-900 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="/pages/board_members/">
+                                        <!-- Inner menu -->
+                                        <div class="flex flex-row">
+                                            <div class="w-1/5 mx-auto text-gray-50 pl-2 pr-2 bg-red-900 rounded-lg h-24">
+                                                <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" class="fill-current mx-auto h-full w-full"><rect fill="none" height="24" width="24"/><g><path d="M4,13c1.1,0,2-0.9,2-2c0-1.1-0.9-2-2-2s-2,0.9-2,2C2,12.1,2.9,13,4,13z M5.13,14.1C4.76,14.04,4.39,14,4,14 c-0.99,0-1.93,0.21-2.78,0.58C0.48,14.9,0,15.62,0,16.43V18l4.5,0v-1.61C4.5,15.56,4.73,14.78,5.13,14.1z M20,13c1.1,0,2-0.9,2-2 c0-1.1-0.9-2-2-2s-2,0.9-2,2C18,12.1,18.9,13,20,13z M24,16.43c0-0.81-0.48-1.53-1.22-1.85C21.93,14.21,20.99,14,20,14 c-0.39,0-0.76,0.04-1.13,0.1c0.4,0.68,0.63,1.46,0.63,2.29V18l4.5,0V16.43z M16.24,13.65c-1.17-0.52-2.61-0.9-4.24-0.9 c-1.63,0-3.07,0.39-4.24,0.9C6.68,14.13,6,15.21,6,16.39V18h12v-1.61C18,15.21,17.32,14.13,16.24,13.65z M8.07,16 c0.09-0.23,0.13-0.39,0.91-0.69c0.97-0.38,1.99-0.56,3.02-0.56s2.05,0.18,3.02,0.56c0.77,0.3,0.81,0.46,0.91,0.69H8.07z M12,8 c0.55,0,1,0.45,1,1s-0.45,1-1,1s-1-0.45-1-1S11.45,8,12,8 M12,6c-1.66,0-3,1.34-3,3c0,1.66,1.34,3,3,3s3-1.34,3-3 C15,7.34,13.66,6,12,6L12,6z"/></g></svg>
+                                            </div>
+                                            <div class="ml-3 w-4/5">
+                                                <p class="font-semibold">Board members</p>
+                                                <p class="text-sm">Current and former board members of DSEV</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    
+                    <nav x-data="{ dropdownOpen: false }" class="relative" x-cloak>
+                        <!-- Button -->
+                        <button class="menu-button flex flex-row justify-center space-x-1" @click="dropdownOpen = !dropdownOpen">
+                            <span>Resources</span>
+                            <svg viewBox="0 0 20 20" :class="{'rotate-180': dropdownOpen, 'rotate-0': !dropdownOpen}" class="inline w-4 h-4 my-auto transition-transform duration-200 transform fill-current"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </button>
+
+                        <!-- Dropdown -->
+                        <div x-show="dropdownOpen" @click.away="dropdownOpen = false" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="z-50 absolute right-0 mt-2 lg:max-w-xl max-w-xs w-screen origin-top-right shadow-xl">
+                            <div class="px-2 pt-2 pb-4 bg-light-secondary dark:bg-dark-secondary rounded-md shadow-xl dark-mode:bg-gray-700 z-50">
+                                <div class="grid lg:grid-cols-2 grid-cols-1 gap-4">
+                                    
+                                    <a class="flex row items-start rounded-lg bg-transparent p-2 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 dark:text-gray-900 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="/pages/featured_articles/">
+                                        <!-- Inner menu -->
+                                        <div class="flex flex-row">
+                                            <div class="w-1/5 mx-auto text-gray-50 pl-2 pr-2 bg-red-900 rounded-lg h-24">
+                                                <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000" class="fill-current mx-auto h-full w-full"><g><rect fill="none" height="24" width="24"/><g><path d="M19,5v14H5V5H19 M19,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3L19,3z"/></g><path d="M14,17H7v-2h7V17z M17,13H7v-2h10V13z M17,9H7V7h10V9z"/></g></svg>
+                                            </div>
+                                            <div class="ml-3 w-4/5">
+                                                <p class="font-semibold">Featured articles</p>
+                                                <p class="text-sm">Submit or view previously featured articles</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    
+                                    <a class="flex row items-start rounded-lg bg-transparent p-2 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 dark:text-gray-900 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="/pages/logo/">
+                                        <!-- Inner menu -->
+                                        <div class="flex flex-row">
+                                            <div class="w-1/5 mx-auto text-gray-50 pl-2 pr-2 bg-red-900 rounded-lg h-24">
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000" class="fill-current mx-auto h-full w-full"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM19 18H6c-2.21 0-4-1.79-4-4 0-2.05 1.53-3.76 3.56-3.97l1.07-.11.5-.95C8.08 7.14 9.94 6 12 6c2.62 0 4.88 1.86 5.39 4.43l.3 1.5 1.53.11c1.56.1 2.78 1.41 2.78 2.96 0 1.65-1.35 3-3 3zm-5.55-8h-2.9v3H8l4 4 4-4h-2.55z"/></svg>
+                                            </div>
+                                            <div class="ml-3 w-4/5">
+                                                <p class="font-semibold">Download logo</p>
+                                                <p class="text-sm">Download high quality image files of the DSEV logo</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    
+                                    <a class="flex row items-start rounded-lg bg-transparent p-2 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 dark:text-gray-900 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="/pages/news/">
+                                        <!-- Inner menu -->
+                                        <div class="flex flex-row">
+                                            <div class="w-1/5 mx-auto text-gray-50 pl-2 pr-2 bg-red-900 rounded-lg h-24">
+                                                <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000" class="fill-current mx-auto h-full w-full"><g><rect fill="none" height="24" width="24"/></g><g><path d="M22,3l-1.67,1.67L18.67,3L17,4.67L15.33,3l-1.66,1.67L12,3l-1.67,1.67L8.67,3L7,4.67L5.33,3L3.67,4.67L2,3v16 c0,1.1,0.9,2,2,2l16,0c1.1,0,2-0.9,2-2V3z M11,19H4v-6h7V19z M20,19h-7v-2h7V19z M20,15h-7v-2h7V15z M20,11H4V8h16V11z"/></g></svg>
+                                            </div>
+                                            <div class="ml-3 w-4/5">
+                                                <p class="font-semibold">News archive</p>
+                                                <p class="text-sm">View previous news and updates from DSEV</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    
+                </div>
+
+                <!-- Toggle dark mode -->
+                <div class="ml-3 flex flex-row space-x-3">
+                    <p>|</p>
+
+                    <button id="switchTheme">
+                        <svg class="dark:hidden w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" /></svg>
+                        <svg class="hidden dark:block w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="5" />
+                            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile button -->
+            <div class="md:hidden flex flex-col justify-end">
+                <!-- Button -->
+                <button class="relative p-3 focus:outline-none flex justify-self-end" @click="accordion = !accordion">
+                    <div class="block w-5 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                        <span aria-hidden="true" class="block absolute h-0.5 w-5 bg-current transform transition duration-300 ease-in-out" :class="{'rotate-45': accordion,' -translate-y-1.5': !accordion }"></span>
+                        <span aria-hidden="true" class="block absolute h-0.5 w-5 bg-current transform transition duration-300 ease-in-out" :class="{'opacity-0': accordion } "></span>
+                        <span aria-hidden="true" class="block absolute h-0.5 w-5 bg-current transform transition duration-300 ease-in-out" :class="{'-rotate-45': accordion, ' translate-y-1.5': !accordion}"></span>
+                    </div>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile accordion -->
+        <div class="md:hidden relative overflow-hidden transition-all max-h-0 duration-700" x-ref="main_accordion" :style="accordion && 'max-height: ' + ($refs.main_accordion.scrollHeight) + 'px'">
+            <!-- Rest of menu -->
+             
+            <nav x-data="{accordion_inner: false, posts: 2}" class="pt-3">
+                <!-- Main menu -->
+                <button x-bind="toggle_subaccordion" class="flex w-full items-center p-3 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 dark:text-gray-900 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
+                    <!-- Text -->
+                    <span class="dark:text-gray-700 text-lg items-center w-full h-full">
+                        About
+                    </span>
+
+                    <!-- Icon -->
+                    <svg viewBox="0 0 20 20" :class="{'rotate-180': accordion_inner, 'rotate-0': !accordion_inner}" class="inline w-4 h-4 my-auto transition-transform duration-200 transform fill-current"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+
+                <!-- Submenues -->
+                
+
+                <div class="relative overflow-hidden transition-all max-h-0 duration-700" x-ref="secondary_accordion" :style="accordion_inner && 'max-height: ' + ($refs.secondary_accordion.scrollHeight) + 'px'">
+                    <!-- Item -->
+                    <a class="flex flex-row justify-start bg-gray-300 p-2 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 dark:text-gray-900 hover:text-gray-50 focus:text-blue-700 hover:bg-blue-700 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="/pages/bylaws/">
+                        <!-- Icon -->
+                        <div class="w-5 rounded-lg h-5 ml-5 my-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000" class="fill-current mx-auto h-full w-full"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M1 21h12v2H1v-2zM5.24 8.07l2.83-2.83 14.14 14.14-2.83 2.83L5.24 8.07zM12.32 1l5.66 5.66-2.83 2.83-5.66-5.66L12.32 1zM3.83 9.48l5.66 5.66-2.83 2.83L1 12.31l2.83-2.83z"/></svg>
+                        </div>
+
+                        <!-- Inner menu -->
+                        <div class="ml-2">
+                            <p class="">Bylaws</p>
+                        </div>
+                    </a>
+                </div>
+
+                
+
+                <div class="relative overflow-hidden transition-all max-h-0 duration-700" x-ref="secondary_accordion" :style="accordion_inner && 'max-height: ' + ($refs.secondary_accordion.scrollHeight) + 'px'">
+                    <!-- Item -->
+                    <a class="flex flex-row justify-start bg-gray-300 p-2 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 dark:text-gray-900 hover:text-gray-50 focus:text-blue-700 hover:bg-blue-700 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="/pages/board_members/">
+                        <!-- Icon -->
+                        <div class="w-5 rounded-lg h-5 ml-5 my-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" class="fill-current mx-auto h-full w-full"><rect fill="none" height="24" width="24"/><g><path d="M4,13c1.1,0,2-0.9,2-2c0-1.1-0.9-2-2-2s-2,0.9-2,2C2,12.1,2.9,13,4,13z M5.13,14.1C4.76,14.04,4.39,14,4,14 c-0.99,0-1.93,0.21-2.78,0.58C0.48,14.9,0,15.62,0,16.43V18l4.5,0v-1.61C4.5,15.56,4.73,14.78,5.13,14.1z M20,13c1.1,0,2-0.9,2-2 c0-1.1-0.9-2-2-2s-2,0.9-2,2C18,12.1,18.9,13,20,13z M24,16.43c0-0.81-0.48-1.53-1.22-1.85C21.93,14.21,20.99,14,20,14 c-0.39,0-0.76,0.04-1.13,0.1c0.4,0.68,0.63,1.46,0.63,2.29V18l4.5,0V16.43z M16.24,13.65c-1.17-0.52-2.61-0.9-4.24-0.9 c-1.63,0-3.07,0.39-4.24,0.9C6.68,14.13,6,15.21,6,16.39V18h12v-1.61C18,15.21,17.32,14.13,16.24,13.65z M8.07,16 c0.09-0.23,0.13-0.39,0.91-0.69c0.97-0.38,1.99-0.56,3.02-0.56s2.05,0.18,3.02,0.56c0.77,0.3,0.81,0.46,0.91,0.69H8.07z M12,8 c0.55,0,1,0.45,1,1s-0.45,1-1,1s-1-0.45-1-1S11.45,8,12,8 M12,6c-1.66,0-3,1.34-3,3c0,1.66,1.34,3,3,3s3-1.34,3-3 C15,7.34,13.66,6,12,6L12,6z"/></g></svg>
+                        </div>
+
+                        <!-- Inner menu -->
+                        <div class="ml-2">
+                            <p class="">Board members</p>
+                        </div>
+                    </a>
+                </div>
+
+                
+            </nav>
+
+             
+            <nav x-data="{accordion_inner: false, posts: 3}" class="pt-3">
+                <!-- Main menu -->
+                <button x-bind="toggle_subaccordion" class="flex w-full items-center p-3 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 dark:text-gray-900 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
+                    <!-- Text -->
+                    <span class="dark:text-gray-700 text-lg items-center w-full h-full">
+                        Resources
+                    </span>
+
+                    <!-- Icon -->
+                    <svg viewBox="0 0 20 20" :class="{'rotate-180': accordion_inner, 'rotate-0': !accordion_inner}" class="inline w-4 h-4 my-auto transition-transform duration-200 transform fill-current"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+
+                <!-- Submenues -->
+                
+
+                <div class="relative overflow-hidden transition-all max-h-0 duration-700" x-ref="secondary_accordion" :style="accordion_inner && 'max-height: ' + ($refs.secondary_accordion.scrollHeight) + 'px'">
+                    <!-- Item -->
+                    <a class="flex flex-row justify-start bg-gray-300 p-2 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 dark:text-gray-900 hover:text-gray-50 focus:text-blue-700 hover:bg-blue-700 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="/pages/featured_articles/">
+                        <!-- Icon -->
+                        <div class="w-5 rounded-lg h-5 ml-5 my-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000" class="fill-current mx-auto h-full w-full"><g><rect fill="none" height="24" width="24"/><g><path d="M19,5v14H5V5H19 M19,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3L19,3z"/></g><path d="M14,17H7v-2h7V17z M17,13H7v-2h10V13z M17,9H7V7h10V9z"/></g></svg>
+                        </div>
+
+                        <!-- Inner menu -->
+                        <div class="ml-2">
+                            <p class="">Featured articles</p>
+                        </div>
+                    </a>
+                </div>
+
+                
+
+                <div class="relative overflow-hidden transition-all max-h-0 duration-700" x-ref="secondary_accordion" :style="accordion_inner && 'max-height: ' + ($refs.secondary_accordion.scrollHeight) + 'px'">
+                    <!-- Item -->
+                    <a class="flex flex-row justify-start bg-gray-300 p-2 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 dark:text-gray-900 hover:text-gray-50 focus:text-blue-700 hover:bg-blue-700 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="/pages/logo/">
+                        <!-- Icon -->
+                        <div class="w-5 rounded-lg h-5 ml-5 my-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000" class="fill-current mx-auto h-full w-full"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM19 18H6c-2.21 0-4-1.79-4-4 0-2.05 1.53-3.76 3.56-3.97l1.07-.11.5-.95C8.08 7.14 9.94 6 12 6c2.62 0 4.88 1.86 5.39 4.43l.3 1.5 1.53.11c1.56.1 2.78 1.41 2.78 2.96 0 1.65-1.35 3-3 3zm-5.55-8h-2.9v3H8l4 4 4-4h-2.55z"/></svg>
+                        </div>
+
+                        <!-- Inner menu -->
+                        <div class="ml-2">
+                            <p class="">Download logo</p>
+                        </div>
+                    </a>
+                </div>
+
+                
+
+                <div class="relative overflow-hidden transition-all max-h-0 duration-700" x-ref="secondary_accordion" :style="accordion_inner && 'max-height: ' + ($refs.secondary_accordion.scrollHeight) + 'px'">
+                    <!-- Item -->
+                    <a class="flex flex-row justify-start bg-gray-300 p-2 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 dark:text-gray-900 hover:text-gray-50 focus:text-blue-700 hover:bg-blue-700 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="/pages/news/">
+                        <!-- Icon -->
+                        <div class="w-5 rounded-lg h-5 ml-5 my-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000" class="fill-current mx-auto h-full w-full"><g><rect fill="none" height="24" width="24"/></g><g><path d="M22,3l-1.67,1.67L18.67,3L17,4.67L15.33,3l-1.66,1.67L12,3l-1.67,1.67L8.67,3L7,4.67L5.33,3L3.67,4.67L2,3v16 c0,1.1,0.9,2,2,2l16,0c1.1,0,2-0.9,2-2V3z M11,19H4v-6h7V19z M20,19h-7v-2h7V19z M20,15h-7v-2h7V15z M20,11H4V8h16V11z"/></g></svg>
+                        </div>
+
+                        <!-- Inner menu -->
+                        <div class="ml-2">
+                            <p class="">News archive</p>
+                        </div>
+                    </a>
+                </div>
+
+                
+            </nav>
+
+            
+        </div>
+    </div>
+</nav>
+
+<script>
+    document.addEventListener("alpine:init", () => {
+        Alpine.bind("toggle_subaccordion", () => ({
+            type: "button",
+
+            "@click"() {
+                this.accordion_inner = !this.accordion_inner;
+                this.$refs.main_accordion.style["max-height"] = this.$refs.main_accordion.scrollHeight + this.$refs.secondary_accordion.scrollHeight * this.posts + "px";
+            },
+        }));
+    });
+</script>
+</header>
+
+            <!-- Content -->
+            <main class="flex-grow w-full">
+                
+<!-- Top section -->
+<div><!-- Banner -->
+<div class="w-screen overflow-hidden">
+    <div class="w-screen space-y-3 h-auto flex flex-col justify-between bg-gray-500 dark:bg-gray-500 curved z-0 full-width bg-no-repeat bg-cover bg-left bg-fixed filter saturate-50 bg-blend-multiply backdrop-filter contrast-75 bg-clip-padding pb-24" style="background-image: url(/images/Y-zC4BhuyV-1024.jpeg);">
+        <div class="w-screen mx-auto bg-transparent">
+            <!-- Text -->
+            <div class="pt-4 align-middle text-center text-white">
+                <div class="flex flex-col space-y-2">
+                    <h2 class="text-3xl sm:text-4xl font-medium pl-2 pr-2">Danish Society for Extracellular Vesicles</h2>
+                    <hr class="border-0 bg-gray-100 text-gray-500 h-0.5 w-16 mx-auto" />
+                    <p class="text-gray-300 pl-4 pr-4">Supporting Extracellular Vesicle Research and Education across Denmark!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Cards -->
+<div class="z-50 -mt-20 w-full pl-4 pr-4 grid sm:grid-cols-3 grid-cols-1 gap-4 max-w-2xl text-black mx-auto" x-data="{ contact: false, membership: false }">
+    <!-- News -->
+    <a href="/pages/news/" class="z-50">
+        <button type="button" class="card-banner sm:h-3/4 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none">
+            <!-- Logo -->
+            <div class="text-dsev flex fill_current h-16 w-full">
+                <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000" class="fill-current block h-12 w-12 block mx-auto my-auto"><g><rect fill="none" height="24" width="24"/></g><g><path d="M22,3l-1.67,1.67L18.67,3L17,4.67L15.33,3l-1.66,1.67L12,3l-1.67,1.67L8.67,3L7,4.67L5.33,3L3.67,4.67L2,3v16 c0,1.1,0.9,2,2,2l16,0c1.1,0,2-0.9,2-2V3z M11,19H4v-6h7V19z M20,19h-7v-2h7V19z M20,15h-7v-2h7V15z M20,11H4V8h16V11z"/></g></svg>
+            </div>
+    
+            <!-- Heading -->
+            <div class="w-full">
+                <h2 class="text-xl">News & updates</h2>
+                <p class="text-sm text-gray-600">DSEV news and updates!</p>
+            </div>
+        </button>
+    </a>
+
+    <!-- Membership -->
+    <button type="button" class="card-banner hover:bg-gray-200 focus:bg-gray-200 focus:outline-none" @click="membership = !membership">
+        <!-- Logo -->
+        <div class="text-dsev flex fill_current h-16 w-full">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current block h-12 w-12 block mx-auto my-auto"><path fill="none" d="M0 0h20v20H0z"/><path d="M8.5 4h3v3h-3zM4 13h3v3H4zM4 8.5h3v3H4zM4 4h3v3H4zM13 4h3v3h-3zM9 14.49V16h1.51l4.89-4.9-1.5-1.5zM11.5 9.88V8.5h-3v3h1.37zM16.85 8.94l-.79-.79c-.2-.2-.51-.2-.71 0l-.75.75 1.5 1.5.75-.75c.2-.2.2-.52 0-.71z"/></svg>
+        </div>
+
+        <!-- Heading -->
+        <div class="h-auto w-full">
+            <h2 class="text-xl">Membership</h2>
+            <p class="text-sm text-gray-600">How to become a member!</p>
+        </div>
+    </button>
+
+    <!-- Contact us (card) -->
+    <button type="button" class="card-banner sm:h-3/4 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none" @click="contact = !contact">
+        <!-- Logo -->
+        <div class="text-dsev flex fill_current h-16 w-full">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current block h-12 w-12 block mx-auto my-auto"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15 12h2c0-2.76-2.24-5-5-5v2c1.66 0 3 1.34 3 3zm4 0h2a9 9 0 0 0-9-9v2c3.87 0 7 3.13 7 7zm1 3.5c-1.25 0-2.45-.2-3.57-.57-.1-.03-.21-.05-.31-.05-.26 0-.51.1-.71.29l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM5.03 5h1.5c.07.88.22 1.75.45 2.58l-1.2 1.21c-.4-1.21-.66-2.47-.75-3.79zM19 18.97c-1.32-.09-2.6-.35-3.8-.76l1.2-1.2c.85.24 1.72.39 2.6.45v1.51z"/></svg>
+        </div>
+
+        <!-- Heading -->
+        <div class="h-auto w-full">
+            <h2 class="text-xl">Contact</h2>
+            <p class="text-sm text-gray-600">Write us a message</p>
+        </div>
+    </button>
+
+    <!-- Modal -->
+    <div class="bg-modal" x-cloak x-show="contact" @keydown.escape="contact = false">
+    <div class="h-full flex flex-col justify-center">
+        <!-- Dialog -->
+        <div class="relative flex flex-col bg-white w-2/3 h-auto mx-auto max-w-md rounded-lg shadow-lg" @click.away="contact = false">
+            <!-- Top bar -->
+            <div>
+                <!-- Close icon -->
+                <button @click="contact = false" class="absolute right-0 top-0 p-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+                    </svg>
+                </button>
+
+                <!-- Title -->
+                <div class="rounded-t-lg w-full shadow-lg bg-white h-auto text-left p-2 pl-4">
+                    <h2 class="text-2xl font-montserrat">Write us a message</h2>
+                </div>
+            </div>
+
+            <!-- Form -->
+            <!-- Form -->
+<div>
+    <!-- Hidden part -->
+    <form hidden name="contact" data-netlify="true" netlify-honeypot="bot-field">
+        <input name="name" />
+        <input name="email" />
+        <input name="message" />
+    </form>
+
+    <!-- Actual form -->
+    <form class="h-full pl-0.5" method="POST" id="contact" x-data="contactNewForm()" @submit.prevent="submitData()" x-cloak>
+        <!-- Setup (Related to netlify) -->
+        <div>
+            <!-- Honeypot for bots (is hidden) -->
+            <p hidden>
+                <label>ignore: <input name="bot-field" /></label>
+            </p>
+
+            <!-- Netlify parse (Must be included for netlify to work) -->
+            <input type="hidden" name="form-name" value="contact" />
+        </div>
+
+        <!-- Form -->
+        <div class="p-2 space-y-4" x-show="!sucess">
+            <!-- Input form -->
+            <div class="flex flex-col space-y-4">
+                <!-- Ñame -->
+                <div class="flex flex-col space-y-1">
+                    <!-- Label -->
+                    <label for="name" class="block text-md font-medium text-gray-700 font-montserrat"> Name </label>
+
+                    <!-- Input -->
+                    <div class="">
+                        <input id="name" type="text" required class="" name="name" x-model="name" placeholder="Your name" />
+                    </div>
+                </div>
+
+                <!-- Email -->
+                <div class="flex flex-col space-y-1">
+                    <!-- Label -->
+                    <label for="email" class="block text-md font-medium text-gray-700 font-montserrat">Email</label>
+
+                    <!-- Input -->
+                    <div class="relative">
+                        <input id="email" name="email" type="email" autocomplete="email" placeholder="jane@doe.dk" required class="" x-model="email" />
+                    </div>
+                </div>
+
+                <!-- Message -->
+                <div class="flex flex-col space-y-1">
+                    <!-- Label -->
+                    <label for="message" class="block text-md font-medium text-gray-700 font-montserrat">Message</label>
+
+                    <div class="relative">
+                        <!-- Text area -->
+                        <textarea id="message" required class="bg-white focus:outline-none focus:shadow-outline border border-gray-300 py-1.5 px-4 block w-full appearance-none leading-normal h-32" name="message" form="contact" x-model="message" placeholder="Your message here"></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Button -->
+            <button type="submit" class="inline-flex justify-center w-full px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-500 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500" x-bind:disabled="loading">
+                <!-- Active -->
+                <template x-if="!loading">
+                    <div class="space-x-3 p-1 my-auto justify-between pl-3 pr-3">
+                        <p class="text-center self-center">Send message</p>
+                    </div>
+                </template>
+
+                <!-- Loading - Maybe create round thingy inside box instead? -->
+                <template x-if="loading">
+                    <div class="flex flex-row space-x-1 justify-center">
+                        <p class="self-center">Sending</p>
+                        <div class="">
+                            <svg class="animate-spin text-gray-100 fill-current h-7 w-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M73 50c0-12.7-10.3-23-23-23S27 37.3 27 50m3.9 0c0-10.5 8.5-19.1 19.1-19.1S69.1 39.5 69.1 50" /></svg>
+                        </div>
+                    </div>
+                </template>
+            </button>
+        </div>
+
+        <!-- Message -->
+        <div x-show="sucess" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 transform scale-90" x-transition:enter-end="opacity-100 transform scale-100" x-transition:leave="transition ease-in duration-300" x-transition:leave-start="opacity-100 transform scale-100" x-transition:leave-end="opacity-0 transform scale-90">
+            <div class="bg-green-100 border-l-4 border-green-500 text-green-700 p-4 my-4" role="success">
+                <p>Message sent</p>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script>
+    function contactNewForm() {
+        /* Set data */
+        return {
+                loading: false,
+                sucess: false,
+                email: "",
+                name: "",
+                message: "",
+        submitData() {
+            /* Set loading loading */
+            this.loading = true;
+
+            /* Generate formdata element */
+            let formElement = document.getElementById("contact");
+            let body = new URLSearchParams(new FormData(formElement)).toString();
+
+                /* Submit form */
+                return fetch("/", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/x-www-form-urlencoded",
+                    },
+                    body: body,
+                })
+                    .then((response) => {
+                        if (response.ok) {
+                            formElement.reset();
+                            /* Show sucess */
+                            this.sucess = true;
+                        } else {
+                            throw new Error(`Something went wrong: ${response.statusText}`);
+                        }
+                    })
+                    .catch((error) => console.error(error));
+            },
+        };
+    }
+</script>
+
+        </div>
+    </div>
+</div>
+
+    <div class="bg-modal" x-cloak x-show="membership" @keydown.escape="membership = false">
+    <div class="h-full flex flex-col justify-center">
+        <!-- Dialog -->
+        <div class="relative flex flex-col bg-white w-2/3 h-auto mx-auto max-w-md rounded-lg shadow-lg" @click.away="membership = false">
+            <!-- Top bar -->
+            <div>
+                <!-- Close icon -->
+                <button @click="membership = false" class="absolute right-0 top-0 p-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+                    </svg>
+                </button>
+
+                <!-- Title -->
+                <div class="rounded-t-lg w-full shadow-lg bg-white h-auto text-left p-2 pl-4">
+                    <h2 class="text-2xl font-montserrat">How to become a member</h2>
+                </div>
+            </div>
+
+            <!-- Text -->
+            <div class="p-4 flex flex-col space-y-4">
+                <p>
+                    DSEV membership is currently tied to registration for the the DSEV annual meeting. As such, it is only possible to become an member if you register for the annual meeting.           
+                </p> 
+                <p>
+                    It is still possible to register for the mailing list.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+<script>
+    /* Check for valid email */
+    function isEmail(value) {
+        return new RegExp("^\\S+@\\S+[\\.][0-9a-z]+$").test(String(value).toLowerCase());
+    }
+
+    /* Contact form */
+    function contactEmail() {
+        return {
+            loading: false,
+            sucess: false,
+            email: "",
+            emailValid: false,
+            emailMissing: false,
+            name: "",
+            nameMissing: false,
+            message: "",
+            messageMissing: false,
+
+            submitData() {
+                /* Set loading loading */
+                this.loading = true;
+                let error = false;
+
+                /* Check if email is valid or not */
+                if (this.email == "") {
+                    this.emailMissing = true;
+                    this.loading = false;
+                    error = true;
+                } else if (!isEmail(this.email)) {
+                    this.emailValid = true;
+                    this.loading = false;
+                    error = true;
+                }
+
+                /* Check if name is missing */
+                if (this.name == "") {
+                    this.nameMissing = true;
+                    this.loading = false;
+                    error = true;
+                }
+
+                /* Check if message is missing */
+                if (this.message == "") {
+                    this.messageMissing = true;
+                    this.loading = false;
+                    error = true;
+                }
+
+                /* Run code if no error */
+                if (error) {
+                    error = false;
+                    return;
+                } else {
+                    /* Generate formdata element */
+                    let formElement = document.getElementById("contact");
+                    let body = new URLSearchParams(new FormData(formElement)).toString();
+
+                    /* Submit form */
+                    return fetch("/", {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/x-www-form-urlencoded",
+                        },
+                        body: body,
+                    })
+                        .then((response) => {
+                            if (response.ok) {
+                                formElement.reset();
+                                /* Show sucess */
+                                this.sucess = true;
+                            } else {
+                                throw new Error(`Something went wrong: ${response.statusText}`);
+                            }
+                        })
+                        .catch((error) => console.error(error));
+                }
+            },
+        };
+    }
+</script>
+</div>
+
+
+<!-- Text section -->
+<div class="max-w-2xl p-4 space-y-4 flex flex-col mx-auto">
+    <p class="text-4xl text-center">Who are we?</p>
+    <article class="prose dark:prose-invert">
+        <p>The Danish Society for Extracellular Vesicles (DSEV) is a Danish community of extracellular vesicles-, exosomes-, and microvesicle researchers. The objective of DSEV is to promote the interests of Danish scientists nationally and internationally.</p>
+
+        <p>As an organization, DSEV connects researchers at its Annual Meeting and reach out to global EV researcheres and workshops/events.</p>
+
+        <p>If you are a researcher interested in learning more about extracellular vesicle, please consider joining DSEV.</p>
+    </article>
+    <noscript class="text-3xl font-bold"> If you see this line, it means that your JavaSript is disabled. Several features of this webpage might not display correctly. </noscript>
+</div>
+
+<!-- News and mailing list -->
+<div class=""><!-- News and mailing list signup section -->
+<div class="relative sm:h-auto overflow-hidden mt-4">
+    <div id="Container" class="max-w-4xl mx-auto overflow-hidden h-full">
+        <!-- Edge background -->
+        <div class="hidden sm:block absolute bg-gray-200 dark:bg-dark-secondary h-full w-1/2 left-0"></div>
+        <div class="hidden sm:block absolute bg-gray-300 dark:bg-dark-tertiary h-full w-1/2 right-0"></div>
+
+        <!-- Content -->
+        <div class="relative flex flex-col sm:flex-row sm:h-full w-full">
+            <!-- Newsfeed -->
+            <div class="flex flex-col h-64 sm:w-2/3 sm:h-full bg-gray-200 dark:bg-dark-secondary p-4">
+                <h3 class="text-3xl font-montserrat dark:text-gray-100">Latest news</h3>
+                <div class="flex flex-col space-y-2">
+                      
+                    <div class="pl-1 flex flex-col">
+                        <a class="text-lg tracking-normal text-blue-500" href="/posts/program-dsev-2022/">Program - DSEV 2022 </a>
+                        <time class="text-sm tracking-tight text-gray-600 postlist-date" datetime="2022-09-28">
+                            September 28, 2022
+                        </time>
+                    </div>
+                    
+                    <div class="pl-1 flex flex-col">
+                        <a class="text-lg tracking-normal text-blue-500" href="/posts/annual-meeting/">Annual meeting </a>
+                        <time class="text-sm tracking-tight text-gray-600 postlist-date" datetime="2022-08-22">
+                            August 22, 2022
+                        </time>
+                    </div>
+                    
+                    <a href="/pages/news/">
+                        <button type="submit" class="h-8 text-sm bg-blue-500 hover:bg-blue-700 text-white font-base font-montserrat rounded-lg w-1/3">
+                            <p class="text-center self-center">See 4 more</p>
+                        </button>
+                    </a>
+                </div>
+            </div>
+   
+            <!-- Mailing list -->
+            <div class="flex flex-col h-48 sm:w-1/3 sm:h-full dark:bg-dark-tertiary bg-gray-300 p-4">
+                <h3 class="text-3xl font-montserrat dark:text-gray-100">Mailing list</h3>
+                <!-- Form -->
+<div class="h-full">
+    <!-- Hidden part -->
+    <form hidden name="mailing-list" data-netlify="true" netlify-honeypot="bot-field">
+        <input name="email" />
+    </form>
+
+    <!-- Actual form -->
+    <form class="" method="POST" id="mailing-list" x-data="contactForm()" @submit.prevent="submitData()" @keydown="resetWarnings()" x-cloak>
+        <!-- Setup (Related to netlify) -->
+        <div>
+            <!-- Honeypot for bots (is hidden) -->
+            <p hidden>
+                <label>ignore: <input name="bot-field" /></label>
+            </p>
+
+            <!-- Netlify parse (Must be included for netlify to work) -->
+            <input type="hidden" name="form-name" value="mailing-list" />
+        </div>
+
+        <!-- Form -->
+        <div x-show="!sucess" class="space-y-2">
+            <!-- Input form -->
+            <div>
+                <!-- Email -->
+                <div>
+                    <!-- Label -->
+                    <label for="email" class="block text-md font-medium text-gray-700 font-montserrat">Email</label>
+
+                    <!-- Input -->
+                    <div class="mt-1">
+                        <input id="email" name="email" type="email" autocomplete="email" placeholder="jane@doe.dk" required class="" x-model="email"/>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Button -->
+            <button type="submit" class="inline-flex justify-center w-2/3 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-500 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500" x-bind:disabled="loading">
+                <!-- Active -->
+                <template x-if="!loading">
+                    <div class="space-x-3 p-1 my-auto justify-between pl-3 pr-3">
+                        <p class="text-center self-center">Subscribe</p>
+                    </div>
+                </template>
+
+                <!-- Loading - Maybe create round thingy inside box instead? -->
+                <template x-if="loading">
+                    <div class="flex flex-row space-x-1 justify-center">
+                        <p class="self-center">Subscribing</p>
+                        <div class="">
+                            <svg class="animate-spin text-gray-100 fill-current h-7 w-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M73 50c0-12.7-10.3-23-23-23S27 37.3 27 50m3.9 0c0-10.5 8.5-19.1 19.1-19.1S69.1 39.5 69.1 50" /></svg>
+                        </div>
+                    </div>
+                </template>
+            </button>
+        </div>
+
+        <!-- Message -->
+        <div x-show="sucess" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 transform scale-90" x-transition:enter-end="opacity-100 transform scale-100" x-transition:leave="transition ease-in duration-300" x-transition:leave-start="opacity-100 transform scale-100" x-transition:leave-end="opacity-0 transform scale-90">
+            <div class="bg-green-100 border-l-4 border-green-500 text-green-700 p-4 my-4" role="success">
+                <p>Thank you for subscribing!</p>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script>
+    /* Check for valid email */
+    function isEmail(value) {
+        return new RegExp("^\\S+@\\S+[\\.][0-9a-z]+$").test(String(value).toLowerCase());
+    }
+
+    /* Contact form */
+    function contactForm() {
+        /* Set data */
+        return {
+            loading: false,
+            sucess: false,
+            email: "",
+            emailValid: false,
+            emailMissing: false,
+
+            /* Reset warnings */
+            resetWarnings() {
+                this.emailMissing = false;
+                this.emailValid = false;
+            },
+
+            /* Submit data */
+            submitData() {
+                /* Set loading loading */
+                this.loading = true;
+
+                /* Check if email is valid or not */
+                if (this.email == "") {
+                    this.emailMissing = true;
+                    this.loading = false;
+                    return;
+                } else if (!isEmail(this.email)) {
+                    this.emailValid = true;
+                    this.loading = false;
+                    return;
+                }
+
+                /* Generate formdata element */
+                let formElement = document.getElementById("mailing-list");
+                let body = new URLSearchParams(new FormData(formElement)).toString();
+
+                /* Submit form */
+                return fetch("/", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/x-www-form-urlencoded",
+                    },
+                    body: body,
+                })
+                    .then((response) => {
+                        if (response.ok) {
+                            formElement.reset();
+                            /* Show sucess */
+                            this.sucess = true;
+                        } else {
+                            throw new Error(`Something went wrong: ${response.statusText}`);
+                        }
+                    })
+                    .catch((error) => console.error(error));
+            },
+        };
+    }
+</script>
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Article wheel -->
+<div>
+    <!-- Flickity -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
+
+<div class="h-auto overflow-hidden transition-all" x-data="{ expand: false }">
+    <!-- Background -->
+    <div class="h-full max-w-screen bg-no-repeat bg-cover bg-left bg-fixed" style="background-image: url(/images/qKOZ5nqIbp-868.jpeg);">
+        <div class="max-w-5xl mx-auto flex flex-col h-auto w-full">
+            <!-- Text -->
+            <div class="flex flex-col h-auto w-full p-4 space-y-2">
+                <h3 class="text-2xl text-center text-white font-semibold font-montserrat">Featured scientific articles</h3>
+                <div class="text-gray-300 font-montserrat text-center max-w-2xl text-sm sm:text-base mx-auto">
+                    <p class="hidden sm:block">Scientific works within EV research authored or co-autorhed by members of the Danish Society for Extracellular Vesicles.</p>
+                    <p class="sm:hidden">Scientific works within EV research authored or co-autorhed by members of DSEV.</p>
+                </div>
+            </div>
+
+            <!-- Article wheel -->
+            <div class="h-auto">
+                <div class="h-full max-w-5xl mx-auto w-full overflow-hidden pl-5 pr-5">
+                    <div class="carousel md:pr-16 md:pl-16 w-full h-auto" data-flickity='{ "pageDots": false, "wrapAround": true , "autoPlay": 4500, "contain": true, "cellAlign": "right" }'>
+                        <!-- Settings for articles -->
+                         
+                         
+                        
+                        <a href="https://www.mdpi.com/1422-0067/23/6/3334" class="carousel-cell carousel-style h-72" style="background-color: #50E3C2;" target="_blank">
+                            <div class="flex h-full flex-col justify-between space-y-3 p-3">
+                                <!-- Image -->
+                                <div class="h-1/4 sm:h-1/3 md:h-1/4"><picture><source type="image/avif" srcset="/images/YRY2-ibejw-300.avif 300w, /images/YRY2-ibejw-600.avif 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/webp" srcset="/images/YRY2-ibejw-300.webp 300w, /images/YRY2-ibejw-600.webp 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/jpeg" srcset="/images/YRY2-ibejw-300.jpeg 300w, /images/YRY2-ibejw-600.jpeg 600w" sizes="(min-width: 10em) 20vw, 10vw"><img alt="Journal logo" loading="lazy" decoding="async" class="object-contain h-full w-4/6 mx-auto" src="/images/YRY2-ibejw-300.jpeg" width="600" height="129"></picture></div>
+
+                                <!-- Text container -->
+                                <div class="h-3/4 sm:h-4/6 md:h-3/4 flex flex-col justify-between space-y-1">
+                                    <!-- Xs & small viewports -->
+                                    <h2 class="font-semibold md:w-11/12 text-gray-900 md:text-sm sm:text-lg lg:text-base text-sm mx-auto text-center w-3/4 sm:w-10/12 h-2/3 overflow-hidden">
+                                        The Role of Plasma Extracellular Vesicles in Remote Ischemic Conditioning and Exercise-Induced Ischemic Tolerance
+                                    </h2>
+                                    <h3 class="md:text-xs overflow-hidden md:w-10/12 sm:text-sm text-xs lg:text-sm text-gray-700 text-center mx-auto w-8/12 sm:w-4/5 h-1/3">
+                                        Gu, T., Just, J., Stenz, K. T., Yan, Y., Sieljacks, P., Wang, J., ... &amp; Drasbek, K. R. (2022)
+                                    </h3>
+                                </div>
+                            </div>
+                        </a>
+
+                        
+                        <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/jev2.12131" class="carousel-cell carousel-style h-72" style="background-color: #910909;" target="_blank">
+                            <div class="flex h-full flex-col justify-between space-y-3 p-3">
+                                <!-- Image -->
+                                <div class="h-1/4 sm:h-1/3 md:h-1/4"><picture><source type="image/avif" srcset="/images/i72nUHWEVe-300.avif 300w, /images/i72nUHWEVe-600.avif 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/webp" srcset="/images/i72nUHWEVe-300.webp 300w, /images/i72nUHWEVe-600.webp 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/jpeg" srcset="/images/i72nUHWEVe-300.jpeg 300w, /images/i72nUHWEVe-600.jpeg 600w" sizes="(min-width: 10em) 20vw, 10vw"><img alt="Journal logo" loading="lazy" decoding="async" class="object-contain h-full w-4/6 mx-auto" src="/images/i72nUHWEVe-300.jpeg" width="600" height="202"></picture></div>
+
+                                <!-- Text container -->
+                                <div class="h-3/4 sm:h-4/6 md:h-3/4 flex flex-col justify-between space-y-1">
+                                    <!-- Xs & small viewports -->
+                                    <h2 class="font-semibold md:w-11/12 text-gray-900 md:text-sm sm:text-lg lg:text-base text-sm mx-auto text-center w-3/4 sm:w-10/12 h-2/3 overflow-hidden">
+                                        Parasite worm antigens instruct macrophages to release immunoregulatory extracellular vesicles
+                                    </h2>
+                                    <h3 class="md:text-xs overflow-hidden md:w-10/12 sm:text-sm text-xs lg:text-sm text-gray-700 text-center mx-auto w-8/12 sm:w-4/5 h-1/3">
+                                        Zakeri, A., Whitehead, B. J., Stensballe, A., de Korne, C., Williams, A. R., Everts, B., &amp; Nejsum, P. (2021).
+                                    </h3>
+                                </div>
+                            </div>
+                        </a>
+
+                        
+                        <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/jex2.41" class="carousel-cell carousel-style h-72" style="background-color: #C9BB71;" target="_blank">
+                            <div class="flex h-full flex-col justify-between space-y-3 p-3">
+                                <!-- Image -->
+                                <div class="h-1/4 sm:h-1/3 md:h-1/4"><picture><source type="image/avif" srcset="/images/i72nUHWEVe-300.avif 300w, /images/i72nUHWEVe-600.avif 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/webp" srcset="/images/i72nUHWEVe-300.webp 300w, /images/i72nUHWEVe-600.webp 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/jpeg" srcset="/images/i72nUHWEVe-300.jpeg 300w, /images/i72nUHWEVe-600.jpeg 600w" sizes="(min-width: 10em) 20vw, 10vw"><img alt="Journal logo" loading="lazy" decoding="async" class="object-contain h-full w-4/6 mx-auto" src="/images/i72nUHWEVe-300.jpeg" width="600" height="202"></picture></div>
+
+                                <!-- Text container -->
+                                <div class="h-3/4 sm:h-4/6 md:h-3/4 flex flex-col justify-between space-y-1">
+                                    <!-- Xs & small viewports -->
+                                    <h2 class="font-semibold md:w-11/12 text-gray-900 md:text-sm sm:text-lg lg:text-base text-sm mx-auto text-center w-3/4 sm:w-10/12 h-2/3 overflow-hidden">
+                                        Comparison of separation methods for immunomodulatory extracellular vesicles from helminths
+                                    </h2>
+                                    <h3 class="md:text-xs overflow-hidden md:w-10/12 sm:text-sm text-xs lg:text-sm text-gray-700 text-center mx-auto w-8/12 sm:w-4/5 h-1/3">
+                                        Borup, A., Boysen, A. T., Ridolfi, A., Brucale, M., Valle, F., Paolini, L., ... &amp; Nejsum, P. (2022)
+                                    </h3>
+                                </div>
+                            </div>
+                        </a>
+
+                        
+                        <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/jex2.46" class="carousel-cell carousel-style h-72" style="background-color: #DF6464;" target="_blank">
+                            <div class="flex h-full flex-col justify-between space-y-3 p-3">
+                                <!-- Image -->
+                                <div class="h-1/4 sm:h-1/3 md:h-1/4"><picture><source type="image/avif" srcset="/images/i72nUHWEVe-300.avif 300w, /images/i72nUHWEVe-600.avif 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/webp" srcset="/images/i72nUHWEVe-300.webp 300w, /images/i72nUHWEVe-600.webp 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/jpeg" srcset="/images/i72nUHWEVe-300.jpeg 300w, /images/i72nUHWEVe-600.jpeg 600w" sizes="(min-width: 10em) 20vw, 10vw"><img alt="Journal logo" loading="lazy" decoding="async" class="object-contain h-full w-4/6 mx-auto" src="/images/i72nUHWEVe-300.jpeg" width="600" height="202"></picture></div>
+
+                                <!-- Text container -->
+                                <div class="h-3/4 sm:h-4/6 md:h-3/4 flex flex-col justify-between space-y-1">
+                                    <!-- Xs & small viewports -->
+                                    <h2 class="font-semibold md:w-11/12 text-gray-900 md:text-sm sm:text-lg lg:text-base text-sm mx-auto text-center w-3/4 sm:w-10/12 h-2/3 overflow-hidden">
+                                        An estimate of extracellular vesicle secretion rates of human blood cells
+                                    </h2>
+                                    <h3 class="md:text-xs overflow-hidden md:w-10/12 sm:text-sm text-xs lg:text-sm text-gray-700 text-center mx-auto w-8/12 sm:w-4/5 h-1/3">
+                                        Auber, M., &amp; Svenningsen, P. (2022)
+                                    </h3>
+                                </div>
+                            </div>
+                        </a>
+
+                        
+                        <a href="https://www.nature.com/articles/s41598-021-04512-0" class="carousel-cell carousel-style h-72" style="background-color: #D39033;" target="_blank">
+                            <div class="flex h-full flex-col justify-between space-y-3 p-3">
+                                <!-- Image -->
+                                <div class="h-1/4 sm:h-1/3 md:h-1/4"><picture><source type="image/avif" srcset="/images/ZrO-SlMMHs-300.avif 300w, /images/ZrO-SlMMHs-600.avif 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/webp" srcset="/images/ZrO-SlMMHs-300.webp 300w, /images/ZrO-SlMMHs-600.webp 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/jpeg" srcset="/images/ZrO-SlMMHs-300.jpeg 300w, /images/ZrO-SlMMHs-600.jpeg 600w" sizes="(min-width: 10em) 20vw, 10vw"><img alt="Journal logo" loading="lazy" decoding="async" class="object-contain h-full w-4/6 mx-auto" src="/images/ZrO-SlMMHs-300.jpeg" width="600" height="83"></picture></div>
+
+                                <!-- Text container -->
+                                <div class="h-3/4 sm:h-4/6 md:h-3/4 flex flex-col justify-between space-y-1">
+                                    <!-- Xs & small viewports -->
+                                    <h2 class="font-semibold md:w-11/12 text-gray-900 md:text-sm sm:text-lg lg:text-base text-sm mx-auto text-center w-3/4 sm:w-10/12 h-2/3 overflow-hidden">
+                                        A new transgene mouse model using an extravesicular EGFP tag enables affinity isolation of cell‑specific extracellular vesicles
+                                    </h2>
+                                    <h3 class="md:text-xs overflow-hidden md:w-10/12 sm:text-sm text-xs lg:text-sm text-gray-700 text-center mx-auto w-8/12 sm:w-4/5 h-1/3">
+                                        Nørgård, M. Ø., Steffensen, L. B., Hansen, D. R., Füchtbauer, E. M., Engelund, M. B., Dimke, H., ... &amp; Svenningsen, P. (2022)
+                                    </h3>
+                                </div>
+                            </div>
+                        </a>
+
+                        
+                        <a href="https://www.mdpi.com/2072-6643/13/3/718" class="carousel-cell carousel-style h-72" style="background-color: #4EB1DF;" target="_blank">
+                            <div class="flex h-full flex-col justify-between space-y-3 p-3">
+                                <!-- Image -->
+                                <div class="h-1/4 sm:h-1/3 md:h-1/4"><picture><source type="image/avif" srcset="/images/ULE6RqSQO9-300.avif 300w, /images/ULE6RqSQO9-600.avif 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/webp" srcset="/images/ULE6RqSQO9-300.webp 300w, /images/ULE6RqSQO9-600.webp 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/jpeg" srcset="/images/ULE6RqSQO9-300.jpeg 300w, /images/ULE6RqSQO9-600.jpeg 600w" sizes="(min-width: 10em) 20vw, 10vw"><img alt="Journal logo" loading="lazy" decoding="async" class="object-contain h-full w-4/6 mx-auto" src="/images/ULE6RqSQO9-300.jpeg" width="600" height="129"></picture></div>
+
+                                <!-- Text container -->
+                                <div class="h-3/4 sm:h-4/6 md:h-3/4 flex flex-col justify-between space-y-1">
+                                    <!-- Xs & small viewports -->
+                                    <h2 class="font-semibold md:w-11/12 text-gray-900 md:text-sm sm:text-lg lg:text-base text-sm mx-auto text-center w-3/4 sm:w-10/12 h-2/3 overflow-hidden">
+                                        Dairy-Derived Emulsifiers in Infant Formula Show Marginal Effects on the Plasma Lipid Profile and Brain Structure in Preterm Piglets Relative to Soy Lecithin
+                                    </h2>
+                                    <h3 class="md:text-xs overflow-hidden md:w-10/12 sm:text-sm text-xs lg:text-sm text-gray-700 text-center mx-auto w-8/12 sm:w-4/5 h-1/3">
+                                        Henriksen, N. L., Aasmul-Olsen, K., Venkatasubramanian, R., Nygaard, M. K., Sprenger, R. R., Heckmann, A. B., ... &amp; Thymann, T. (2021)
+                                    </h3>
+                                </div>
+                            </div>
+                        </a>
+
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- View more -->
+            <button class="text-gray-200 flex flex-col w-full pt-2 pb-2 justify-center -space-y-0.5" @click="expand = !expand">
+                <!-- Text -->
+                <p class="text-center text-sm mx-auto">
+                    <span x-text="expand ? 'Hide information': 'View information'"></span>
+                </p>
+
+                <!-- Icon -->
+                <svg fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': expand, 'rotate-0': !expand}" class="mx-auto w-5 h-5 transition-transform duration-200 transform md:-mt-1">
+                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Expand -->
+        <div x-show="expand" class="h-10 transition-all"></div>
+    </div>
+</div>
+
+<!-- Flickity HTML init -->
+
+</div>
+
+            </main>
+
+            <!-- Footer -->
+            <footer class="flex flex-col items-center h-auto p-2"><!-- Footer -->
+<div class="flex flex-row items-center fill-current space-x-2 text-xs">
+    <!-- Copyright -->
+    <div class="flex flex-row space-x-2" x-data="{ year: new Date().getFullYear() }">
+        <p>&copy;<span x-text="year"></span> - DSEV</p>
+        <p>|</p>
+    </div>
+
+    <!-- Mail to -->
+    <a class="items-center" href="mailto: contact@dsev.dk">
+        <div class="flex flex-row space-x-1 items-center fill-current">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current block h-4 w-4 block mx-auto my-auto"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"/></svg>
+            <p class="">contact@dsev.dk</p>
+        </div>
+    </a>
+
+    <p>|</p>
+
+    <!-- Source code -->
+    <a class="items-center" href="https://github.com/Danish-Society-of-EVs/webpage/tree/develop" target="_blank">
+        <div class="flex flex-row space-x-1 items-center fill-current">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current block h-3 w-3 block mx-auto my-auto"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+
+            <p>Source</p>
+        </div>
+    </a>
+    <p>|</p>
+
+    <!-- Admin login -->
+    <a class="items-center h-4" href="https://app.forestry.io/sites/dgdx5xwemvqxaa/" target="_blank">
+        <div class="flex flex-row space-x-1 items-center fill-current">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current block h-full w-4 block mx-auto my-auto"><path fill="none" d="M0 0h24v24H0z"/><path d="M17 11c.34 0 .67.04 1 .09V6.27L10.5 3 3 6.27v4.91c0 4.54 3.2 8.79 7.5 9.82.55-.13 1.08-.32 1.6-.55-.69-.98-1.1-2.17-1.1-3.45 0-3.31 2.69-6 6-6z"/><path d="M17 13c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 1.38c.62 0 1.12.51 1.12 1.12s-.51 1.12-1.12 1.12-1.12-.51-1.12-1.12.5-1.12 1.12-1.12zm0 5.37c-.93 0-1.74-.46-2.24-1.17.05-.72 1.51-1.08 2.24-1.08s2.19.36 2.24 1.08c-.5.71-1.31 1.17-2.24 1.17z"/></svg>
+
+            <p>Admin</p>
+        </div>
+    </a>
+</div>
+</footer>
+        </div>
+    </body>
+</html>
+
+<!-- Site tracking -->
+<script data-goatcounter="https://dsev.goatcounter.com/count"
+async src="//gc.zgo.at/count.js"></script>
+
+<!-- Scripts -->
+<script>
+    /* Set theme */
+    if (localStorage.theme === "dark" || (!"theme" in localStorage && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+        document.querySelector("html").classList.add("dark");
+    } else if (localStorage.theme === "dark") {
+        document.querySelector("html").classList.add("dark");
+    }
+
+    document.getElementById("switchTheme").addEventListener("click", function () {
+        let htmlClasses = document.querySelector("html").classList;
+        if (localStorage.theme == "dark") {
+            htmlClasses.remove("dark");
+            localStorage.removeItem("theme");
+        } else {
+            htmlClasses.add("dark");
+            localStorage.theme = "dark";
+        }
+    });
+    document.getElementById("switchTheme_dropdown").addEventListener("click", function () {
+        let htmlClasses = document.querySelector("html").classList;
+        if (localStorage.theme == "dark") {
+            htmlClasses.remove("dark");
+            localStorage.removeItem("theme");
+        } else {
+            htmlClasses.add("dark");
+            localStorage.theme = "dark";
+        }
+    });
+
+</script>
