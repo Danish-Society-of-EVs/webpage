@@ -1,0 +1,11 @@
+fragment NewsParts on News {
+  body
+}
+
+fragment Featured_articlesParts on Featured_articles {
+  body
+}
+
+fragment Ev_groups_in_denmarkParts on Ev_groups_in_denmark {
+  body
+}
