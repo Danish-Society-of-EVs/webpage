@@ -73,12 +73,8 @@ export type Query = {
   collections: Array<Collection>;
   node: Node;
   document: DocumentNode;
-  news: News;
-  newsConnection: NewsConnection;
-  featured_articles: Featured_Articles;
-  featured_articlesConnection: Featured_ArticlesConnection;
-  ev_groups_in_denmark: Ev_Groups_In_Denmark;
-  ev_groups_in_denmarkConnection: Ev_Groups_In_DenmarkConnection;
+  post: Post;
+  postConnection: PostConnection;
 };
 
 
@@ -103,54 +99,22 @@ export type QueryDocumentArgs = {
 };
 
 
-export type QueryNewsArgs = {
+export type QueryPostArgs = {
   relativePath?: InputMaybe<Scalars['String']>;
 };
 
 
-export type QueryNewsConnectionArgs = {
+export type QueryPostConnectionArgs = {
   before?: InputMaybe<Scalars['String']>;
   after?: InputMaybe<Scalars['String']>;
   first?: InputMaybe<Scalars['Float']>;
   last?: InputMaybe<Scalars['Float']>;
   sort?: InputMaybe<Scalars['String']>;
-  filter?: InputMaybe<NewsFilter>;
-};
-
-
-export type QueryFeatured_ArticlesArgs = {
-  relativePath?: InputMaybe<Scalars['String']>;
-};
-
-
-export type QueryFeatured_ArticlesConnectionArgs = {
-  before?: InputMaybe<Scalars['String']>;
-  after?: InputMaybe<Scalars['String']>;
-  first?: InputMaybe<Scalars['Float']>;
-  last?: InputMaybe<Scalars['Float']>;
-  sort?: InputMaybe<Scalars['String']>;
-  filter?: InputMaybe<Featured_ArticlesFilter>;
-};
-
-
-export type QueryEv_Groups_In_DenmarkArgs = {
-  relativePath?: InputMaybe<Scalars['String']>;
-};
-
-
-export type QueryEv_Groups_In_DenmarkConnectionArgs = {
-  before?: InputMaybe<Scalars['String']>;
-  after?: InputMaybe<Scalars['String']>;
-  first?: InputMaybe<Scalars['Float']>;
-  last?: InputMaybe<Scalars['Float']>;
-  sort?: InputMaybe<Scalars['String']>;
-  filter?: InputMaybe<Ev_Groups_In_DenmarkFilter>;
+  filter?: InputMaybe<PostFilter>;
 };
 
 export type DocumentFilter = {
-  news?: InputMaybe<NewsFilter>;
-  featured_articles?: InputMaybe<Featured_ArticlesFilter>;
-  ev_groups_in_denmark?: InputMaybe<Ev_Groups_In_DenmarkFilter>;
+  post?: InputMaybe<PostFilter>;
 };
 
 export type DocumentConnectionEdges = {
@@ -189,14 +153,22 @@ export type CollectionDocumentsArgs = {
   filter?: InputMaybe<DocumentFilter>;
 };
 
-export type DocumentNode = News | Featured_Articles | Ev_Groups_In_Denmark;
+export type DocumentNode = Post;
 
-export type News = Node & Document & {
-  __typename?: 'News';
+export type Post = Node & Document & {
+  __typename?: 'Post';
+  title: Scalars['String'];
   body?: Maybe<Scalars['JSON']>;
   id: Scalars['ID'];
   _sys: SystemInfo;
   _values: Scalars['JSON'];
+};
+
+export type StringFilter = {
+  startsWith?: InputMaybe<Scalars['String']>;
+  eq?: InputMaybe<Scalars['String']>;
+  exists?: InputMaybe<Scalars['Boolean']>;
+  in?: InputMaybe<Array<InputMaybe<Scalars['String']>>>;
 };
 
 export type RichTextFilter = {
@@ -205,71 +177,22 @@ export type RichTextFilter = {
   exists?: InputMaybe<Scalars['Boolean']>;
 };
 
-export type NewsFilter = {
+export type PostFilter = {
+  title?: InputMaybe<StringFilter>;
   body?: InputMaybe<RichTextFilter>;
 };
 
-export type NewsConnectionEdges = {
-  __typename?: 'NewsConnectionEdges';
+export type PostConnectionEdges = {
+  __typename?: 'PostConnectionEdges';
   cursor: Scalars['String'];
-  node?: Maybe<News>;
+  node?: Maybe<Post>;
 };
 
-export type NewsConnection = Connection & {
-  __typename?: 'NewsConnection';
+export type PostConnection = Connection & {
+  __typename?: 'PostConnection';
   pageInfo: PageInfo;
   totalCount: Scalars['Float'];
-  edges?: Maybe<Array<Maybe<NewsConnectionEdges>>>;
-};
-
-export type Featured_Articles = Node & Document & {
-  __typename?: 'Featured_articles';
-  body?: Maybe<Scalars['JSON']>;
-  id: Scalars['ID'];
-  _sys: SystemInfo;
-  _values: Scalars['JSON'];
-};
-
-export type Featured_ArticlesFilter = {
-  body?: InputMaybe<RichTextFilter>;
-};
-
-export type Featured_ArticlesConnectionEdges = {
-  __typename?: 'Featured_articlesConnectionEdges';
-  cursor: Scalars['String'];
-  node?: Maybe<Featured_Articles>;
-};
-
-export type Featured_ArticlesConnection = Connection & {
-  __typename?: 'Featured_articlesConnection';
-  pageInfo: PageInfo;
-  totalCount: Scalars['Float'];
-  edges?: Maybe<Array<Maybe<Featured_ArticlesConnectionEdges>>>;
-};
-
-export type Ev_Groups_In_Denmark = Node & Document & {
-  __typename?: 'Ev_groups_in_denmark';
-  body?: Maybe<Scalars['JSON']>;
-  id: Scalars['ID'];
-  _sys: SystemInfo;
-  _values: Scalars['JSON'];
-};
-
-export type Ev_Groups_In_DenmarkFilter = {
-  body?: InputMaybe<RichTextFilter>;
-};
-
-export type Ev_Groups_In_DenmarkConnectionEdges = {
-  __typename?: 'Ev_groups_in_denmarkConnectionEdges';
-  cursor: Scalars['String'];
-  node?: Maybe<Ev_Groups_In_Denmark>;
-};
-
-export type Ev_Groups_In_DenmarkConnection = Connection & {
-  __typename?: 'Ev_groups_in_denmarkConnection';
-  pageInfo: PageInfo;
-  totalCount: Scalars['Float'];
-  edges?: Maybe<Array<Maybe<Ev_Groups_In_DenmarkConnectionEdges>>>;
+  edges?: Maybe<Array<Maybe<PostConnectionEdges>>>;
 };
 
 export type Mutation = {
@@ -278,12 +201,8 @@ export type Mutation = {
   updateDocument: DocumentNode;
   deleteDocument: DocumentNode;
   createDocument: DocumentNode;
-  updateNews: News;
-  createNews: News;
-  updateFeatured_articles: Featured_Articles;
-  createFeatured_articles: Featured_Articles;
-  updateEv_groups_in_denmark: Ev_Groups_In_Denmark;
-  createEv_groups_in_denmark: Ev_Groups_In_Denmark;
+  updatePost: Post;
+  createPost: Post;
 };
 
 
@@ -314,63 +233,28 @@ export type MutationCreateDocumentArgs = {
 };
 
 
-export type MutationUpdateNewsArgs = {
+export type MutationUpdatePostArgs = {
   relativePath: Scalars['String'];
-  params: NewsMutation;
+  params: PostMutation;
 };
 
 
-export type MutationCreateNewsArgs = {
+export type MutationCreatePostArgs = {
   relativePath: Scalars['String'];
-  params: NewsMutation;
-};
-
-
-export type MutationUpdateFeatured_ArticlesArgs = {
-  relativePath: Scalars['String'];
-  params: Featured_ArticlesMutation;
-};
-
-
-export type MutationCreateFeatured_ArticlesArgs = {
-  relativePath: Scalars['String'];
-  params: Featured_ArticlesMutation;
-};
-
-
-export type MutationUpdateEv_Groups_In_DenmarkArgs = {
-  relativePath: Scalars['String'];
-  params: Ev_Groups_In_DenmarkMutation;
-};
-
-
-export type MutationCreateEv_Groups_In_DenmarkArgs = {
-  relativePath: Scalars['String'];
-  params: Ev_Groups_In_DenmarkMutation;
+  params: PostMutation;
 };
 
 export type DocumentUpdateMutation = {
-  news?: InputMaybe<NewsMutation>;
-  featured_articles?: InputMaybe<Featured_ArticlesMutation>;
-  ev_groups_in_denmark?: InputMaybe<Ev_Groups_In_DenmarkMutation>;
+  post?: InputMaybe<PostMutation>;
   relativePath?: InputMaybe<Scalars['String']>;
 };
 
 export type DocumentMutation = {
-  news?: InputMaybe<NewsMutation>;
-  featured_articles?: InputMaybe<Featured_ArticlesMutation>;
-  ev_groups_in_denmark?: InputMaybe<Ev_Groups_In_DenmarkMutation>;
+  post?: InputMaybe<PostMutation>;
 };
 
-export type NewsMutation = {
-  body?: InputMaybe<Scalars['JSON']>;
-};
-
-export type Featured_ArticlesMutation = {
-  body?: InputMaybe<Scalars['JSON']>;
-};
-
-export type Ev_Groups_In_DenmarkMutation = {
+export type PostMutation = {
+  title?: InputMaybe<Scalars['String']>;
   body?: InputMaybe<Scalars['JSON']>;
 };
 

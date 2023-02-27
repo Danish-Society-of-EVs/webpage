@@ -1,8 +1,8 @@
 import { defineConfig as e } from "tinacms";
-const o = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main", i = e({
-  branch: o,
-  clientId: "andersaskeland",
-  token: "a4f11460296a7320546a493a77c8d94cfb41d1f4",
+const t = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main", o = e({
+  branch: t,
+  clientId: "1488a942-c9dc-4a28-89c7-ab352a9f7ce7",
+  token: "8f58bdd0bae77b557109fae63ccf63f5c8b5827d",
   build: {
     outputFolder: "admin",
     publicFolder: "_site"
@@ -16,43 +16,21 @@ const o = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main", i = e
   schema: {
     collections: [
       {
-        label: "News",
-        name: "news",
-        path: "src/posts",
+        name: "post",
+        label: "Posts",
+        path: "content/posts",
         fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+            isTitle: !0,
+            required: !0
+          },
           {
             type: "rich-text",
             name: "body",
-            label: "Body of Document",
-            description: "This is the markdown body",
-            isBody: !0
-          }
-        ]
-      },
-      {
-        label: "Featured articles",
-        name: "featured_articles",
-        path: "src/articles",
-        fields: [
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body of Document",
-            description: "This is the markdown body",
-            isBody: !0
-          }
-        ]
-      },
-      {
-        label: "EV groups in Denmark",
-        name: "ev_groups_in_denmark",
-        path: "src/groups",
-        fields: [
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body of Document",
-            description: "This is the markdown body",
+            label: "Body",
             isBody: !0
           }
         ]
@@ -61,5 +39,5 @@ const o = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main", i = e
   }
 });
 export {
-  i as default
+  o as default
 };

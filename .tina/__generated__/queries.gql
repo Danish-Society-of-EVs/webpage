@@ -1,5 +1,5 @@
-query news($relativePath: String!) {
-  news(relativePath: $relativePath) {
+query post($relativePath: String!) {
+  post(relativePath: $relativePath) {
     ... on Document {
       _sys {
         filename
@@ -11,12 +11,12 @@ query news($relativePath: String!) {
       }
       id
     }
-    ...NewsParts
+    ...PostParts
   }
 }
 
-query newsConnection($before: String, $after: String, $first: Float, $last: Float, $sort: String, $filter: NewsFilter) {
-  newsConnection(
+query postConnection($before: String, $after: String, $first: Float, $last: Float, $sort: String, $filter: PostFilter) {
+  postConnection(
     before: $before
     after: $after
     first: $first
@@ -45,113 +45,7 @@ query newsConnection($before: String, $after: String, $first: Float, $last: Floa
           }
           id
         }
-        ...NewsParts
-      }
-    }
-  }
-}
-
-query featured_articles($relativePath: String!) {
-  featured_articles(relativePath: $relativePath) {
-    ... on Document {
-      _sys {
-        filename
-        basename
-        breadcrumbs
-        path
-        relativePath
-        extension
-      }
-      id
-    }
-    ...Featured_articlesParts
-  }
-}
-
-query featured_articlesConnection($before: String, $after: String, $first: Float, $last: Float, $sort: String, $filter: Featured_articlesFilter) {
-  featured_articlesConnection(
-    before: $before
-    after: $after
-    first: $first
-    last: $last
-    sort: $sort
-    filter: $filter
-  ) {
-    pageInfo {
-      hasPreviousPage
-      hasNextPage
-      startCursor
-      endCursor
-    }
-    totalCount
-    edges {
-      cursor
-      node {
-        ... on Document {
-          _sys {
-            filename
-            basename
-            breadcrumbs
-            path
-            relativePath
-            extension
-          }
-          id
-        }
-        ...Featured_articlesParts
-      }
-    }
-  }
-}
-
-query ev_groups_in_denmark($relativePath: String!) {
-  ev_groups_in_denmark(relativePath: $relativePath) {
-    ... on Document {
-      _sys {
-        filename
-        basename
-        breadcrumbs
-        path
-        relativePath
-        extension
-      }
-      id
-    }
-    ...Ev_groups_in_denmarkParts
-  }
-}
-
-query ev_groups_in_denmarkConnection($before: String, $after: String, $first: Float, $last: Float, $sort: String, $filter: Ev_groups_in_denmarkFilter) {
-  ev_groups_in_denmarkConnection(
-    before: $before
-    after: $after
-    first: $first
-    last: $last
-    sort: $sort
-    filter: $filter
-  ) {
-    pageInfo {
-      hasPreviousPage
-      hasNextPage
-      startCursor
-      endCursor
-    }
-    totalCount
-    edges {
-      cursor
-      node {
-        ... on Document {
-          _sys {
-            filename
-            basename
-            breadcrumbs
-            path
-            relativePath
-            extension
-          }
-          id
-        }
-        ...Ev_groups_in_denmarkParts
+        ...PostParts
       }
     }
   }
