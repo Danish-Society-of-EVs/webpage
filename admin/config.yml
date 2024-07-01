@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: test_cms
 media_folder: "images"
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
@@ -15,4 +15,3 @@ collections:
       - {label: "tags", name: "tags", widget: "list", default: ["posts"]}
       - {label: "Body", name: "body", widget: "markdown"}
 
-      
