@@ -1,7 +1,9 @@
 backend:
   name: git-gateway
   branch: netlify_cms
-media_folder: "src/images"
+media_folder: "src/images" # Folder where uploaded media files will be stored
+public_folder: "/images" # URL path to access the media files
+
 collections:
   - name: "news" # Used in routes, e.g., /admin/collections/blog
     label: "News" # Used in the UI
