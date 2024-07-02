@@ -59,7 +59,7 @@ collections:
             widget: "string"
           - label: "Contact Info"
             name: "contact_info"
-            widget: "list"
+            widget: "object"
             fields:
               - label: "Contact Name"
                 name: "name"
@@ -67,9 +67,6 @@ collections:
               - label: "Email"
                 name: "email"
                 widget: "string"
-              - label: "Details"
-                name: "details"
-                widget: "text"
           - label: "Footer Info"
             name: "footer"
             widget: "object"
