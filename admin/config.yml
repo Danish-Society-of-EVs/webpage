@@ -34,6 +34,8 @@ collections:
         pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Slug must be a lowercase string with hyphens"] 
   - label: "Board Members"
     name: "board_members"
+    editor:
+      preview: false
     files:
       - label: "Board Members"
         name: "board_members"
