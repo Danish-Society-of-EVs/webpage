@@ -18,14 +18,20 @@ collections:
     label: "Featured articles"
     folder: "src/articles"
     create: true
+    slug: "{{slug}}"
     fields:
       - {label: "Article title", name: "article_name", widget: "string"}
       - {label: "Authors", name: "authors", widget: "string"}
       - {label: "DOI", name: "doi", widget: "string"}
-      - {label: "Article title", name: "link", widget: "string"}
+      - {label: "Article link", name: "link", widget: "string"}
       - {label: "Image", name: "journal_image", widget: "image"}
       - {label: "Background color", name: "color", widget: "color"}
-      - {label: "Publish date", name: "published",  widget: "datetime", time_format: HH:mm:ssZ, date_format: "YYYY-MM-DD", format: "YYYY-MM-DD"}
+      - {label: "Publish date", name: "published", widget: "datetime", time_format: "HH:mm:ssZ", date_format: "YYYY-MM-DD", format: "YYYY-MM-DD"}
+      - label: "Slug"
+        name: "slug"
+        widget: "hidden"
+        default: ""
+        pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Slug must be a lowercase string with hyphens"] 
   - label: "Metadata"
     name: "settings"
     files:
