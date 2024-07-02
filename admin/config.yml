@@ -39,11 +39,20 @@ collections:
           - {label: URL, name: source_code_url, widget: string}
           - label: Contact info
             name: contact_info
-            widget: list
+            widget: string
             fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Position, name: email, widget: string}
-
+              - {label: Contact name, name: name, widget: string}
+              - {label: Email, name: email, widget: string}
+          - label: Footer info
+            name: footer
+            widget: string
+            fields:
+              - {label: Copyright, name: copyright, widget: string}
+              - {label: Contact, name: contact, widget: string}
+              - {label: Github text, name: source_text, widget: string}
+              - {label: Github URL, name: source_url, widget: string}           
+              - {label: Admin login text, name: admin_text, widget: string}
+              - {label: Admin login URL, name: admin_url, widget: string}
 
 
 
