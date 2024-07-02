@@ -48,7 +48,7 @@ collections:
               - label: "Name"
                 name: "name"
                 widget: "string"
-                required: false
+                required: true
               - label: "Photo"
                 name: "photo"
                 widget: "image"
@@ -56,18 +56,22 @@ collections:
               - label: "Position"
                 name: "position"
                 widget: "string"
-                required: false
+                required: true
               - label: "Current Board Member"
                 name: "current_board_member"
                 widget: "boolean"
-                required: false
-              - label: "Start Date"
+                required: true
+              - label: "Start year"
                 name: "start_date"
-                widget: "year"
+                widget: "datetime"
+                format: "YYYY"
+                default: "YYYY"
                 required: false
-              - label: "End Date"
+              - label: "End year"
                 name: "end_date"
-                widget: "year"
+                widget: "datetime"
+                format: "YYYY"
+                default: "YYYY"
                 required: false
               - label: "Email"
                 name: "email"
