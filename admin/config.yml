@@ -48,28 +48,35 @@ collections:
               - label: "Name"
                 name: "name"
                 widget: "string"
+                required: false
               - label: "Photo"
                 name: "photo"
                 widget: "image"
+                required: false
               - label: "Position"
                 name: "position"
                 widget: "string"
+                required: false
               - label: "Current Board Member"
                 name: "current_board_member"
                 widget: "boolean"
+                required: false
               - label: "Start Date"
                 name: "start_date"
-                widget: "string"
+                widget: "year"
+                required: false
               - label: "End Date"
                 name: "end_date"
-                widget: "string"
+                widget: "year"
+                required: false
               - label: "Email"
                 name: "email"
                 widget: "string"
+                required: false
               - label: "Web URL"
                 name: "web_url"
                 widget: "string"
-
+                required: false
   - label: "Settings"
     name: "settings"
     files:
