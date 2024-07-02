@@ -16,7 +16,8 @@ collections:
     label: "Featured articles"
     folder: "src/articles"
     create: true
-    fields:
+    identifier_field: 
+    fields: article_name
       - {label: "Article title", name: "article_name", widget: "string"}
       - {label: "Authors", name: "authors", widget: "string"}
       - {label: "DOI", name: "doi", widget: "string"}
