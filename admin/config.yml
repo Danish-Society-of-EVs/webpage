@@ -32,15 +32,38 @@ collections:
         widget: "hidden"
         default: ""
         pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Slug must be a lowercase string with hyphens"] 
-
-  - label: Board members
-    name: board_members
-    file: src/_data_board_members.json
-    widget: list
+  - label: "Board Members"
+    name: "board_members"
+    file: "src/_data/board_members.json"
     fields:
-      - label: name
-        name: name
-        widget: string
+      - label: "Board Members"
+        name: "board_members"
+        widget: "list"
+        fields:
+          - label: "Name"
+            name: "name"
+            widget: "string"
+          - label: "Photo"
+            name: "photo"
+            widget: "image"
+          - label: "Position"
+            name: "position"
+            widget: "string"
+          - label: "Current Board Member"
+            name: "current_board_member"
+            widget: "boolean"
+          - label: "Start Date"
+            name: "start_date"
+            widget: "string"
+          - label: "End Date"
+            name: "end_date"
+            widget: "string"
+          - label: "Email"
+            name: "email"
+            widget: "string"
+          - label: "Web URL"
+            name: "web_url"
+            widget: "string"
   - label: "Settings"
     name: "settings"
     files:
