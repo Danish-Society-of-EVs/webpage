@@ -16,8 +16,7 @@ collections:
     label: "Featured articles"
     folder: "src/articles"
     create: true
-    identifier_field: article_name
-    fields: 
+    fields:
       - {label: "Article title", name: "article_name", widget: "string"}
       - {label: "Authors", name: "authors", widget: "string"}
       - {label: "DOI", name: "doi", widget: "string"}
@@ -32,15 +31,56 @@ collections:
         name: "metadata"
         file: "src/_data/metadata.json"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: URL, name: url, widget: string}
-          - {label: Lanuage, name: language, widget: string}
-          - {label: URL, name: news_url, widget: string}
-          - {label: Title, name: description, widget: string}
-          - {label: URL, name: source_code_url, widget: string}
-          - label: Contact info
-            name: contact_info
-            widget: string
-          - label: Footer info
-            name: footer
-            widget: string
+          - label: "Title"
+            name: "title"
+            widget: "string"
+          - label: "URL"
+            name: "url"
+            widget: "string"
+          - label: "Language"
+            name: "language"
+            widget: "string"
+          - label: "News URL"
+            name: "news_url"
+            widget: "string"
+          - label: "Description"
+            name: "description"
+            widget: "string"
+          - label: "Source Code URL"
+            name: "source_code_url"
+            widget: "string"
+          - label: "Contact Info"
+            name: "contact_info"
+            widget: "list"
+            fields:
+              - label: "Contact Name"
+                name: "name"
+                widget: "string"
+              - label: "Email"
+                name: "email"
+                widget: "string"
+              - label: "Details"
+                name: "details"
+                widget: "text"
+          - label: "Footer Info"
+            name: "footer"
+            widget: "object"
+            fields:
+              - label: "Copyright"
+                name: "copyright"
+                widget: "string"
+              - label: "Contact"
+                name: "contact"
+                widget: "string"
+              - label: "Github Text"
+                name: "source_text"
+                widget: "string"
+              - label: "Github URL"
+                name: "source_url"
+                widget: "string"
+              - label: "Admin Login Text"
+                name: "admin_text"
+                widget: "string"
+              - label: "Admin Login URL"
+                name: "admin_url"
+                widget: "string"
