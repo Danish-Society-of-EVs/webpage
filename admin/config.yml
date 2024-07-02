@@ -24,6 +24,26 @@ collections:
       - {label: "Image", name: "journal_image", widget: "image"}
       - {label: "Background color", name: "color", widget: "color"}
       - {label: "Publish date", name: "published",  widget: "datetime", time_format: HH:mm:ssZ, date_format: "YYYY-MM-DD", format: "YYYY-MM-DD"}
+  - label: "Metadata"
+    name: "settings"
+    files:
+      - label: "Metadata"
+        name: "metadata"
+        file: "src/_data/metadata.json"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: URL, name: url, widget: string}
+          - {label: Lanuage, name: language, widget: string}
+          - {label: URL, name: news_url, widget: string}
+          - {label: Title, name: description, widget: string}
+          - {label: URL, name: source_code_url, widget: string}
+          - label: Contact info
+            name: contact_info
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Position, name: email, widget: string}
+
 
 
 
