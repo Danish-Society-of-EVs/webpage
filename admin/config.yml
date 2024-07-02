@@ -39,13 +39,15 @@ collections:
           - {label: URL, name: source_code_url, widget: string}
           - label: Contact info
             name: contact_info
-            widget: string
+            widget: list
+            allow_add: false
             fields:
               - {label: Contact name, name: name, widget: string}
               - {label: Email, name: email, widget: string}
           - label: Footer info
             name: footer
-            widget: string
+            widget: list
+            allow_add: false
             fields:
               - {label: Copyright, name: copyright, widget: string}
               - {label: Contact, name: contact, widget: string}
