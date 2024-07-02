@@ -1,0 +1,135 @@
+backend:
+  name: git-gateway
+  branch: netlify_cms
+media_folder: "src/images" # Folder where uploaded media files will be stored
+public_folder: "/images" # URL path to access the media files
+
+collections:
+  - name: "news" # Used in routes, e.g., /admin/collections/blog
+    label: "News" # Used in the UI
+    folder: "src/posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime", time_format: HH:mm:ssZ, date_format: "YYYY-MM-DD", format: "YYYY-MM-DD"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "articles"
+    label: "Featured articles"
+    folder: "src/articles"
+    create: true
+    slug: "{{fields.article_name}}"
+    fields:
+      - {label: "Article title", name: "article_name", widget: "string"}
+      - {label: "Authors", name: "authors", widget: "string"}
+      - {label: "DOI", name: "doi", widget: "string"}
+      - {label: "Article link", name: "link", widget: "string"}
+      - {label: "Image", name: "journal_image", widget: "image"}
+      - {label: "Background color", name: "color", widget: "color"}
+      - {label: "Publish date", name: "published", widget: "datetime", time_format: "HH:mm:ssZ", date_format: "YYYY-MM-DD", format: "YYYY-MM-DD"}
+  - label: "Board Members"
+    name: "board_members"
+    editor:
+      preview: false
+    files:
+      - label: "Board Members"
+        name: "board_members"
+        file: "src/_data/board_members.json"
+        fields:
+          - label: "Board Members"
+            name: "board_members"
+            widget: "list"
+            fields:
+              - label: "Name"
+                name: "name"
+                widget: "string"
+                required: true
+              - label: "Photo"
+                name: "photo"
+                widget: "image"
+                required: false
+              - label: "Position"
+                name: "position"
+                widget: "string"
+                required: true
+              - label: "Current Board Member"
+                name: "current_board_member"
+                widget: "boolean"
+                required: true
+              - label: "Start year"
+                name: "start_date"
+                widget: "datetime"
+                format: "YYYY"
+                default: "YYYY"
+                required: false
+              - label: "End year"
+                name: "end_date"
+                widget: "datetime"
+                format: "YYYY"
+                default: "YYYY"
+                required: false
+              - label: "Email"
+                name: "email"
+                widget: "string"
+                required: false
+              - label: "Web URL"
+                name: "web_url"
+                widget: "string"
+                required: false
+  - label: "Settings"
+    name: "settings"
+    files:
+      - label: "Metadata"
+        name: "metadata"
+        file: "src/_data/metadata.json"
+        fields:
+          - label: "Title"
+            name: "title"
+            widget: "string"
+          - label: "URL"
+            name: "url"
+            widget: "string"
+          - label: "Language"
+            name: "language"
+            widget: "string"
+          - label: "News URL"
+            name: "news_url"
+            widget: "string"
+          - label: "Description"
+            name: "description"
+            widget: "string"
+          - label: "Source Code URL"
+            name: "source_code_url"
+            widget: "string"
+          - label: "Contact Info"
+            name: "contact_info"
+            widget: "object"
+            fields:
+              - label: "Contact Name"
+                name: "name"
+                widget: "string"
+              - label: "Email"
+                name: "email"
+                widget: "string"
+          - label: "Footer Info"
+            name: "footer"
+            widget: "object"
+            fields:
+              - label: "Copyright"
+                name: "copyright"
+                widget: "string"
+              - label: "Contact"
+                name: "contact"
+                widget: "string"
+              - label: "Github Text"
+                name: "source_text"
+                widget: "string"
+              - label: "Github URL"
+                name: "source_url"
+                widget: "string"
+              - label: "Admin Login Text"
+                name: "admin_text"
+                widget: "string"
+              - label: "Admin Login URL"
+                name: "admin_url"
+                widget: "string"
