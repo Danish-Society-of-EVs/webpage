@@ -18,7 +18,7 @@ collections:
     label: "Featured articles"
     folder: "src/articles"
     create: true
-    slug: "{{slug}}"
+    slug: "{{fields.article_name | replace(" ", "_") | slug}}"
     fields:
       - {label: "Article title", name: "article_name", widget: "string"}
       - {label: "Authors", name: "authors", widget: "string"}
@@ -27,11 +27,6 @@ collections:
       - {label: "Image", name: "journal_image", widget: "image"}
       - {label: "Background color", name: "color", widget: "color"}
       - {label: "Publish date", name: "published", widget: "datetime", time_format: "HH:mm:ssZ", date_format: "YYYY-MM-DD", format: "YYYY-MM-DD"}
-      - label: "Slug"
-        name: "slug"
-        widget: "hidden"
-        default: ""
-        pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Slug must be a lowercase string with hyphens"] 
   - label: "Board Members"
     name: "board_members"
     editor:
