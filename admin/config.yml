@@ -32,7 +32,16 @@ collections:
         widget: "hidden"
         default: ""
         pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Slug must be a lowercase string with hyphens"] 
-  - label: "Metadata"
+
+  - label: Board members
+    name: board_members
+    file: src/_data_board_members.json
+    widget: list
+    fields:
+      - label: name
+        name: name
+        widget: string
+  - label: "Settings"
     name: "settings"
     files:
       - label: "Metadata"
