@@ -14,6 +14,33 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime", time_format: HH:mm:ssZ, date_format: "YYYY-MM-DD", format: "YYYY-MM-DD"}
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "research"
+    label: "Research Infrastructure"
+    folder: "src/posts/research"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime", time_format: HH:mm:ssZ, date_format: "YYYY-MM-DD", format: "YYYY-MM-DD"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "courses"
+    label: "Courses Available"
+    folder: "src/posts/courses"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime", time_format: HH:mm:ssZ, date_format: "YYYY-MM-DD", format: "YYYY-MM-DD"}
+      - {label: "Course Provider", name: "provider", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "jobs"
+    label: "Job Postings"
+    folder: "src/posts/jobs"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime", time_format: HH:mm:ssZ, date_format: "YYYY-MM-DD", format: "YYYY-MM-DD"}
+      - {label: "Employer", name: "employer", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "articles"
     label: "Featured articles"
     folder: "src/articles"
@@ -76,6 +103,42 @@ collections:
                 name: "web_url"
                 widget: "string"
                 required: false
+  - label: "Researcher Profiles"
+    name: "researcher_profiles"
+    editor:
+      preview: false
+    files:
+      - label: "Researcher Profiles"
+        name: "researcher_profiles"
+        file: "src/_data/researcher_profiles.json"
+        fields:
+          - label: "Researcher Profiles"
+            name: "researcher_profiles"
+            widget: "list"
+            fields:
+              - label: "Name"
+                name: "name"
+                widget: "string"
+                required: true
+              - label: "Photo"
+                name: "photo"
+                widget: "image"
+                required: false
+              - label: "Position"
+                name: "position"
+                widget: "string"
+                required: true
+              - label: "Email"
+                name: "email"
+                widget: "string"
+                required: false
+              - label: "Web URL"
+                name: "web_url"
+                widget: "string"
+                required: false
+              - label: "Description"
+                name: "description"
+                widget: "markdown"
   - label: "Settings"
     name: "settings"
     files:
