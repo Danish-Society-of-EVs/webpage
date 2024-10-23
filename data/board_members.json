@@ -13,7 +13,7 @@
     {
       "name": "Aase Handberg",
       "photo": "/images/250px-aase_handberg.jpg",
-      "position": "Vice president",
+      "position": "Vice President",
       "current_board_member": false,
       "start_date": "2020",
       "end_date": "",
@@ -33,17 +33,17 @@
     {
       "name": "Anders Askeland",
       "photo": "/images/tdhixnpq_400x400.jpg",
-      "position": "Web manager",
+      "position": "Web Manager",
       "current_board_member": false,
       "start_date": "2020",
       "end_date": "",
-      "email": "a.askeland@rn.dk",
+      "email": "",
       "web_url": "www.askeland.me"
     },
     {
       "name": "Per Svenningsen",
       "photo": "/images/per.png",
-      "position": "Vice-president",
+      "position": "Vice President",
       "current_board_member": true,
       "start_date": "2021",
       "end_date": "",
@@ -53,7 +53,7 @@
     {
       "name": "Marie Stampe Ostenfeld",
       "photo": "/images/marie.jpg",
-      "position": "Member at large",
+      "position": "Member at Large",
       "current_board_member": false,
       "start_date": "2019",
       "end_date": "",
@@ -63,7 +63,7 @@
     {
       "name": "Peter Nejsum",
       "photo": "/images/peter.jpg",
-      "position": "Member at large",
+      "position": "Member at Large",
       "current_board_member": true,
       "start_date": "2019",
       "end_date": "",
@@ -93,7 +93,7 @@
     {
       "name": "Fabio Antenucci",
       "photo": "/images/images.png",
-      "position": "PR manager",
+      "position": "PR Manager",
       "current_board_member": false,
       "start_date": "2019",
       "end_date": "2022",
