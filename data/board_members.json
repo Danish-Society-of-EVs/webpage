@@ -119,6 +119,16 @@
       "end_date": "2021",
       "email": "",
       "web_url": ""
+    },
+    {
+      "start_date": "2023",
+      "end_date": "YYYY",
+      "name": "Yuya Hayashi",
+      "photo": "/images/yuya.png",
+      "position": "Web Manager",
+      "current_board_member": true,
+      "email": "yuya.hayashi@mbg.au.dk",
+      "web_url": "https://mbg.au.dk/yuya-hayashi/"
     }
   ]
 }
