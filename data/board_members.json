@@ -32,7 +32,7 @@
     },
     {
       "name": "Jonas Ellegaard Nielsen",
-      "photo": "/images/jonas.jpg",
+      "photo": "/images/jonas.png",
       "position": "Treasurer",
       "current_board_member": true,
       "start_date": "2021",
@@ -42,7 +42,7 @@
     },
     {
       "name": "Ole Østergaard",
-      "photo": "/images/ooe_cpr.jpg",
+      "photo": "/images/ole.png",
       "position": "Note Taker",
       "current_board_member": true,
       "start_date": "2019",
@@ -52,7 +52,7 @@
     },
     {
       "name": "Reza Yarani",
-      "photo": "/images/dsc02587-min.JPG",
+      "photo": "/images/reza.png",
       "position": "Secretary",
       "current_board_member": true,
       "start_date": "2022",
@@ -64,7 +64,7 @@
       "start_date": "2023",
       "end_date": "YYYY",
       "name": "Jaco Botha",
-      "photo": "/images/images.png",
+      "photo": "/images/nophoto.png",
       "position": "Meeting Leader",
       "current_board_member": true
     },
