@@ -11,36 +11,6 @@
       "web_url": ""
     },
     {
-      "name": "Aase Handberg",
-      "photo": "/images/250px-aase_handberg.jpg",
-      "position": "Vice President",
-      "current_board_member": false,
-      "start_date": "2020",
-      "end_date": "2024",
-      "email": "aaha@rn.dk",
-      "web_url": ""
-    },
-    {
-      "name": "Anne Borup",
-      "photo": "/images/unnamed.jpg",
-      "position": "Treasurer",
-      "current_board_member": false,
-      "start_date": "2020",
-      "end_date": "",
-      "email": "anneborup@clin.au.dk",
-      "web_url": "linkedin.com/in/anne-borup-5a5185108"
-    },
-    {
-      "name": "Anders Askeland",
-      "photo": "/images/tdhixnpq_400x400.jpg",
-      "position": "Web Manager",
-      "current_board_member": false,
-      "start_date": "2020",
-      "end_date": "",
-      "email": "",
-      "web_url": "www.askeland.me"
-    },
-    {
       "name": "Per Svenningsen",
       "photo": "/images/per.png",
       "position": "Vice President",
@@ -49,16 +19,6 @@
       "end_date": "",
       "email": "psvenningsen@health.sdu.dk",
       "web_url": "https://portal.findresearcher.sdu.dk/da/persons/psvenningsen  "
-    },
-    {
-      "name": "Marie Stampe Ostenfeld",
-      "photo": "/images/marie.jpg",
-      "position": "Member at Large",
-      "current_board_member": false,
-      "start_date": "2019",
-      "end_date": "",
-      "email": "mstos@arlafoods.com",
-      "web_url": "https://www.arlafoodsingredients.com/about/our-capabilities/nutrition-science/"
     },
     {
       "name": "Peter Nejsum",
@@ -91,6 +51,56 @@
       "web_url": ""
     },
     {
+      "name": "Reza Yarani",
+      "photo": "/images/dsc02587-min.JPG",
+      "position": "Secretary",
+      "current_board_member": true,
+      "start_date": "2022",
+      "end_date": "",
+      "email": "Reza.yarani.01@regionh.dk",
+      "web_url": "www.linkedin.com/in/reza-yarani-8b326439/"
+    },
+    {
+      "name": "Aase Handberg",
+      "photo": "/images/250px-aase_handberg.jpg",
+      "position": "Vice President",
+      "current_board_member": false,
+      "start_date": "2020",
+      "end_date": "2024",
+      "email": "aaha@rn.dk",
+      "web_url": ""
+    },
+    {
+      "name": "Anders Askeland",
+      "photo": "/images/tdhixnpq_400x400.jpg",
+      "position": "Web Manager",
+      "current_board_member": false,
+      "start_date": "2020",
+      "end_date": "2024",
+      "email": "",
+      "web_url": "www.askeland.me"
+    },
+    {
+      "name": "Marie Stampe Ostenfeld",
+      "photo": "/images/marie.jpg",
+      "position": "Member at Large",
+      "current_board_member": false,
+      "start_date": "2019",
+      "end_date": "2024",
+      "email": "mstos@arlafoods.com",
+      "web_url": "https://www.arlafoodsingredients.com/about/our-capabilities/nutrition-science/"
+    },
+    {
+      "name": "Anne Borup",
+      "photo": "/images/unnamed.jpg",
+      "position": "Treasurer",
+      "current_board_member": false,
+      "start_date": "2020",
+      "end_date": "2023",
+      "email": "anneborup@clin.au.dk",
+      "web_url": "linkedin.com/in/anne-borup-5a5185108"
+    },
+    {
       "name": "Fabio Antenucci",
       "photo": "/images/images.png",
       "position": "PR Manager",
@@ -109,16 +119,6 @@
       "end_date": "2021",
       "email": "",
       "web_url": ""
-    },
-    {
-      "name": "Reza Yarani",
-      "photo": "/images/dsc02587-min.JPG",
-      "position": "Secretary",
-      "current_board_member": true,
-      "start_date": "2022",
-      "end_date": "",
-      "email": "Reza.yarani.01@regionh.dk",
-      "web_url": "www.linkedin.com/in/reza-yarani-8b326439/"
     }
   ]
 }
