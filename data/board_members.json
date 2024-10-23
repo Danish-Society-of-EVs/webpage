@@ -61,6 +61,16 @@
       "web_url": "www.linkedin.com/in/reza-yarani-8b326439/"
     },
     {
+      "start_date": "2023",
+      "end_date": "YYYY",
+      "name": "Yuya Hayashi",
+      "photo": "/images/yuya.png",
+      "position": "Web Manager",
+      "current_board_member": true,
+      "email": "yuya.hayashi@mbg.au.dk",
+      "web_url": "https://mbg.au.dk/yuya-hayashi/"
+    },
+    {
       "name": "Aase Handberg",
       "photo": "/images/250px-aase_handberg.jpg",
       "position": "Vice President",
@@ -123,12 +133,10 @@
     {
       "start_date": "2023",
       "end_date": "YYYY",
-      "name": "Yuya Hayashi",
-      "photo": "/images/yuya.png",
-      "position": "Web Manager",
-      "current_board_member": true,
-      "email": "yuya.hayashi@mbg.au.dk",
-      "web_url": "https://mbg.au.dk/yuya-hayashi/"
+      "name": "Jaco Botha",
+      "photo": "/images/images.png",
+      "position": "Meeting Leader",
+      "current_board_member": true
     }
   ]
 }
