@@ -2,7 +2,7 @@
   "board_members": [
     {
       "name": "Malene Møller Jørgensen",
-      "photo": "/images/malenemoller.jpg",
+      "photo": "/images/malene.png",
       "position": "President",
       "current_board_member": true,
       "start_date": "2020",
@@ -12,7 +12,7 @@
     },
     {
       "name": "Per Svenningsen",
-      "photo": "/images/per.png",
+      "photo": "/images/per2.png",
       "position": "Vice President",
       "current_board_member": true,
       "start_date": "2021",
@@ -22,7 +22,7 @@
     },
     {
       "name": "Peter Nejsum",
-      "photo": "/images/peter.jpg",
+      "photo": "/images/peter.png",
       "position": "Member at Large",
       "current_board_member": true,
       "start_date": "2019",
@@ -63,12 +63,28 @@
     {
       "start_date": "2023",
       "end_date": "YYYY",
+      "name": "Jaco Botha",
+      "photo": "/images/images.png",
+      "position": "Meeting Leader",
+      "current_board_member": true
+    },
+    {
+      "start_date": "2023",
+      "end_date": "YYYY",
       "name": "Yuya Hayashi",
       "photo": "/images/yuya.png",
       "position": "Web Manager",
       "current_board_member": true,
       "email": "yuya.hayashi@mbg.au.dk",
       "web_url": "https://mbg.au.dk/yuya-hayashi/"
+    },
+    {
+      "start_date": "2024",
+      "end_date": "YYYY",
+      "name": "Maiken Mellergaard",
+      "photo": "/images/nophoto.png",
+      "position": "Member at Large",
+      "current_board_member": true
     },
     {
       "name": "Aase Handberg",
@@ -129,14 +145,6 @@
       "end_date": "2021",
       "email": "",
       "web_url": ""
-    },
-    {
-      "start_date": "2023",
-      "end_date": "YYYY",
-      "name": "Jaco Botha",
-      "photo": "/images/images.png",
-      "position": "Meeting Leader",
-      "current_board_member": true
     }
   ]
 }
