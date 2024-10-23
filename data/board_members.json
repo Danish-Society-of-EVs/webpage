@@ -31,16 +31,6 @@
       "web_url": "www.pure.au.dk/portal/en/persons/peter-lindberg-nejsum(ee468e32-0a8b-4cd3-9473-60335cf27df9).html"
     },
     {
-      "name": "Jonas Ellegaard Nielsen",
-      "photo": "/images/jonas.png",
-      "position": "Treasurer",
-      "current_board_member": true,
-      "start_date": "2021",
-      "end_date": "",
-      "email": " Jonas.Ellegaard.Nielsen@rsyd.dk",
-      "web_url": ""
-    },
-    {
       "name": "Ole Østergaard",
       "photo": "/images/ole.png",
       "position": "Note Taker",
@@ -48,6 +38,16 @@
       "start_date": "2019",
       "end_date": "",
       "email": "",
+      "web_url": ""
+    },
+    {
+      "name": "Jonas Ellegaard Nielsen",
+      "photo": "/images/jonas.png",
+      "position": "Treasurer",
+      "current_board_member": true,
+      "start_date": "2021",
+      "end_date": "",
+      "email": " Jonas.Ellegaard.Nielsen@rsyd.dk",
       "web_url": ""
     },
     {
