@@ -84,7 +84,9 @@
       "name": "Maiken Mellergaard",
       "photo": "/images/maiken.png",
       "position": "Member at Large",
-      "current_board_member": true
+      "current_board_member": true,
+      "email": "maiken.pedersen@rn.dk",
+      "web_url": "https://aalborguh.rn.dk/da/Forskning/Forskningsomraader/Forskningscentre/The-CardioMetabolic-and-Biomedical-Research-Group"
     },
     {
       "name": "Aase Handberg",
