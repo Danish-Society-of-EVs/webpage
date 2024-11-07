@@ -99,6 +99,15 @@
       "web_url": ""
     },
     {
+      "start_date": "2024",
+      "end_date": "YYYY",
+      "name": "Hubert Krzyslak",
+      "email": "h.krzyslak@rn.dk",
+      "photo": "/images/hubert.png",
+      "position": "Member at large",
+      "current_board_member": true
+    },
+    {
       "name": "Anders Askeland",
       "photo": "/images/anders.png",
       "position": "Web Manager",
