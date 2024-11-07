@@ -3,7 +3,7 @@
     {
       "name": "Malene Møller Jørgensen",
       "photo": "/images/malene.png",
-      "position": "President",
+      "position": "Member at Large, President (2019-2024)",
       "current_board_member": true,
       "start_date": "2020",
       "end_date": "",
@@ -13,7 +13,7 @@
     {
       "name": "Per Svenningsen",
       "photo": "/images/per2.png",
-      "position": "Vice President",
+      "position": "President",
       "current_board_member": true,
       "start_date": "2021",
       "end_date": "",
@@ -23,7 +23,7 @@
     {
       "name": "Peter Nejsum",
       "photo": "/images/peter.png",
-      "position": "Member at Large",
+      "position": "Vice President",
       "current_board_member": true,
       "start_date": "2019",
       "end_date": "",
@@ -33,7 +33,7 @@
     {
       "name": "Ole Østergaard",
       "photo": "/images/ole.png",
-      "position": "Note Taker",
+      "position": "Member at Large",
       "current_board_member": true,
       "start_date": "2019",
       "end_date": "",
@@ -65,7 +65,7 @@
       "end_date": "YYYY",
       "name": "Jaco Botha",
       "photo": "/images/nophoto.png",
-      "position": "Meeting Leader",
+      "position": "Member at Large",
       "current_board_member": true
     },
     {
@@ -89,6 +89,15 @@
       "web_url": "https://aalborguh.rn.dk/da/Forskning/Forskningsomraader/Forskningscentre/The-CardioMetabolic-and-Biomedical-Research-Group"
     },
     {
+      "start_date": "2024",
+      "end_date": "YYYY",
+      "name": "Hubert Krzyslak",
+      "email": "h.krzyslak@rn.dk",
+      "photo": "/images/hubert.png",
+      "position": "Member at Large",
+      "current_board_member": true
+    },
+    {
       "name": "Aase Handberg",
       "photo": "/images/aase.png",
       "position": "Vice President",
@@ -97,15 +106,6 @@
       "end_date": "2024",
       "email": "aaha@rn.dk",
       "web_url": ""
-    },
-    {
-      "start_date": "2024",
-      "end_date": "YYYY",
-      "name": "Hubert Krzyslak",
-      "email": "h.krzyslak@rn.dk",
-      "photo": "/images/hubert.png",
-      "position": "Member at large",
-      "current_board_member": true
     },
     {
       "name": "Anders Askeland",
