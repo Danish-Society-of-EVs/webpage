@@ -7,21 +7,21 @@ public_folder: "/images" # URL path to access the media files
 collections:
   - name: "news" # Used in routes, e.g., /admin/collections/blog
     label: "News" # Used in the UI
-    folder: "src/posts" # The path to the folder where the documents are stored
+    folder: "src/posts/news" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime", time_format: HH:mm:ssZ, date_format: "YYYY-MM-DD", format: "YYYY-MM-DD"}
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "research"
+  - name: "research_infrastructure"
     label: "Research Infrastructure"
-    folder: "src/posts/research"
+    folder: "src/posts/research_infrastructure"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime", time_format: HH:mm:ssZ, date_format: "YYYY-MM-DD", format: "YYYY-MM-DD"}
-      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Location", name: "location", widget: "string"}
+      - {label: "Infrastructure", name: "infrastructure", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "courses"
     label: "Courses Available"
@@ -29,8 +29,10 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime", time_format: HH:mm:ssZ, date_format: "YYYY-MM-DD", format: "YYYY-MM-DD"}
       - {label: "Course Provider", name: "provider", widget: "string"}
+      - {label: "Course Level", name: "level", widget: "string"}
+      - {label: "Semester", name: "semester", widget: "string"}
+      - {label: "Course Organiser", name: "organiser", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "jobs"
     label: "Job Postings"
@@ -38,8 +40,11 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime", time_format: HH:mm:ssZ, date_format: "YYYY-MM-DD", format: "YYYY-MM-DD"}
       - {label: "Employer", name: "employer", widget: "string"}
+      - {label: "Application Deadline", name: "deadline", widget: "datetime", time_format: HH:mm:ssZ, date_format: "YYYY-MM-DD", format: "YYYY-MM-DDTHH:mm"}
+      - {label: "Expected Start Date", name: "startdate", widget: "datetime", time_format: HH:mm:ssZ, date_format: "YYYY-MM-DD", format: "YYYY-MM-DD"}
+      - {label: "Duration of Employment", name: "duration", widget: "string"}
+      - {label: "Place of Work", name: "workplace", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "articles"
     label: "Featured articles"
@@ -139,6 +144,7 @@ collections:
               - label: "Description"
                 name: "description"
                 widget: "markdown"
+                required: false
   - label: "Settings"
     name: "settings"
     files:
