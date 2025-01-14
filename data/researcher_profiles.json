@@ -1,6 +1,14 @@
 {
   "researcher_profiles": [
     {
+      "name": "Per Svenningsen",
+      "photo": "/images/per2.png",
+      "position": "University of Southern Denmark",
+      "email": "psvenningsen@health.sdu.dk",
+      "web_url": "https://portal.findresearcher.sdu.dk/da/persons/psvenningsen",
+      "description": "### EV Expertise\n\nEV reporter mice, Transcriptome deconvolution, Urine EVs, Patients samples\n\n### Affiliation\n\nProfessor\\\nDepartment of Molecular Medicine\n\n### Censor Corps\n\nNo\n\n### MOVE Host\n\nYes[](<>)"
+    },
+    {
       "name": "Yuya Hayashi",
       "photo": "/images/yuya.png",
       "position": "Aarhus University",
