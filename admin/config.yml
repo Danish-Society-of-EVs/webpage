@@ -129,7 +129,7 @@ collections:
                 name: "photo"
                 widget: "image"
                 required: false
-              - label: "Position"
+              - label: "Institution"
                 name: "position"
                 widget: "string"
                 required: true
