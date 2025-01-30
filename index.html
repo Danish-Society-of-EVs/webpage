@@ -1084,165 +1084,83 @@
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
 
-<div class="h-auto overflow-hidden transition-all" x-data="{ expand: false }">
+<div class="relative h-full w-full overflow-hidden transition-all" x-data="{ expand: false }">
     <!-- Background -->
-    <div class="h-full max-w-screen bg-no-repeat bg-cover bg-left bg-fixed" style="background-image: url(/images/qKOZ5nqIbp-868.jpeg);">
+    <div class="absolute inset-0 bg-gray-500 dark:bg-gray-500 curved z-0 full-width bg-no-repeat bg-cover bg-left bg-fixed filter saturate-50 bg-blend-multiply backdrop-filter contrast-75"
+         style="background-image: url(/images/Y-zC4BhuyV-1024.jpeg);">
         <div class="max-w-5xl mx-auto flex flex-col h-auto w-full">
             <!-- Text -->
             <div class="flex flex-col h-auto w-full p-4 space-y-2">
-                <h3 class="text-2xl text-center text-white font-semibold font-montserrat">Featured scientific articles</h3>
+                <h3 class="text-2xl text-center text-white font-semibold font-montserrat">Courses and jobs</h3>
                 <div class="text-gray-300 font-montserrat text-center max-w-2xl text-sm sm:text-base mx-auto">
-                    <p class="hidden sm:block">Scientific works within EV research authored or co-autorhed by members of the Danish Society for Extracellular Vesicles.</p>
-                    <p class="sm:hidden">Scientific works within EV research authored or co-autorhed by members of DSEV.</p>
+                    <p class="hidden sm:block">Academic courses and job postings offered in association with the Danish Society for Extracellular Vesicles.</p>
+                    <p class="sm:hidden">Academic courses and job postings offered in association with the DSEV.</p>
                 </div>
             </div>
-
-            <!-- Article wheel -->
-            <div class="h-auto">
-                <div class="h-full max-w-5xl mx-auto w-full overflow-hidden pl-5 pr-5">
-                    <div class="carousel md:pr-16 md:pl-16 w-full h-auto" data-flickity='{ "pageDots": false, "wrapAround": true , "autoPlay": 4500, "contain": true, "cellAlign": "right" }'>
-                        <!-- Settings for articles -->
-                         
-                         
-                        
-                        <a href="https://link.springer.com/article/10.1186/s13287-024-03903-0" class="carousel-cell carousel-style h-72" style="background-color: #f1f537;" target="_blank">
-                            <div class="flex h-full flex-col justify-between space-y-3 p-3">
-                                <!-- Image -->
-                                <div class="h-1/4 sm:h-1/3 md:h-1/4"><picture><source type="image/avif" srcset="/images/cO3AbhiW64-300.avif 300w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/webp" srcset="/images/cO3AbhiW64-300.webp 300w" sizes="(min-width: 10em) 20vw, 10vw"><img alt="Journal logo" loading="lazy" decoding="async" class="object-contain h-full w-4/6 mx-auto" src="/images/cO3AbhiW64-300.jpeg" width="300" height="424"></picture></div>
-
-                                <!-- Text container -->
-                                <div class="h-3/4 sm:h-4/6 md:h-3/4 flex flex-col justify-between space-y-1">
-                                    <!-- Xs & small viewports -->
-                                    <h2 class="font-semibold md:w-11/12 text-gray-900 md:text-sm sm:text-lg lg:text-base text-sm mx-auto text-center w-3/4 sm:w-10/12 h-2/3 overflow-hidden">
-                                        Urine-derived stem cells serve as a robust platform for generating   native or engineered extracellular vesicles
-                                    </h2>
-                                    <h3 class="md:text-xs overflow-hidden md:w-10/12 sm:text-sm text-xs lg:text-sm text-gray-700 text-center mx-auto w-8/12 sm:w-4/5 h-1/3">
-                                        Boysen, A.T., Whitehead, B., Revenfeld, A.L.S., Gupta, D., Petersen, T.   &amp; Nejsum, P. (2024)
-                                    </h3>
-                                </div>
-                            </div>
-                        </a>
-
-                        
-                        <a href="http://www.conditionmed.org/Data/View/13890?type=100" class="carousel-cell carousel-style h-72" style="background-color: #7FBF28;" target="_blank">
-                            <div class="flex h-full flex-col justify-between space-y-3 p-3">
-                                <!-- Image -->
-                                <div class="h-1/4 sm:h-1/3 md:h-1/4"><picture><source type="image/avif" srcset="/images/UB28xpLNMZ-256.avif 256w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/webp" srcset="/images/UB28xpLNMZ-256.webp 256w" sizes="(min-width: 10em) 20vw, 10vw"><img alt="Journal logo" loading="lazy" decoding="async" class="object-contain h-full w-4/6 mx-auto" src="/images/UB28xpLNMZ-256.jpeg" width="256" height="256"></picture></div>
-
-                                <!-- Text container -->
-                                <div class="h-3/4 sm:h-4/6 md:h-3/4 flex flex-col justify-between space-y-1">
-                                    <!-- Xs & small viewports -->
-                                    <h2 class="font-semibold md:w-11/12 text-gray-900 md:text-sm sm:text-lg lg:text-base text-sm mx-auto text-center w-3/4 sm:w-10/12 h-2/3 overflow-hidden">
-                                        Remote Ischemic Conditioning induced miRNA responses in humans
-                                    </h2>
-                                    <h3 class="md:text-xs overflow-hidden md:w-10/12 sm:text-sm text-xs lg:text-sm text-gray-700 text-center mx-auto w-8/12 sm:w-4/5 h-1/3">
-                                        Lunding, M., Blauenfeldt, R., Just, J., &amp; Kim Ryun, D. (2022)
-                                    </h3>
-                                </div>
-                            </div>
-                        </a>
-
-                        
-                        <a href="https://www.mdpi.com/1422-0067/23/6/3334" class="carousel-cell carousel-style h-72" style="background-color: #50E3C2;" target="_blank">
-                            <div class="flex h-full flex-col justify-between space-y-3 p-3">
-                                <!-- Image -->
-                                <div class="h-1/4 sm:h-1/3 md:h-1/4"><picture><source type="image/avif" srcset="/images/YRY2-ibejw-300.avif 300w, /images/YRY2-ibejw-600.avif 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/webp" srcset="/images/YRY2-ibejw-300.webp 300w, /images/YRY2-ibejw-600.webp 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/jpeg" srcset="/images/YRY2-ibejw-300.jpeg 300w, /images/YRY2-ibejw-600.jpeg 600w" sizes="(min-width: 10em) 20vw, 10vw"><img alt="Journal logo" loading="lazy" decoding="async" class="object-contain h-full w-4/6 mx-auto" src="/images/YRY2-ibejw-300.jpeg" width="600" height="129"></picture></div>
-
-                                <!-- Text container -->
-                                <div class="h-3/4 sm:h-4/6 md:h-3/4 flex flex-col justify-between space-y-1">
-                                    <!-- Xs & small viewports -->
-                                    <h2 class="font-semibold md:w-11/12 text-gray-900 md:text-sm sm:text-lg lg:text-base text-sm mx-auto text-center w-3/4 sm:w-10/12 h-2/3 overflow-hidden">
-                                        The Role of Plasma Extracellular Vesicles in Remote Ischemic Conditioning and Exercise-Induced Ischemic Tolerance
-                                    </h2>
-                                    <h3 class="md:text-xs overflow-hidden md:w-10/12 sm:text-sm text-xs lg:text-sm text-gray-700 text-center mx-auto w-8/12 sm:w-4/5 h-1/3">
-                                        Gu, T., Just, J., Stenz, K. T., Yan, Y., Sieljacks, P., Wang, J., ... &amp; Drasbek, K. R. (2022)
-                                    </h3>
-                                </div>
-                            </div>
-                        </a>
-
-                        
-                        <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/jev2.12131" class="carousel-cell carousel-style h-72" style="background-color: #910909;" target="_blank">
-                            <div class="flex h-full flex-col justify-between space-y-3 p-3">
-                                <!-- Image -->
-                                <div class="h-1/4 sm:h-1/3 md:h-1/4"><picture><source type="image/avif" srcset="/images/i72nUHWEVe-300.avif 300w, /images/i72nUHWEVe-600.avif 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/webp" srcset="/images/i72nUHWEVe-300.webp 300w, /images/i72nUHWEVe-600.webp 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/jpeg" srcset="/images/i72nUHWEVe-300.jpeg 300w, /images/i72nUHWEVe-600.jpeg 600w" sizes="(min-width: 10em) 20vw, 10vw"><img alt="Journal logo" loading="lazy" decoding="async" class="object-contain h-full w-4/6 mx-auto" src="/images/i72nUHWEVe-300.jpeg" width="600" height="202"></picture></div>
-
-                                <!-- Text container -->
-                                <div class="h-3/4 sm:h-4/6 md:h-3/4 flex flex-col justify-between space-y-1">
-                                    <!-- Xs & small viewports -->
-                                    <h2 class="font-semibold md:w-11/12 text-gray-900 md:text-sm sm:text-lg lg:text-base text-sm mx-auto text-center w-3/4 sm:w-10/12 h-2/3 overflow-hidden">
-                                        Parasite worm antigens instruct macrophages to release immunoregulatory extracellular vesicles
-                                    </h2>
-                                    <h3 class="md:text-xs overflow-hidden md:w-10/12 sm:text-sm text-xs lg:text-sm text-gray-700 text-center mx-auto w-8/12 sm:w-4/5 h-1/3">
-                                        Zakeri, A., Whitehead, B. J., Stensballe, A., de Korne, C., Williams, A. R., Everts, B., &amp; Nejsum, P. (2021).
-                                    </h3>
-                                </div>
-                            </div>
-                        </a>
-
-                        
-                        <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/jex2.41" class="carousel-cell carousel-style h-72" style="background-color: #C9BB71;" target="_blank">
-                            <div class="flex h-full flex-col justify-between space-y-3 p-3">
-                                <!-- Image -->
-                                <div class="h-1/4 sm:h-1/3 md:h-1/4"><picture><source type="image/avif" srcset="/images/i72nUHWEVe-300.avif 300w, /images/i72nUHWEVe-600.avif 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/webp" srcset="/images/i72nUHWEVe-300.webp 300w, /images/i72nUHWEVe-600.webp 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/jpeg" srcset="/images/i72nUHWEVe-300.jpeg 300w, /images/i72nUHWEVe-600.jpeg 600w" sizes="(min-width: 10em) 20vw, 10vw"><img alt="Journal logo" loading="lazy" decoding="async" class="object-contain h-full w-4/6 mx-auto" src="/images/i72nUHWEVe-300.jpeg" width="600" height="202"></picture></div>
-
-                                <!-- Text container -->
-                                <div class="h-3/4 sm:h-4/6 md:h-3/4 flex flex-col justify-between space-y-1">
-                                    <!-- Xs & small viewports -->
-                                    <h2 class="font-semibold md:w-11/12 text-gray-900 md:text-sm sm:text-lg lg:text-base text-sm mx-auto text-center w-3/4 sm:w-10/12 h-2/3 overflow-hidden">
-                                        Comparison of separation methods for immunomodulatory extracellular vesicles from helminths
-                                    </h2>
-                                    <h3 class="md:text-xs overflow-hidden md:w-10/12 sm:text-sm text-xs lg:text-sm text-gray-700 text-center mx-auto w-8/12 sm:w-4/5 h-1/3">
-                                        Borup, A., Boysen, A. T., Ridolfi, A., Brucale, M., Valle, F., Paolini, L., ... &amp; Nejsum, P. (2022)
-                                    </h3>
-                                </div>
-                            </div>
-                        </a>
-
-                        
-                        <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/jex2.46" class="carousel-cell carousel-style h-72" style="background-color: #DF6464;" target="_blank">
-                            <div class="flex h-full flex-col justify-between space-y-3 p-3">
-                                <!-- Image -->
-                                <div class="h-1/4 sm:h-1/3 md:h-1/4"><picture><source type="image/avif" srcset="/images/i72nUHWEVe-300.avif 300w, /images/i72nUHWEVe-600.avif 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/webp" srcset="/images/i72nUHWEVe-300.webp 300w, /images/i72nUHWEVe-600.webp 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/jpeg" srcset="/images/i72nUHWEVe-300.jpeg 300w, /images/i72nUHWEVe-600.jpeg 600w" sizes="(min-width: 10em) 20vw, 10vw"><img alt="Journal logo" loading="lazy" decoding="async" class="object-contain h-full w-4/6 mx-auto" src="/images/i72nUHWEVe-300.jpeg" width="600" height="202"></picture></div>
-
-                                <!-- Text container -->
-                                <div class="h-3/4 sm:h-4/6 md:h-3/4 flex flex-col justify-between space-y-1">
-                                    <!-- Xs & small viewports -->
-                                    <h2 class="font-semibold md:w-11/12 text-gray-900 md:text-sm sm:text-lg lg:text-base text-sm mx-auto text-center w-3/4 sm:w-10/12 h-2/3 overflow-hidden">
-                                        An estimate of extracellular vesicle secretion rates of human blood cells
-                                    </h2>
-                                    <h3 class="md:text-xs overflow-hidden md:w-10/12 sm:text-sm text-xs lg:text-sm text-gray-700 text-center mx-auto w-8/12 sm:w-4/5 h-1/3">
-                                        Auber, M., &amp; Svenningsen, P. (2022)
-                                    </h3>
-                                </div>
-                            </div>
-                        </a>
-
-                        
-                    </div>
-                </div>
-            </div>
-
-            <!-- View more -->
-            <button class="text-gray-200 flex flex-col w-full pt-2 pb-2 justify-center -space-y-0.5" @click="expand = !expand">
-                <!-- Text -->
-                <p class="text-center text-sm mx-auto">
-                    <span x-text="expand ? 'Hide information': 'View information'"></span>
-                </p>
-
-                <!-- Icon -->
-                <svg fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': expand, 'rotate-0': !expand}" class="mx-auto w-5 h-5 transition-transform duration-200 transform md:-mt-1">
-                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                </svg>
-            </button>
         </div>
+    </div>
 
-        <!-- Expand -->
-        <div x-show="expand" class="h-10 transition-all"></div>
+    <!-- Course and job wheel -->
+    <div class="relative h-auto z-10 mt-32 mb-16">
+        <div class="h-full max-w-5xl mx-auto w-full overflow-hidden pl-5 pr-5">
+            <div class="carousel md:pr-16 md:pl-16 w-full h-auto" data-flickity='{ "pageDots": false, "wrapAround": true , "autoPlay": 4500, "contain": true, "cellAlign": "right" }'>
+                <!-- Settings for entries -->
+                
+                
+                <a href="/posts/jobs/phd-genetic-engineering/" class="carousel-cell carousel-style h-72" style="background-color: rgb(245 245 245);" target="_blank">
+                    <div class="flex h-full flex-col justify-between space-y-3 p-3">
+                        <!-- Image -->
+                        <div class="h-2/5 sm:h-1/4 md:h-2/5 p-4">
+                            
+                                <picture><source type="image/avif" srcset="/images/NMVFREzLuL-300.avif 300w, /images/NMVFREzLuL-600.avif 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/webp" srcset="/images/NMVFREzLuL-300.webp 300w, /images/NMVFREzLuL-600.webp 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/jpeg" srcset="/images/NMVFREzLuL-300.jpeg 300w, /images/NMVFREzLuL-600.jpeg 600w" sizes="(min-width: 10em) 20vw, 10vw"><img alt="Job logo" loading="lazy" decoding="async" class="object-contain h-full w-4/6 mx-auto" src="/images/NMVFREzLuL-300.jpeg" width="600" height="600"></picture>
+                            
+                        </div>
+
+                        <!-- Text container -->
+                        <div class="h-3/5 sm:h-3/4 md:h-3/5 flex flex-col justify-between space-y-1">
+                            <!-- Xs & small viewports -->
+                            <h2 class="font-semibold md:w-11/12 text-gray-900 md:text-sm sm:text-lg lg:text-base text-sm mx-auto text-center w-3/4 sm:w-10/12 h-2/3 overflow-hidden">
+                                Fully-funded 3-year PhD position on genetic engineering of extracellular vesicles in vivo
+                            </h2>
+                            <h3 class="md:text-xs overflow-hidden md:w-10/12 sm:text-sm text-xs lg:text-sm text-gray-700 text-center mx-auto w-8/12 sm:w-4/5 h-1/3">
+                                
+                                    Aarhus University
+                                
+                            </h3>
+                        </div>
+                    </div>
+                </a>
+
+                
+                <a href="/posts/courses/extracellular-vesicles-in-health-and-disease/" class="carousel-cell carousel-style h-72" style="background-color: rgb(245 245 245);" target="_blank">
+                    <div class="flex h-full flex-col justify-between space-y-3 p-3">
+                        <!-- Image -->
+                        <div class="h-2/5 sm:h-1/4 md:h-2/5 p-4">
+                            
+                                <picture><source type="image/avif" srcset="/images/aoO-_8v2CX-300.avif 300w, /images/aoO-_8v2CX-600.avif 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/webp" srcset="/images/aoO-_8v2CX-300.webp 300w, /images/aoO-_8v2CX-600.webp 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/jpeg" srcset="/images/aoO-_8v2CX-300.jpeg 300w, /images/aoO-_8v2CX-600.jpeg 600w" sizes="(min-width: 10em) 20vw, 10vw"><img alt="Course logo" loading="lazy" decoding="async" class="object-contain h-full w-4/6 mx-auto" src="/images/aoO-_8v2CX-300.jpeg" width="600" height="600"></picture>
+                            
+                        </div>
+
+                        <!-- Text container -->
+                        <div class="h-3/5 sm:h-3/4 md:h-3/5 flex flex-col justify-between space-y-1">
+                            <!-- Xs & small viewports -->
+                            <h2 class="font-semibold md:w-11/12 text-gray-900 md:text-sm sm:text-lg lg:text-base text-sm mx-auto text-center w-3/4 sm:w-10/12 h-2/3 overflow-hidden">
+                                Extracellular Vesicles in Health and Disease
+                            </h2>
+                            <h3 class="md:text-xs overflow-hidden md:w-10/12 sm:text-sm text-xs lg:text-sm text-gray-700 text-center mx-auto w-8/12 sm:w-4/5 h-1/3">
+                                
+                                    Aarhus University (Faculty of Health)
+                                
+                            </h3>
+                        </div>
+                    </div>
+                </a>
+
+                
+            </div>
+        </div>
     </div>
 </div>
-
-<!-- Flickity HTML init -->
 
 </div>
 
