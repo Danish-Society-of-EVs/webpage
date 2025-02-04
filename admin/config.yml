@@ -8,24 +8,54 @@ collections:
   - name: "news" # Used in routes, e.g., /admin/collections/blog
     label: "News" # Used in the UI
     folder: "src/posts/news" # The path to the folder where the documents are stored
+    media_folder: "/src/images/news" # Folder where uploaded media files will be stored
+    public_folder: "/images/news" # URL path to access the media files
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime", time_format: HH:mm:ssZ, date_format: "YYYY-MM-DD", format: "YYYY-MM-DD"}
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "research_infrastructure"
-    label: "Research Infrastructure"
-    folder: "src/posts/research_infrastructure"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Location", name: "location", widget: "string"}
-      - {label: "Infrastructure", name: "infrastructure", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+  - label: "Research Infrastructure"
+    name: "research_infrastructure"
+    editor:
+      preview: false
+    files:
+      - label: "Research Infrastructure"
+        name: "research_infrastructure"
+        file: "src/_data/research_infrastructure.json"
+        media_folder: "/src/images/portraits" # Folder where uploaded media files will be stored
+        public_folder: "/images/portraits" # URL path to access the media files
+        fields:
+          - label: "Research Infrastructure"
+            name: "research_infrastructure"
+            widget: "list"
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
+                required: true
+              - label: "Photo"
+                name: "photo"
+                widget: "image"
+                required: false
+              - label: "Location"
+                name: "location"
+                widget: "string"
+                required: true
+              - label: "Infrastructure"
+                name: "infrastructure"
+                widget: "string"
+                required: true
+              - label: "Body"
+                name: "body"
+                widget: "markdown"
+                required: true
   - name: "courses"
     label: "Courses Available"
     folder: "src/posts/courses"
+    media_folder: "/src/images/courses" # Folder where uploaded media files will be stored
+    public_folder: "/images/courses" # URL path to access the media files
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -37,6 +67,8 @@ collections:
   - name: "jobs"
     label: "Job Postings"
     folder: "src/posts/jobs"
+    media_folder: "/src/images/jobs" # Folder where uploaded media files will be stored
+    public_folder: "/images/jobs" # URL path to access the media files
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -67,6 +99,8 @@ collections:
       - label: "Board Members"
         name: "board_members"
         file: "src/_data/board_members.json"
+        media_folder: "/src/images/portraits" # Folder where uploaded media files will be stored
+        public_folder: "/images/portraits" # URL path to access the media files
         fields:
           - label: "Board Members"
             name: "board_members"
@@ -116,6 +150,8 @@ collections:
       - label: "Researcher Profiles"
         name: "researcher_profiles"
         file: "src/_data/researcher_profiles.json"
+        media_folder: "/src/images/portraits" # Folder where uploaded media files will be stored
+        public_folder: "/images/portraits" # URL path to access the media files
         fields:
           - label: "Researcher Profiles"
             name: "researcher_profiles"

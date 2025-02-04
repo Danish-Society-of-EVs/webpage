@@ -2,7 +2,7 @@
   "board_members": [
     {
       "name": "Malene Møller Jørgensen",
-      "photo": "/images/malene.png",
+      "photo": "/images/portraits/malene.png",
       "position": "Member at Large            (President, 2019-2024)",
       "current_board_member": true,
       "start_date": "2020",
@@ -12,7 +12,7 @@
     },
     {
       "name": "Per Svenningsen",
-      "photo": "/images/per2.png",
+      "photo": "/images/portraits/per2.png",
       "position": "President",
       "current_board_member": true,
       "start_date": "2021",
@@ -22,7 +22,7 @@
     },
     {
       "name": "Peter Nejsum",
-      "photo": "/images/peter.png",
+      "photo": "/images/portraits/peter.png",
       "position": "Vice President",
       "current_board_member": true,
       "start_date": "2019",
@@ -32,7 +32,7 @@
     },
     {
       "name": "Ole Østergaard",
-      "photo": "/images/ole.png",
+      "photo": "/images/portraits/ole.png",
       "position": "Member at Large",
       "current_board_member": true,
       "start_date": "2019",
@@ -42,7 +42,7 @@
     },
     {
       "name": "Jonas Ellegaard Nielsen",
-      "photo": "/images/jonas.png",
+      "photo": "/images/portraits/jonas.png",
       "position": "Treasurer",
       "current_board_member": true,
       "start_date": "2021",
@@ -52,7 +52,7 @@
     },
     {
       "name": "Reza Yarani",
-      "photo": "/images/reza.png",
+      "photo": "/images/portraits/reza.png",
       "position": "Secretary",
       "current_board_member": true,
       "start_date": "2022",
@@ -64,7 +64,7 @@
       "start_date": "2023",
       "end_date": "YYYY",
       "name": "Jaco Botha",
-      "photo": "/images/nophoto.png",
+      "photo": "/images/portraits/nophoto.png",
       "position": "Member at Large",
       "current_board_member": true
     },
@@ -72,7 +72,7 @@
       "start_date": "2023",
       "end_date": "YYYY",
       "name": "Yuya Hayashi",
-      "photo": "/images/yuya.png",
+      "photo": "/images/portraits/yuya.png",
       "position": "Web Manager",
       "current_board_member": true,
       "email": "yuya.hayashi@mbg.au.dk",
@@ -82,7 +82,7 @@
       "start_date": "2024",
       "end_date": "YYYY",
       "name": "Maiken Mellergaard",
-      "photo": "/images/maiken.png",
+      "photo": "/images/portraits/maiken.png",
       "position": "Member at Large",
       "current_board_member": true,
       "email": "maiken.pedersen@rn.dk",
@@ -93,13 +93,13 @@
       "end_date": "YYYY",
       "name": "Hubert Krzyslak",
       "email": "h.krzyslak@rn.dk",
-      "photo": "/images/hubert.png",
+      "photo": "/images/portraits/hubert.png",
       "position": "Member at Large",
       "current_board_member": true
     },
     {
       "name": "Aase Handberg",
-      "photo": "/images/aase.png",
+      "photo": "/images/portraits/aase.png",
       "position": "Vice President",
       "current_board_member": false,
       "start_date": "2020",
@@ -109,7 +109,7 @@
     },
     {
       "name": "Anders Askeland",
-      "photo": "/images/anders.png",
+      "photo": "/images/portraits/anders.png",
       "position": "Web Manager",
       "current_board_member": false,
       "start_date": "2020",
@@ -119,7 +119,7 @@
     },
     {
       "name": "Marie Stampe Ostenfeld",
-      "photo": "/images/marie.png",
+      "photo": "/images/portraits/marie.png",
       "position": "Member at Large",
       "current_board_member": false,
       "start_date": "2019",
@@ -129,7 +129,7 @@
     },
     {
       "name": "Anne Borup",
-      "photo": "/images/anne.png",
+      "photo": "/images/portraits/anne.png",
       "position": "Treasurer",
       "current_board_member": false,
       "start_date": "2020",
@@ -139,7 +139,7 @@
     },
     {
       "name": "Fabio Antenucci",
-      "photo": "/images/nophoto.png",
+      "photo": "/images/portraits/nophoto.png",
       "position": "PR Manager",
       "current_board_member": false,
       "start_date": "2019",
@@ -149,7 +149,7 @@
     },
     {
       "name": "Kim Ryun Drasbek",
-      "photo": "/images/kim.png",
+      "photo": "/images/portraits/kim.png",
       "position": "Secretary",
       "current_board_member": false,
       "start_date": "2019",

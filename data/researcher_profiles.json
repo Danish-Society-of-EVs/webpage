@@ -2,7 +2,7 @@
   "researcher_profiles": [
     {
       "name": "Per Svenningsen",
-      "photo": "/images/per2.png",
+      "photo": "/images/portraits/per2.png",
       "position": "University of Southern Denmark",
       "email": "psvenningsen@health.sdu.dk",
       "web_url": "https://portal.findresearcher.sdu.dk/da/persons/psvenningsen",
@@ -10,7 +10,7 @@
     },
     {
       "name": "Yuya Hayashi",
-      "photo": "/images/yuya.png",
+      "photo": "/images/portraits/yuya.png",
       "position": "Aarhus University",
       "email": "yuya.hayashi@mbg.au.dk",
       "web_url": "https://mbg.au.dk/yuya-hayashi/",
@@ -18,7 +18,7 @@
     },
     {
       "name": "Maiken Mellergaard",
-      "photo": "/images/maiken.png",
+      "photo": "/images/portraits/maiken.png",
       "position": "Aalborg University Hospital & Aalborg University",
       "email": "maiken.pedersen@rn.dk",
       "web_url": "https://vbn.aau.dk/da/persons/maikenmp",
