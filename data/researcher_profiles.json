@@ -5,7 +5,7 @@
       "photo": "/images/portraits/per2.png",
       "position": "University of Southern Denmark",
       "email": "psvenningsen@health.sdu.dk",
-      "web_url": "https://portal.findresearcher.sdu.dk/da/persons/psvenningsen",
+      "web_url": "portal.findresearcher.sdu.dk/da/persons/psvenningsen",
       "description": "### EV Expertise\n\nEV reporter mice, Transcriptome deconvolution, Urine EVs, Patients samples\n\n### Affiliation\n\nProfessor\\\nDepartment of Molecular Medicine\n\n### Censor Corps\n\nNo\n\n### MOVE Host\n\nYes[](<>)"
     },
     {
@@ -13,7 +13,7 @@
       "photo": "/images/portraits/yuya.png",
       "position": "Aarhus University",
       "email": "yuya.hayashi@mbg.au.dk",
-      "web_url": "https://mbg.au.dk/yuya-hayashi/",
+      "web_url": "mbg.au.dk/yuya-hayashi/",
       "description": "### EV Expertise\n\nEV imaging *in vivo* using zebrafish, Endothelial cell-derived EVs, miRNA bioinformatics, EV-protein corona, EV engineering, RNA therapeutics.\n\n### Affiliation\n\nAssociate Professor\\\nDepartment of Molecular Biology and Genetics\\\n& Interdisciplinary Nanoscience Center (iNANO)\n\n### Censor Corps\n\nNo\n\n### MOVE Host\n\nYes[](https://pubs.acs.org/doi/10.1021/acsnano.9b07233)"
     },
     {
@@ -21,7 +21,7 @@
       "photo": "/images/portraits/maiken.png",
       "position": "Aalborg University Hospital & Aalborg University",
       "email": "maiken.pedersen@rn.dk",
-      "web_url": "https://vbn.aau.dk/da/persons/maikenmp",
+      "web_url": "vbn.aau.dk/da/persons/maikenmp",
       "description": "### EV Expertise\n\nTissue-specific EVs, High-resolution flow cytometry, Immunology, Immunometabolism\n\n### Affiliation\n\nSenior Scientist\\\nDepartment of Clinical Biochemistry\\\n(Aalborg University Hospital)\n\nAssociate Professor\\\nDepartment of Clinical Medicine\\\n(Aalborg University)\n\n### Censor Corps\n\nYes\n\n### MOVE Host\n\nYes[](<>) ([Aase Handberg](https://aalborguh.rn.dk/da/Forskning/Forskningsomraader/Forskningscentre/The-CardioMetabolic-and-Biomedical-Research-Group))"
     },
     {
@@ -29,7 +29,7 @@
       "photo": "/images/portraits/aase.png",
       "email": "aaha@rn.dk",
       "position": "Aalborg University Hospital & Aalborg University",
-      "web_url": "https://aalborguh.rn.dk/da/Forskning/Forskningsomraader/Forskningscentre/The-CardioMetabolic-and-Biomedical-Research-Group",
+      "web_url": "aalborguh.rn.dk/da/Forskning/Forskningsomraader/Forskningscentre/The-CardioMetabolic-and-Biomedical-Research-Group",
       "description": "### EV Expertise\n\nTissue-specific EVs, High-resolution flow cytometry, Obesity complications\n\n### Affiliation\n\nChief Physician\\\nDepartment of Clinical Biochemistry\\\n(Aalborg University Hospital)\n\nProfessor\\\nDepartment of Clinical Medicine\\\n(Aalborg University)\n\n### Censor Corps\n\nNo\n\n### MOVE Host\n\nYes[](<>)"
     },
     {
@@ -37,7 +37,7 @@
       "description": "### EV Expertise\n\nImmunoregulatory properties of EVs from pathogens, EVs as drug delivery system and diagnosis\n\n### Affiliation\n\nProfessor\\\nDepartment of Clinical Medicine\n\n### Censor Corps\n\nNo\n\n### MOVE Host\n\nYes[](<>)",
       "email": "pn@clin.au.dk",
       "position": "Aarhus University",
-      "web_url": "https://pure.au.dk/portal/en/persons/pn@clin.au.dk",
+      "web_url": "pure.au.dk/portal/en/persons/pn@clin.au.dk",
       "photo": "/images/portraits/peter2.png"
     }
   ]
