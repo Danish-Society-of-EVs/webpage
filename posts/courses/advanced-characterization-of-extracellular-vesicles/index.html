@@ -1,31 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
         <!-- Metadata -->
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>DSEV - Courses available</title>
+        <title>DSEV - Advanced Characterization of Extracellular Vesicles</title>
 
         <!-- Stylesheet -->
         <link rel="stylesheet" href="/style.css" />
 
         <!-- Alpine js -->
-        <script type="module" src="/scripts/alpine.js"></script>
-        <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-
-        <!-- Analytics -->
-        <script data-goatcounter="https://dsev.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script> 
+        <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
     </head>
-
-    <!-- Main content -->
     <body class="bg-light-primary text-gray-900 dark:text-gray-100 dark:bg-dark-primary  font-montserrat">
         <div class="flex flex-col h-screen justify-between">
             <!-- Navbar -->
-            <header class="container mx-auto flex max-w-6xl justify-between"><!-- Navbar -->
+            <header class="container mx-auto flex max-w-4xl justify-between">
+            <!-- Navbar -->
 <nav class="w-full flex flex-col h-auto" x-data="{ accordion: false }" x-cloak>
     <div class="flex flex-col justify-between mx-auto w-full h-auto font-montserrat text-md p-3">
         <!-- Main menu -->
@@ -516,40 +508,65 @@
         }));
     });
 </script>
-</header>
+
+            </header>
 
             <!-- Content -->
             <main class="flex-grow w-full">
-                
-<div class="flex flex-col h-full p-4 max-w-5xl mx-auto">
-    <!--  text -->
-    <div class="flex flex-col space-y-2 pb-4 pl-4 mx-auto">
-        <h2 class="text-4xl font-semibold font-montserrat">Courses available</h2>
-    </div>
-    <div>
+                <div class="mx-auto text-center p-10 max-w-5xl">
 
-        
-        <div class="pt-4 flex flex-col">
-            <a class="text-lg tracking-normal text-blue-500" href="/posts/courses/extracellular-vesicles-in-health-and-disease/">Extracellular Vesicles in Health and Disease </a>
-            <time class="text-sm tracking-tight text-gray-600 postlist-date" datetime="2024-11-01">
-                Aarhus University (Faculty of Health)
-            </time>
-        </div>
-        
-        <div class="pt-4 flex flex-col">
-            <a class="text-lg tracking-normal text-blue-500" href="/posts/courses/advanced-characterization-of-extracellular-vesicles/">Advanced Characterization of Extracellular Vesicles </a>
-            <time class="text-sm tracking-tight text-gray-600 postlist-date" datetime="2024-11-01">
-                Aalborg University (Faculty of Medicine)
-            </time>
-        </div>
-        
-    </div>
-</div>
+                    <h2 class="text-3xl p-2" style="text-wrap: pretty;">
+                        Advanced Characterization of Extracellular Vesicles
+                    </h2>
 
+                    <h4>
+                        
+                            Aalborg University (Faculty of Medicine)
+                        
+                    </h4>
+
+                    <!-- Extra data block -->
+                    <div 
+                      class="mt-4 mx-auto w-max grid gap-y-2 gap-x-4 sm:grid-cols-[auto_1fr]">
+
+                      
+
+                      
+                        <div class="font-bold text-right">Course Level:</div>
+                        <div class="text-left">PhD</div>
+                      
+
+                      
+                        <div class="font-bold text-right">Semester:</div>
+                        <div class="text-left">Autumn, 5 days in Nov (3 ECTS)</div>
+                      
+
+                      
+                        <div class="font-bold text-right">Course Organiser:</div>
+                        <div class="text-left">Maiken Mellergaard, Malene M Jørgensen, and Aase Handberg</div>
+                      
+
+                      
+
+                      
+
+                      
+
+                      
+                    </div>
+                </div>
+                <article class="prose dark:prose-invert p-5 mx-auto ">
+                <h3>Brief description</h3>
+<p>Aim: To provide theoretical knowledge on extracellular vesicles (EV), hands-on experience with advanced methods for molecular characterization, and insight into their clinical properties and potential use in diagnosis and therapy.</p>
+<p>Content: EVs are recognized for their importance in health and disease by facilitating cellular communication, i.e. via trafficking of biomolecules. Apart from being involved in maintaining homeostatic processes in the healthy organism, EVs are important in disease progression since both diseased cells and pathogens release EVs to facilitate their survival. This suggests that EVs can be used as diagnostic markers for disease prediction and monitoring. Furthermore, the therapeutic potential of EVs and their use as vaccines are currently being explored all underpinning the prospects of EV-research.</p>
+<p>In this course, we will cover basic aspects of EVs and explore essential methods using antibody-based technologies for EV characterization. In this way, we will showcase how EV phenotype can be characterized by different methods, with focus on techniques used for broad biomarker screening followed by more targeted approaches to fully characterize and describe EV phenotype. The course will, moreover, include antibody and molecular binding theory to understand the basic of the applied techniques.</p>
+
+                </article>
             </main>
 
             <!-- Footer -->
-            <footer class="flex flex-col items-center h-auto p-2"><!-- Footer -->
+            <footer class="flex flex-col items-center h-6 pb-2">
+                <!-- Footer -->
 <div class="flex flex-row items-center fill-current space-x-2 text-xs">
     <!-- Copyright -->
     <div class="flex flex-row space-x-2" x-data="{ year: new Date().getFullYear() }">
@@ -586,14 +603,11 @@
         </div>
     </a>
 </div>
-</footer>
+
+            </footer>
         </div>
     </body>
 </html>
-
-<!-- Site tracking -->
-<script data-goatcounter="https://dsev.goatcounter.com/count"
-async src="//gc.zgo.at/count.js"></script>
 
 <!-- Scripts -->
 <script>
@@ -625,4 +639,10 @@ async src="//gc.zgo.at/count.js"></script>
         }
     });
 
+    /* Calculate year */
+    calculate_year = function () {
+        var today = new Date();
+        var year = today.getFullYear();
+        return year;
+    };
 </script>
