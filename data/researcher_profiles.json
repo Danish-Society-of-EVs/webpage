@@ -39,6 +39,38 @@
       "position": "Aarhus University",
       "web_url": "pure.au.dk/portal/en/persons/pn@clin.au.dk",
       "photo": "/images/portraits/peter2.png"
+    },
+    {
+      "description": "### EV Expertise\n\nEV Array, EV biomarkers, Microarray, Multimarker analysis\n\n### Affiliation\n\nHead of Research, Senior Scientist\nDepartment of Clinical Immunology\n\nAssociate Professor\nDepartment of Clinical Medicine\n\n### Censor Corps\n\nYes (until 2026)\n\n### MOVE Host\n\nYes[](<>)",
+      "name": "Malene Møller Jørgensen",
+      "photo": "/images/portraits/malene2.png",
+      "position": "Aalborg University Hospital",
+      "email": "maljoe@rn.dk",
+      "web_url": "vbn.aau.dk/en/persons/malenemj"
+    },
+    {
+      "name": "Søren Risom Kristensen",
+      "photo": "/images/portraits/srk.png",
+      "position": "Aalborg University Hospital",
+      "email": "srk@rn.dk",
+      "web_url": "vbn.aau.dk/en/persons/srk",
+      "description": "### EV Expertise\n\nEVs in coagulation processes, EVs as markers of cancer and Alzheimer's disease\n\n### Affiliation\n\nProfessor, Senior Consultant\nDepartment of Clinical Medicine\\\n(Aalborg University)\\\nDepartment of Clinical Biochemistry\\\n(Aalborg University Hospital)\n\n### Censor Corps\n\nNo\n\n### MOVE Host\n\nNo"
+    },
+    {
+      "name": "Christian Vægter",
+      "photo": "/images/portraits/cv.png",
+      "position": "Aarhus University",
+      "email": "cv@biomed.au.dk",
+      "web_url": "www.au.dk/en/cv@biomed.au.dk",
+      "description": "### EV Expertise\n\nPeripheral nervous system (PNS), PNS-derived EVs, Cognitive effects of EVs released from muscles and organs during exercise\n\n### Affiliation\n\nAssociate Professor\nDepartment of Biomedicine\n\n### Censor Corps\n\nYes\n\n### MOVE Host\n\nNo"
+    },
+    {
+      "name": "Jørgen Kjems",
+      "photo": "/images/portraits/jk.png",
+      "position": "Aarhus University",
+      "email": "jk@mbg.au.dk",
+      "web_url": "inano.au.dk/about/research-groups/nanomedicine-joergen-kjems-group",
+      "description": "### EV Expertise\n\nEV/RNA delivery and therapeutics, EV biomarkers, EV-RNA corona, Single EV analysis, miRNA\n\n### Affiliation\n\nProfessor\\\nInterdisciplinary Nanoscience Center (iNANO)\\\n& Department of Molecular Biology and Genetics\n\n### Censor Corps\n\nNo\n\n### MOVE Host\n\nYes[](<>)"
     }
   ]
 }
