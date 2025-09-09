@@ -2,13 +2,13 @@
   "board_members": [
     {
       "name": "Malene Møller Jørgensen",
-      "photo": "/images/portraits/malene.png",
+      "photo": "/images/portraits/malene2.png",
       "position": "Member at Large            (President, 2019-2024)",
       "current_board_member": true,
       "start_date": "2020",
       "end_date": "",
-      "email": "",
-      "web_url": ""
+      "email": "maljoe@rn.dk",
+      "web_url": "vbn.aau.dk/en/persons/malenemj"
     },
     {
       "name": "Per Svenningsen",
