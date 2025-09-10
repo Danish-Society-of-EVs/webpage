@@ -2,7 +2,7 @@
   "research_infrastructure": [
     {
       "title": "CytoFLEX nano",
-      "location": "FACS Core Facility, Aarhus University",
+      "location": "Aarhus University, FACS Core Facility",
       "infrastructure": "CytoFLEX nano",
       "body": "#### Description\n\nA dedicated small-particle flow cytometer capable of resolving particles down to 40 nm on scatter and to separate particle with a size difference down to 10 nm. Analysis of particles between 450-800 nm require authorization from the FACS Core Facility. Particles above 800 nm cannot be acquired on this instrument.\n\n#### Whom to contact\n\nFACS Core Facility at Aarhus University\\\n<https://biomed.au.dk/research/core-facilities/facs-core-facility>\n\n#### Access\n\nPaid access or service\n",
       "photo": "/images/portraits/cytoflexnanoau.png"
@@ -11,12 +11,12 @@
       "title": "CytoFLEX nano",
       "infrastructure": "CytoFLEX nano",
       "photo": "/images/portraits/cytoflexnanosdu.png",
-      "location": "Department of Molecular Medicine, University of Southern Denmark",
+      "location": "University of Southern Denmark, Department of Molecular Medicine",
       "body": "#### Description\n\nA dedicated small-particle flow cytometer capable of resolving particles down to 40 nm on scatter and to separate particle with a size difference down to 10 nm. It has 6 separate fluorescent channels and 5 side-scatter channels for a thourogh characterization of particles up to 450 nm. Analysis of particles between 450-800 nm require authorization and particles above 800 nm cannot be acquired on this instrument.\n\n#### Whom to contact\n\nAida Solhøj Hansen ([aidah@health.sdu.dk](mailto:aidah@health.sdu.dk)[](<>))\n\n#### Access\n\nPaid access or service"
     },
     {
       "title": "Zebrafish models",
-      "location": "Department of Molecular Biology and Genetics, Aarhus University",
+      "location": "Aarhus University, Department of Molecular Biology and Genetics",
       "infrastructure": "Zebrafish models",
       "body": "#### Description\n\nWe have two approaches: genetic engineering of endogenous EVs with a fluorescent reporter and microinjection of (fluorescently labelled) EVs including, but not limited to, human-derived EVs. In both cases, EVs are imaged in live zebrafish embryos using optical microscopes to study the secretion & uptake kinetics (via transgenesis), biodistribution (if microinjected), and interactions with cells of interest (e.g. macrophages and endothelial cells). Our genetic approach is not just about fluorescent labelling; we can engineer EVs in any way through transfection of zebrafish embryos to obtain in vivo results within a week. Collaborations on tissue injury models and EV injections are welcome!\n\n#### Whom to contact\n\nYuya Hayashi\\\n<https://mbg.au.dk/yuya-hayashi/>\n\n#### Access\n\nThrough collaborations",
       "photo": "/images/portraits/fish.png"
@@ -25,8 +25,8 @@
       "title": "EV Array",
       "infrastructure": "EV Array",
       "photo": "/images/portraits/evarray.png",
-      "location": "EV Innovation; Department of Clinical Immunology, Aalborg University Hospital",
-      "body": "#### Description\n\nThe EV Array is a high-throughput protein microarray platform. The EV Array consumes only 10 – 100 µL sample. The EV Array is performed in multi-well cassettes in a high-throughput manner (up to 21 samples per slide), but is still easy to handle in the laboratory. The use of microarray as a platform with spots of >1 nL volumes minimizes the cost of the EV Array as only small amounts of antibodies are needed.\n\n#### Whom to contact\n\nEV Array\n<https://evarray.dk>\n\nVesikelforskning\\\n<https://aalborguh.rn.dk/Forskning/Forskningsomraader/Laegefaglige-specialer/Klinisk-Immunologi/Forskningsomraader/Vesikelforskning>\n\n#### Access\n\nThrough collaborations"
+      "location": "Aalborg University Hospital, Department of Clinical Immunology; EV Innovation",
+      "body": "#### Description\n\nThe EV Array is a high-throughput protein microarray platform. The EV Array consumes only 10 – 100 µL sample. The EV Array is performed in multi-well cassettes in a high-throughput manner (up to 21 samples per slide), but is still easy to handle in the laboratory. The use of microarray as a platform with spots of >1 nL volumes minimizes the cost of the EV Array as only small amounts of antibodies are needed.\n\n#### Whom to contact\n\nEV Array\\\n<https://evarray.dk>\n\nVesikelforskning\\\n<https://aalborguh.rn.dk/Forskning/Forskningsomraader/Laegefaglige-specialer/Klinisk-Immunologi/Forskningsomraader/Vesikelforskning>\n\n#### Access\n\nThrough collaborations"
     }
   ]
 }
