@@ -27,6 +27,13 @@
       "photo": "/images/portraits/evarray.png",
       "location": "Aalborg University Hospital, Department of Clinical Immunology; EV Innovation",
       "body": "#### Description\n\nThe EV Array is a high-throughput protein microarray platform. The EV Array consumes only 10 – 100 µL sample. The EV Array is performed in multi-well cassettes in a high-throughput manner (up to 21 samples per slide), but is still easy to handle in the laboratory. The use of microarray as a platform with spots of >1 nL volumes minimizes the cost of the EV Array as only small amounts of antibodies are needed.\n\n#### Whom to contact\n\nEV Array\\\n<https://evarray.dk>\n\nVesikelforskning\\\n<https://aalborguh.rn.dk/Forskning/Forskningsomraader/Laegefaglige-specialer/Klinisk-Immunologi/Forskningsomraader/Vesikelforskning>\n\n#### Access\n\nThrough collaborations"
+    },
+    {
+      "title": "Orbitrap Astral Mass Spectrometer for EV proteomics",
+      "photo": "/images/portraits/orbitrap.png",
+      "location": "Center for Protein Research, University of Copenhagen",
+      "infrastructure": "Orbitrap Astral Mass Spectrometer for EV proteomics",
+      "body": "#### Description\n\nState-of-the-art mass spectrometry-based deep proteome profiling of EVs. We mostly analyze samples based on protein input (500 ng per sample), but we are currently developing a more sensitive protocol that can analyze samples based on EV counts (32 million EVs by NTA analysis).\n\n\n\n#### Whom to contact\n\nOle Østergaard ([ole.ostergaard@cpr.ku.dk](mailto:ole.ostergaard@cpr.ku.dk)[](mailto:ole.ostergaard@cpr.ku.dk))\n[](<>)\n\n#### Access\n\nThrough collaborations or as a paid service"
     }
   ]
 }
