@@ -19,7 +19,7 @@
     {
       "name": "Maiken Mellergaard",
       "photo": "/images/portraits/maiken.png",
-      "position": "Aalborg University Hospital & Aalborg University",
+      "position": "Aalborg University Hospital",
       "email": "maiken.pedersen@rn.dk",
       "web_url": "vbn.aau.dk/da/persons/maikenmp",
       "description": "### EV Expertise\n\nTissue-specific EVs, High-resolution flow cytometry, Immunology, Immunometabolism\n\n### Affiliation\n\nSenior Scientist\\\nDepartment of Clinical Biochemistry\\\n(Aalborg University Hospital)\n\nAssociate Professor\\\nDepartment of Clinical Medicine\\\n(Aalborg University)\n\n### Censor Corps\n\nYes\n\n### MOVE Host\n\nYes[](<>) ([Aase Handberg](https://aalborguh.rn.dk/da/Forskning/Forskningsomraader/Forskningscentre/The-CardioMetabolic-and-Biomedical-Research-Group))"
@@ -111,6 +111,14 @@
       "email": "suzette.soerensen@rn.dk",
       "web_url": "vbn.aau.dk/en/persons/sus",
       "description": "### EV Expertise\n\nIsolation of gut microbiota-derived EVs (GM-EVs) from biomaterial, 16S rRNA gene sequencing of EV associated DNA, GM-EVs in metabolism and gut-brain-axis\n\n### Affiliation\n\nSenior Scientist\\\nCenter for Clinical Research\\\n(North Denmark Regional Hospital)\n\nAssociate Professor\\\nDepartment of Clinical Medicine\\\n(Aalborg University)\n\n### Censor Corps\n\nNo\n\n### MOVE Host\n\nNo"
+    },
+    {
+      "description": "### EV Expertise\n\nPlasma, microRNA, and Beta cells\n\n### Affiliation\n\nProfessor\nDepartment of Science and Environment\n\n### Censor Corps\n\nYes\n\n### MOVE Host\n\nNo[](<>)",
+      "name": "Louise Torp Dalgaard",
+      "photo": "/images/portraits/ltd.png",
+      "position": "Roskilde University",
+      "email": "ltd@ruc.dk",
+      "web_url": "microrna.ruc.dk/"
     }
   ]
 }
