@@ -24,8 +24,8 @@
         <div class="flex flex-row justify-between w-full">
             <!-- Logo -->
             <a class="" href="/">
-                <div class="dark:hidden"><picture><source type="image/avif" srcset="/images/dPaEeCDteA-300.avif 300w, /images/dPaEeCDteA-600.avif 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/png" srcset="/images/dPaEeCDteA-300.png 300w, /images/dPaEeCDteA-600.png 600w" sizes="(min-width: 10em) 20vw, 10vw"><img alt="DSEV logo (Light theme)" loading="lazy" decoding="async" class="object-fill w-52" src="/images/dPaEeCDteA-300.png" width="600" height="366"></picture></div>
-                <div class="hidden dark:block"><picture><source type="image/avif" srcset="/images/Ej-7Q-JA-g-300.avif 300w, /images/Ej-7Q-JA-g-600.avif 600w" sizes="(min-width: 10em) 20vw, 10vw"><source type="image/png" srcset="/images/Ej-7Q-JA-g-300.png 300w, /images/Ej-7Q-JA-g-600.png 600w" sizes="(min-width: 10em) 20vw, 10vw"><img alt="DSEV logo (Dark theme)" loading="lazy" decoding="async" class="object-fill w-52" src="/images/Ej-7Q-JA-g-300.png" width="600" height="366"></picture></div>
+                <div class="dark:hidden"><img alt="DSEV logo (Light theme)" loading="lazy" decoding="async" class="object-fill w-52" src="/images/dPaEeCDteA-300.png" width="600" height="366" srcset="/images/dPaEeCDteA-300.png 300w, /images/dPaEeCDteA-600.png 600w" sizes="(min-width: 10em) 20vw, 10vw"></div>
+                <div class="hidden dark:block"><img alt="DSEV logo (Dark theme)" loading="lazy" decoding="async" class="object-fill w-52" src="/images/Ej-7Q-JA-g-300.png" width="600" height="366" srcset="/images/Ej-7Q-JA-g-300.png 300w, /images/Ej-7Q-JA-g-600.png 600w" sizes="(min-width: 10em) 20vw, 10vw"></div>
             </a>
 
             <!-- Desktop menu (lg) -->
@@ -48,6 +48,7 @@
                         <div x-show="dropdownOpen" @click.away="dropdownOpen = false" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="z-50 absolute right-0 mt-2 lg:max-w-xl max-w-xs w-screen origin-top-right shadow-xl">
                             <div class="px-2 pt-2 pb-4 bg-light-secondary dark:bg-dark-secondary rounded-md shadow-xl z-50">
                                 <div class="grid lg:grid-cols-2 grid-cols-1 gap-4">
+                                    
                                     
                                     <a class="flex items-start rounded-lg bg-transparent p-2 
                                               hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline 
@@ -116,6 +117,7 @@
                         <div x-show="dropdownOpen" @click.away="dropdownOpen = false" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="z-50 absolute right-0 mt-2 lg:max-w-xl max-w-xs w-screen origin-top-right shadow-xl">
                             <div class="px-2 pt-2 pb-4 bg-light-secondary dark:bg-dark-secondary rounded-md shadow-xl z-50">
                                 <div class="grid lg:grid-cols-2 grid-cols-1 gap-4">
+                                    
                                     
                                     <a class="flex items-start rounded-lg bg-transparent p-2 
                                               hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline 
@@ -192,22 +194,6 @@
                             <div class="px-2 pt-2 pb-4 bg-light-secondary dark:bg-dark-secondary rounded-md shadow-xl z-50">
                                 <div class="grid lg:grid-cols-2 grid-cols-1 gap-4">
                                     
-                                    <a class="flex items-start rounded-lg bg-transparent p-2 
-                                              hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline 
-                                              text-gray-900 dark:text-gray-200 
-                                              dark:hover:bg-gray-600 dark:focus:bg-gray-600 
-                                              dark:hover:text-white dark:focus:text-white"  href="/pages/bylaws/">
-                                        <!-- Inner menu -->
-                                        <div class="flex flex-row">
-                                            <div class="w-1/5 mx-auto text-gray-50 pl-2 pr-2 bg-red-900 rounded-lg h-24">
-                                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000" class="fill-current mx-auto h-full w-full"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M1 21h12v2H1v-2zM5.24 8.07l2.83-2.83 14.14 14.14-2.83 2.83L5.24 8.07zM12.32 1l5.66 5.66-2.83 2.83-5.66-5.66L12.32 1zM3.83 9.48l5.66 5.66-2.83 2.83L1 12.31l2.83-2.83z"/></svg>
-                                            </div>
-                                            <div class="ml-3 w-4/5">
-                                                <p class="font-semibold">Bylaws</p>
-                                                <p class="text-sm">Bylaws of the Danish Society for Extracellular Vesicles (DSEV)</p>
-                                            </div>
-                                        </div>
-                                    </a>
                                     
                                     <a class="flex items-start rounded-lg bg-transparent p-2 
                                               hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline 
@@ -222,6 +208,23 @@
                                             <div class="ml-3 w-4/5">
                                                 <p class="font-semibold">Board members</p>
                                                 <p class="text-sm">Current and former DSEV board members</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    
+                                    <a class="flex items-start rounded-lg bg-transparent p-2 
+                                              hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline 
+                                              text-gray-900 dark:text-gray-200 
+                                              dark:hover:bg-gray-600 dark:focus:bg-gray-600 
+                                              dark:hover:text-white dark:focus:text-white"  href="/pages/bylaws/">
+                                        <!-- Inner menu -->
+                                        <div class="flex flex-row">
+                                            <div class="w-1/5 mx-auto text-gray-50 pl-2 pr-2 bg-red-900 rounded-lg h-24">
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000" class="fill-current mx-auto h-full w-full"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M1 21h12v2H1v-2zM5.24 8.07l2.83-2.83 14.14 14.14-2.83 2.83L5.24 8.07zM12.32 1l5.66 5.66-2.83 2.83-5.66-5.66L12.32 1zM3.83 9.48l5.66 5.66-2.83 2.83L1 12.31l2.83-2.83z"/></svg>
+                                            </div>
+                                            <div class="ml-3 w-4/5">
+                                                <p class="font-semibold">Bylaws</p>
+                                                <p class="text-sm">Bylaws of the Danish Society for Extracellular Vesicles (DSEV)</p>
                                             </div>
                                         </div>
                                     </a>
