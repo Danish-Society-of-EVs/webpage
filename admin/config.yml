@@ -142,6 +142,53 @@ collections:
                 name: "web_url"
                 widget: "string"
                 required: false
+  - label: "SNEV Ambassador"
+    name: "SNEV"
+    editor:
+      preview: false
+    files:
+      - label: "SNEV Ambassador"
+        name: "SNEV"
+        file: "src/_data/SNEV.json"
+        media_folder: "/src/images/portraits" # Folder where uploaded media files will be stored
+        public_folder: "/images/portraits" # URL path to access the media files
+        fields:
+          - label: "SNEV Ambassador"
+            name: "SNEV"
+            widget: "list"
+            fields:
+              - label: "Name"
+                name: "name"
+                widget: "string"
+                required: true
+              - label: "Photo"
+                name: "photo"
+                widget: "image"
+                required: false
+              - label: "Position"
+                name: "position"
+                widget: "string"
+                required: true
+              - label: "Institution"
+                name: "institution"
+                widget: "string"
+                required: true
+              - label: "Current SNEV Ambassador"
+                name: "current_SNEV"
+                widget: "boolean"
+                required: true
+              - label: "Start year"
+                name: "start_date"
+                widget: "datetime"
+                format: "YYYY"
+                default: "YYYY"
+                required: false
+              - label: "End year"
+                name: "end_date"
+                widget: "datetime"
+                format: "YYYY"
+                default: "YYYY"
+                required: false
   - label: "Researcher Profiles"
     name: "researcher_profiles"
     editor:
