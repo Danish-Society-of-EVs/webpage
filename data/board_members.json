@@ -1,16 +1,6 @@
 {
   "board_members": [
     {
-      "name": "Malene Møller Jørgensen",
-      "photo": "/images/portraits/malene2.png",
-      "position": "Member at Large            (President, 2019-2024)",
-      "current_board_member": true,
-      "start_date": "2020",
-      "end_date": "",
-      "email": "maljoe@rn.dk",
-      "web_url": "vbn.aau.dk/en/persons/malenemj"
-    },
-    {
       "name": "Per Svenningsen",
       "photo": "/images/portraits/per2.png",
       "position": "President",
@@ -21,24 +11,24 @@
       "web_url": "portal.findresearcher.sdu.dk/da/persons/psvenningsen"
     },
     {
-      "name": "Peter Nejsum",
-      "photo": "/images/portraits/peter2.png",
+      "start_date": "2024",
+      "end_date": "YYYY",
+      "name": "Maiken Mellergaard",
+      "photo": "/images/portraits/maiken.png",
       "position": "Vice President",
       "current_board_member": true,
-      "start_date": "2019",
-      "end_date": "",
-      "email": "pn@clin.au.dk",
-      "web_url": "pure.au.dk/portal/en/persons/pn@clin.au.dk"
+      "email": "maiken.pedersen@rn.dk",
+      "web_url": "aalborguh.rn.dk/da/Forskning/Forskningsomraader/Forskningscentre/The-CardioMetabolic-and-Biomedical-Research-Group"
     },
     {
-      "name": "Ole Østergaard",
-      "photo": "/images/portraits/ole.png",
-      "position": "Member at Large",
+      "name": "Malene Møller Jørgensen",
+      "photo": "/images/portraits/malene2.png",
+      "position": "Secretary            (President, 2019-2024)",
       "current_board_member": true,
-      "start_date": "2019",
+      "start_date": "2020",
       "end_date": "",
-      "email": "",
-      "web_url": ""
+      "email": "maljoe@rn.dk",
+      "web_url": "vbn.aau.dk/en/persons/malenemj"
     },
     {
       "name": "Jonas Ellegaard Mortensen",
@@ -51,9 +41,29 @@
       "web_url": ""
     },
     {
+      "start_date": "2023",
+      "end_date": "YYYY",
+      "name": "Yuya Hayashi",
+      "photo": "/images/portraits/yuya.png",
+      "position": "PR/Web Manager",
+      "current_board_member": true,
+      "email": "yuya.hayashi@mbg.au.dk",
+      "web_url": "mbg.au.dk/yuya-hayashi/"
+    },
+    {
+      "name": "Ole Østergaard",
+      "photo": "/images/portraits/ole.png",
+      "position": "Member at Large",
+      "current_board_member": true,
+      "start_date": "2019",
+      "end_date": "",
+      "email": "",
+      "web_url": ""
+    },
+    {
       "name": "Reza Yarani",
       "photo": "/images/portraits/reza.png",
-      "position": "Secretary",
+      "position": "Member at Large",
       "current_board_member": true,
       "start_date": "2022",
       "end_date": "",
@@ -69,26 +79,6 @@
       "current_board_member": true
     },
     {
-      "start_date": "2023",
-      "end_date": "YYYY",
-      "name": "Yuya Hayashi",
-      "photo": "/images/portraits/yuya.png",
-      "position": "PR/Web Manager",
-      "current_board_member": true,
-      "email": "yuya.hayashi@mbg.au.dk",
-      "web_url": "mbg.au.dk/yuya-hayashi/"
-    },
-    {
-      "start_date": "2024",
-      "end_date": "YYYY",
-      "name": "Maiken Mellergaard",
-      "photo": "/images/portraits/maiken.png",
-      "position": "Member at Large",
-      "current_board_member": true,
-      "email": "maiken.pedersen@rn.dk",
-      "web_url": "aalborguh.rn.dk/da/Forskning/Forskningsomraader/Forskningscentre/The-CardioMetabolic-and-Biomedical-Research-Group"
-    },
-    {
       "start_date": "2024",
       "end_date": "YYYY",
       "name": "Hubert Krzyslak",
@@ -96,6 +86,44 @@
       "photo": "/images/portraits/hubert.png",
       "position": "Member at Large",
       "current_board_member": true
+    },
+    {
+      "start_date": "2025",
+      "end_date": "YYYY",
+      "name": "Aida Solhøj Hansen",
+      "photo": "/images/portraits/ash.png",
+      "position": "Member at Large",
+      "current_board_member": true,
+      "email": "aidah@health.sdu.dk",
+      "web_url": "portal.findresearcher.sdu.dk/en/persons/Aidah/"
+    },
+    {
+      "start_date": "2025",
+      "end_date": "YYYY",
+      "name": "Johann Mar Gudbergsson",
+      "photo": "/images/portraits/nophoto.png",
+      "position": "Member at Large",
+      "current_board_member": true,
+      "email": "jmg@biomed.au.dk"
+    },
+    {
+      "start_date": "2025",
+      "end_date": "YYYY",
+      "name": "Suzette Sørensen",
+      "photo": "/images/portraits/nophoto.png",
+      "position": "Member at Large",
+      "current_board_member": true,
+      "email": "suzette.soerensen@rn.dk"
+    },
+    {
+      "name": "Peter Nejsum",
+      "photo": "/images/portraits/peter2.png",
+      "position": "Vice President",
+      "current_board_member": false,
+      "start_date": "2019",
+      "end_date": "2025",
+      "email": "pn@clin.au.dk",
+      "web_url": "pure.au.dk/portal/en/persons/pn@clin.au.dk"
     },
     {
       "name": "Aase Handberg",
