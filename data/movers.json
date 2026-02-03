@@ -1,0 +1,12 @@
+{
+  "movers": [
+    {
+      "name": "Anna Sophia Feix",
+      "photo": "/images/portraits/asf.png",
+      "position": "Aarhus University",
+      "email": "afeix@anivet.au.dk",
+      "web_url": "orcid.org/0000-0001-5068-2546",
+      "description": "test"
+    }
+  ]
+}
