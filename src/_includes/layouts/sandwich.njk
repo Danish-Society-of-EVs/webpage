@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Metadata -->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DSEV - {{ title }}</title>
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="/style.css" />
+
+        <!-- Alpine js -->
+        <script type="module" src="/scripts/alpine.js"></script>
+        <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+        <!-- Analytics -->
+        <script data-goatcounter="https://new-dsev.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    </head>
+
+    <!-- Content -->
+    <body class="bg-light-primary text-gray-900 dark:text-gray-100 dark:bg-dark-primary font-montserrat">
+        <div class="flex flex-col h-screen justify-between">
+            <!-- Navbar -->
+            <header class="container mx-auto flex max-w-6xl justify-between">{% include "section/navbar.njk" %}</header>
+
+            <!-- Content -->
+            <main class="mx-auto flex-grow dark:text-gray-50">
+                <div class="text-center p-10 max-w-5xl">
+                    <!-- Text -->
+                    <h2 class="text-4xl font-semibold">DSEV grants</h2>
+                    <h3 class="text-2xl">Sandwich grants</h3>
+                </div>
+
+                <!-- Content -->
+                <article class="prose dark:prose-invert p-5 mx-auto">
+                    {{ content | safe }}
+                </article>
+            </main>
+
+            <!-- Footer -->
+            <footer class="flex flex-col items-center h-6 pb-2">{% include "section/footer.njk" %}</footer>
+        </div>
+    </body>
+</html>
+
+<!-- Scripts -->
+<script>
+    /* Set theme */
+    if (localStorage.theme === "dark" || (!"theme" in localStorage && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+        document.querySelector("html").classList.add("dark");
+    } else if (localStorage.theme === "dark") {
+        document.querySelector("html").classList.add("dark");
+    }
+
+    document.getElementById("switchTheme").addEventListener("click", function () {
+        let htmlClasses = document.querySelector("html").classList;
+        if (localStorage.theme == "dark") {
+            htmlClasses.remove("dark");
+            localStorage.removeItem("theme");
+        } else {
+            htmlClasses.add("dark");
+            localStorage.theme = "dark";
+        }
+    });
+    document.getElementById("switchTheme_dropdown").addEventListener("click", function () {
+        let htmlClasses = document.querySelector("html").classList;
+        if (localStorage.theme == "dark") {
+            htmlClasses.remove("dark");
+            localStorage.removeItem("theme");
+        } else {
+            htmlClasses.add("dark");
+            localStorage.theme = "dark";
+        }
+    });
+
+    /* Calculate year */
+    calculate_year = function () {
+        var today = new Date();
+        var year = today.getFullYear();
+        return year;
+    };
+</script>
+

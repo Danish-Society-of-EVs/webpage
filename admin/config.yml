@@ -31,8 +31,8 @@ collections:
             name: "research_infrastructure"
             widget: "list"
             fields:
-              - label: "Title"
-                name: "title"
+              - label: "Infrastructure"
+                name: "infrastructure"
                 widget: "string"
                 required: true
               - label: "Photo"
@@ -41,10 +41,6 @@ collections:
                 required: false
               - label: "Location"
                 name: "location"
-                widget: "string"
-                required: true
-              - label: "Infrastructure"
-                name: "infrastructure"
                 widget: "string"
                 required: true
               - label: "Body"
@@ -224,6 +220,80 @@ collections:
                 name: "web_url"
                 widget: "string"
                 required: false
+              - label: "Description"
+                name: "description"
+                widget: "markdown"
+                required: false
+  - label: "MOVE Fellowship Awardees"
+    name: "movers"
+    editor:
+      preview: false
+    files:
+      - label: "MOVE Fellowship Awardees"
+        name: "movers"
+        file: "src/_data/movers.json"
+        media_folder: "/src/images/portraits" # Folder where uploaded media files will be stored
+        public_folder: "/images/portraits" # URL path to access the media files
+        fields:
+          - label: "MOVE Fellowship Awardees"
+            name: "movers"
+            widget: "list"
+            fields:
+              - label: "Name"
+                name: "name"
+                widget: "string"
+                required: true
+              - label: "Photo"
+                name: "photo"
+                widget: "image"
+                required: false
+              - label: "Institution"
+                name: "position"
+                widget: "string"
+                required: true
+              - label: "Email"
+                name: "email"
+                widget: "string"
+                required: false
+              - label: "Web URL (without https://)"
+                name: "web_url"
+                widget: "string"
+                required: false
+              - label: "Description"
+                name: "description"
+                widget: "markdown"
+                required: false
+  - label: "Local EV Communities"
+    name: "local_community"
+    editor:
+      preview: false
+    files:
+      - label: "Local EV Communities"
+        name: "local_community"
+        file: "src/_data/local_community.json"
+        media_folder: "/src/images/portraits" # Folder where uploaded media files will be stored
+        public_folder: "/images/portraits" # URL path to access the media files
+        fields:
+          - label: "Local EV Communities"
+            name: "local_community"
+            widget: "list"
+            fields:
+              - label: "Name"
+                name: "name"
+                widget: "string"
+                required: true
+              - label: "Photo"
+                name: "photo"
+                widget: "image"
+                required: false
+              - label: "Institution"
+                name: "position"
+                widget: "string"
+                required: true
+              - label: "Web URL (without https://)"
+                name: "web_url"
+                widget: "string"
+                required: true
               - label: "Description"
                 name: "description"
                 widget: "markdown"

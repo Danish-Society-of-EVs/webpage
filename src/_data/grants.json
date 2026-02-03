@@ -1,0 +1,20 @@
+{
+  "grants": [
+    {
+      "title": "MOVE fellowships",
+      "call": "Annually",
+      "type": "MOVE",
+      "body": "### What we support\n\nOne fellowship to cover a short-term research stay at a MOVE host lab in Europe.\n\n### Grant size\n\nmax. DKK 15.000\n\n### Eligibility\n\nPhD students, postdocs, research technicians",
+      "photo": "/images/portraits/move.png",
+	  "page": "/pages/move/"
+    },
+    {
+      "title": "Sandwich grants",
+      "type": "Sandwich",
+      "photo": "/images/portraits/sandwich.png",
+      "call": "Every academic semester",
+      "body": "### What we support\n\nBasic catering (sandwiches and refreshments) at local meetings.\n\n### Grant size\n\nDSEV allocates a total budget of max. DKK 5.000 per semester\n\n### Eligibility\n\nLocal EV community",
+	  "page": "/pages/sandwich/"
+    }
+  ]
+}

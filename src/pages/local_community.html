@@ -1,0 +1,83 @@
+---
+title: Local EV communities
+layout: layouts/base.njk
+description: Local networks of EV researchers supported by DSEV
+tags: grants
+figure: "/src/images/icons/icon_groups.svg"
+
+---
+<div class="flex flex-col h-full p-4 max-w-5xl mx-auto">
+    <!--  text -->
+    <div class="flex flex-col space-y-2 pb-4">
+        <h2 class="text-4xl font-semibold">Local EV communities</h2>
+        <h3 class="text-2xl">Discover local networks of EV researchers supported by DSEV</h3>
+    </div>
+
+    <!--  Cards -->
+    <div class="grid lg:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-4 items-start">
+        {% for name, item in local_community %} 
+        {% for inner_data in item %}
+        <div class="flex flex-col bg-light-secondary dark:bg-dark-secondary shadow-xl h-auto w-auto rounded-lg p-2">
+            <!-- Image -->
+            {% if inner_data.photo %}
+            <div class="flex items-center justify-center p-4">
+                {% image inner_data.photo, "Portrait", "w-44 h-44 rounded-full object-cover object-top" %}
+            </div>
+            {% endif %}
+
+            <!-- Info -->
+            <div class="flex flex-row justify-between pl-4 pr-4 pb-4">
+                <div class="">
+                    <p class="font-semibold text-lg">{{ inner_data.name }}</p>
+                    <p class="text-indigo-900 dark:text-indigo-100">{{ inner_data.position }}</p>
+                </div>
+
+                <!-- Icons -->
+                <div class="flex flex-row space-x-2 text-gray-500 dark:text-gray-300">
+                    {% if inner_data.web_url %}
+                    <a href="https://{{ inner_data.web_url }}" target="_blank" class="flex justify-center">
+                        {{ '/src/images/icons/icon_link.svg' | svgContents("fill-current h-6 w-6 block mx-auto my-auto") | safe }}
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- Description -->
+            {% if inner_data.description %}
+            <div class="prose prose-sm prose-indigo prose-headings:text-gray-700 dark:prose-headings:text-gray-300 text-gray-700 dark:text-gray-300 px-4 pb-4 leading-relaxed">
+                <div class="description max-h-52 overflow-hidden relative">
+                    {{ inner_data.description | markdown | safe }}
+                    
+                    <!-- Gradient fade-out effect -->
+                    <div class="fade-overlay absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-light-secondary dark:from-dark-secondary to-transparent"></div>
+                </div>
+                <button onclick="toggleDescription(this)" class="mt-2 text-indigo-500 hover:text-indigo-700 font-semibold">
+                    Show More
+                </button>
+            </div>
+            {% endif %}
+        </div>
+
+        {% endfor %} {% endfor %}
+
+        <!--  Cards -->
+    </div>
+</div>
+<script>
+    function toggleDescription(button) {
+        // Find the closest .description div relative to the button clicked
+        const description = button.previousElementSibling;
+
+        // Toggle the height restriction
+        description.classList.toggle('max-h-52');
+
+        // Find the gradient overlay div within the description and toggle visibility
+        const fadeOverlay = description.querySelector('.fade-overlay');
+        if (fadeOverlay) {
+            fadeOverlay.classList.toggle('hidden');
+        }
+
+        // Toggle the button text between "Show More" and "Show Less"
+        button.textContent = description.classList.contains('max-h-52') ? 'Show More' : 'Show Less';
+    }
+</script>

@@ -1,8 +1,8 @@
 ---
-layout: layouts/grants.njk
+layout: layouts/move.njk
 tags:
-- announcements
-title: DSEV Grants
+- applications
+title: MOVE fellowships
 date: '2019-01-02T00:00:00.000+01:00'
 figure: "/src/images/icons/icon_gavel.svg"
 description: How to apply
