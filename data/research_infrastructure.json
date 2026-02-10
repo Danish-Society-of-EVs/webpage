@@ -29,6 +29,12 @@
       "photo": "/images/portraits/orbitrap.png",
       "location": "Center for Protein Research, University of Copenhagen",
       "body": "#### Description\n\nState-of-the-art mass spectrometry-based deep proteome profiling of EVs. We mostly analyze samples based on protein input (500 ng per sample), but we are currently developing a more sensitive protocol that can analyze samples based on EV counts (32 million EVs by NTA analysis).\n\n\n\n#### Whom to contact\n\nOle Østergaard ([ole.ostergaard@cpr.ku.dk](mailto:ole.ostergaard@cpr.ku.dk)[](mailto:ole.ostergaard@cpr.ku.dk))\n[](<>)\n\n#### Access\n\nThrough collaborations or as a paid service"
+    },
+    {
+      "infrastructure": "Apogee A60 Micro-PLUS",
+      "photo": "/images/portraits/apogeeaar.png",
+      "location": "Aalborg University Hospital, Department of Clinical Biochemistry",
+      "body": "#### Description\n\nThe Apogee A60 Micro-PLUS is a high-resolution small-particle flow cytometer optimized for detailed analysis of extracellular vesicles (EVs), nanoparticles, and other sub-micron particles. With multiple spatially separated lasers and an array of highly sensitive light scatter and fluorescence detectors, the system enables multiparametric phenotyping of small biological particles using both scatter and fluorescence signals. Its advanced optical design and configurable detection channels make it well suited for EV research, including surface marker profiling and population discrimination, and allows the analysis of EVs in complex biological fluids such as plasma, with minimal sample processing.\n\n#### Whom to contact\n\nThe CardioMetabolic and Biomedical Research Group\\\n<https://aalborguh.rn.dk/Forskning/Forskningsomraader/Forskningscentre/The-CardioMetabolic-and-Biomedical-Research-Group>\n\n#### Access\n\nThrough collaborations"
     }
   ]
 }
