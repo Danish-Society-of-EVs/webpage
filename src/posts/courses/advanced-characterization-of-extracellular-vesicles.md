@@ -8,19 +8,24 @@ organiser: Maiken Mellergaard, Malene M Jørgensen, and Aase Handberg
 ---
 ### Brief description
 
-Aim: To provide theoretical knowledge on extracellular vesicles (EV), hands-on experience with advanced methods for molecular characterization, and insight into their clinical properties and potential use in diagnosis and therapy. 
+Aim:\
+To provide in-depth theoretical knowledge and hands-on experience in advanced methodologies for extracellular vesicle (EV) characterization, with a strong focus on antibody-based technologies, quantitative analysis, and critical evaluation of EV enrichment and recovery. The course aims to equip participants with practical and analytical skills needed to robustly characterize EV phenotype and assess EV isolation performance in research and clinical contexts.
 
-Content: EVs are recognized for their importance in health and disease by facilitating cellular communication, i.e. via trafficking of biomolecules. Apart from being involved in maintaining homeostatic processes in the healthy organism, EVs are important in disease progression since both diseased cells and pathogens release EVs to facilitate their survival. This suggests that EVs can be used as diagnostic markers for disease prediction and monitoring. Furthermore, the therapeutic potential of EVs and their use as vaccines are currently being explored all underpinning the prospects of EV-research.
+Content:\
+Extracellular vesicles are key mediators of intercellular communication through the transfer of bioactive molecules such as proteins, lipids, and nucleic acids. While EVs play important roles in maintaining physiological homeostasis, they are also involved in disease development and progression, as both diseased cells and pathogens actively release EVs. These properties make EVs highly attractive as biomarkers for disease diagnosis, prognosis, and monitoring, as well as promising tools for therapeutic applications.
 
-In this course, we will cover basic aspects of EVs and explore essential methods using antibody-based technologies for EV characterization. In this way, we will showcase how EV phenotype can be characterized by different methods, with focus on techniques used for broad biomarker screening followed by more targeted approaches to fully characterize and describe EV phenotype. The course will, moreover, include antibody and molecular binding theory to understand the basic of the applied techniques.
+This course places a strong emphasis on advanced molecular and phenotypic characterization of EVs, with particular focus on antibody-based and high-sensitivity technologies used for EV analysis. Participants will explore how EV phenotype can be investigated using complementary approaches, ranging from broad biomarker screening to highly targeted analyses.
 
-As it is not a trivial task to work with EVs, we will discuss critical aspects to consider during enrichment of EVs from various sample types and how to perform advanced characterization of EVs.
+Key theoretical components include antibody–antigen interactions, molecular binding principles, and critical considerations related to specificity, sensitivity, and data interpretation in EV research. Particular attention is given to methodological challenges in EV enrichment, including sample type–specific considerations and sources of variability.
 
-During the practical part, you will learn how to enrich EV using size-exclusion chromatography and characterize the EVs by performing high-sensitive flow cytometry and EV Array. Finally, the size distribution and number of EVs in the samples will be examined by fluorescent nanoparticle tracking analysis.
+Practical training:\
+During the practical sessions, participants will gain hands-on experience in EV enrichment using size-exclusion chromatography (SEC) followed by advanced characterization using high-sensitivity flow cytometry (hFCM) and EV Array. In this course, hFCM will be used not only for EV phenotyping but also to estimate the recovery yield of EVs isolated by SEC, highlighting a quantitative and quality-control–oriented approach that is central to this course.
+
+In addition, EV size distribution and particle concentration will be assessed using nanoparticle tracking analysis (NTA), enabling participants to critically compare different characterization platforms and understand their respective strengths and limitations.
 
 ### Prerequisites
 
-The students participating in this course should have basic knowledge on EVs and their nomenclature and biogenesis, although no previous experience with EV characterization is needed.
+The students participating in this course should have basic knowledge of EVs and their nomenclature and biogenesis, although no previous experience with EV characterization is needed.
 
 ### Contact
 
