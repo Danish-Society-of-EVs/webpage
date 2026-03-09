@@ -19,7 +19,7 @@ Process:
 
 1. Identify a suitable registered host lab for your project (<a href="https://www.ukev.org.uk/move-mobility-ev-europe/" target="_blank" rel="noopener noreferrer">Find a host lab in the official MOVE website</a>).
 2. Contact the host lab directly to discuss your proposed project.
-3. Apply for the fellowship by directly mailing to [DSEV(mailto)](mailto:contact@dsev.dk).
+3. Apply for the fellowship by directly mailing to [DSEV(mailto)](mailto:contact@dsev.dk), application deadline: 1st September.
 4. The fellowship will be awarded at the DSEV Annual Meeting.
 5. The travel must be performed within 12 months after being awarded and documented with a short presentation (15 minutes) at General Assembly in the following year.
 
