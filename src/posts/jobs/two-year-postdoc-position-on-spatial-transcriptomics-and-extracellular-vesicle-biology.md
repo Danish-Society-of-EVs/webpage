@@ -1,7 +1,7 @@
 ---
 date: 2025-01-10
-title: Two-year postdoc position on spatial transcriptomics and extracellular
-  vesicle biology
+title: "[Applications Closed] Two-year postdoc position on spatial
+  transcriptomics and extracellular vesicle biology"
 employer: Aarhus University
 deadline: 2026-02-20T23:59
 startdate: 2026-04-01
