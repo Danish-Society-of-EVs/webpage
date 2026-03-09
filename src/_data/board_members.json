@@ -71,21 +71,13 @@
       "web_url": "www.linkedin.com/in/reza-yarani-8b326439/"
     },
     {
-      "start_date": "2023",
-      "end_date": "YYYY",
-      "name": "Jaco Botha",
-      "photo": "/images/portraits/nophoto.png",
-      "position": "Member at Large",
-      "current_board_member": true
-    },
-    {
       "start_date": "2024",
-      "end_date": "YYYY",
+      "end_date": "2026",
       "name": "Hubert Krzyslak",
       "email": "h.krzyslak@rn.dk",
       "photo": "/images/portraits/hubert.png",
       "position": "Member at Large",
-      "current_board_member": true
+      "current_board_member": false
     },
     {
       "start_date": "2025",
@@ -114,6 +106,14 @@
       "position": "Member at Large",
       "current_board_member": true,
       "email": "suzette.soerensen@rn.dk"
+    },
+    {
+      "start_date": "2023",
+      "end_date": "2026",
+      "name": "Jaco Botha",
+      "photo": "/images/portraits/nophoto.png",
+      "position": "Member at Large",
+      "current_board_member": false
     },
     {
       "name": "Peter Nejsum",
