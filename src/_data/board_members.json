@@ -72,12 +72,12 @@
     },
     {
       "start_date": "2024",
-      "end_date": "2026",
+      "end_date": "",
       "name": "Hubert Krzyslak",
       "email": "h.krzyslak@rn.dk",
       "photo": "/images/portraits/hubert.png",
       "position": "Member at Large",
-      "current_board_member": false
+      "current_board_member": true
     },
     {
       "start_date": "2025",
