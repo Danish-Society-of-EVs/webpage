@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
         <!-- Metadata -->
         <meta charset="UTF-8" />
@@ -909,7 +910,7 @@
             <!-- Form -->
 <div>
     <!-- Hidden part -->
-    <form hidden name="contact" data-netlify="true" netlify-honeypot="bot-field">
+    <form hidden name="contact" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
         <input name="name" />
         <input name="email" />
         <input name="message" />
@@ -964,8 +965,9 @@
                         <textarea id="message" required class="bg-white focus:outline-none focus:shadow-outline border border-gray-300 py-1.5 px-4 block w-full appearance-none leading-normal h-32" name="message" form="contact" x-model="message" placeholder="Your message here"></textarea>
                     </div>
                 </div>
-            </div>
-
+            </div>			
+			<!-- Add this just above the submit button -->
+			<div data-netlify-recaptcha="true"></div>
             <!-- Button -->
             <button type="submit" class="inline-flex justify-center w-full px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-500 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500" x-bind:disabled="loading">
                 <!-- Active -->
