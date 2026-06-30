@@ -1205,6 +1205,7 @@
     <!-- Hidden part -->
     <form hidden name="mailing-list" data-netlify="true" netlify-honeypot="bot-field">
         <input name="email" />
+		<input name="student" />
     </form>
 
     <!-- Actual form -->
@@ -1235,7 +1236,15 @@
                     </div>
                 </div>
             </div>
-
+			
+			<!-- Newsletter opt-in -->
+			<div class="flex items-center space-x-2">
+    		<input id="student" type="checkbox" name="student" value="yes" x-model="student" />
+    		<label for="student" class="text-sm text-gray-700 font-montserrat">
+        	Also subscribe me to the student (SNEV) mailing list
+    		</label>
+			</div>
+			
             <!-- Button -->
             <button type="submit" class="inline-flex justify-center w-2/3 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-500 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500" x-bind:disabled="loading">
                 <!-- Active -->
@@ -1281,6 +1290,7 @@
             email: "",
             emailValid: false,
             emailMissing: false,
+			student: false,
 
             /* Reset warnings */
             resetWarnings() {
