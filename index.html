@@ -1164,13 +1164,13 @@
 <div class="relative sm:h-auto overflow-hidden mt-4">
     <div id="Container" class="max-w-4xl mx-auto overflow-hidden h-full">
         <!-- Edge background -->
-        <div class="hidden sm:block absolute bg-gray-200 dark:bg-dark-secondary h-full w-1/2 left-0"></div>
-        <div class="hidden sm:block absolute bg-gray-300 dark:bg-dark-tertiary h-full w-1/2 right-0"></div>
+        <div class="hidden sm:block absolute bg-gray-200 dark:bg-dark-secondary h-full w-2/3 left-0"></div>
+        <div class="hidden sm:block absolute bg-gray-300 dark:bg-dark-tertiary h-full w-1/3 right-0"></div>
 
         <!-- Content -->
         <div class="relative flex flex-col sm:flex-row sm:h-full w-full">
             <!-- Newsfeed -->
-            <div class="flex flex-col h-64 sm:w-2/3 sm:h-full bg-gray-200 dark:bg-dark-secondary p-4">
+            <div class="flex flex-col h-64 sm:w-2/3 sm:h-auto bg-gray-200 dark:bg-dark-secondary p-4">
                 <h3 class="text-3xl font-montserrat dark:text-gray-100">Latest news</h3>
                 <div class="flex flex-col space-y-2">
                     
@@ -1198,7 +1198,7 @@
             </div>
    
             <!-- Mailing list -->
-            <div class="flex flex-col h-48 sm:w-1/3 sm:h-full dark:bg-dark-tertiary bg-gray-300 p-4">
+            <div class="flex flex-col h-48 sm:w-1/3 sm:h-auto dark:bg-dark-tertiary bg-gray-300 p-4">
                 <h3 class="text-3xl font-montserrat dark:text-gray-100">Mailing list</h3>
                 <!-- Form -->
 <div class="h-full">
@@ -1228,20 +1228,20 @@
                 <!-- Email -->
                 <div>
                     <!-- Label -->
-                    <label for="email" class="block text-md font-medium text-gray-700 font-montserrat">Email</label>
+                    <label for="email" class="block text-md font-medium text-gray-700 dark:text-gray-200 font-montserrat">Email</label>
 
                     <!-- Input -->
                     <div class="mt-1">
-                        <input id="email" name="email" type="email" autocomplete="email" placeholder="jane@doe.dk" required class="" x-model="email"/>
+                        <input id="email" name="email" type="email" autocomplete="email" placeholder="jane@doe.dk" required class="text-gray-500 dark:text-gray-500" x-model="email"/>
                     </div>
                 </div>
             </div>
 			
-			<!-- Newsletter opt-in -->
+			<!-- Student SNEV subscription -->
 			<div class="flex items-center space-x-2">
     		<input id="student" type="checkbox" name="student" value="yes" x-model="student" />
-    		<label for="student" class="text-sm text-gray-700 font-montserrat">
-        	Also subscribe me to the student (SNEV) mailing list
+    		<label for="student" class="text-sm text-gray-700 dark:text-gray-100 font-montserrat">
+        	Also subscribe me to the student (DSEV-SNEV) mailing list
     		</label>
 			</div>
 			
