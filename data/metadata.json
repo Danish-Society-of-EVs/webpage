@@ -6,12 +6,11 @@
     "description": "Webpage for the Danish Society for Extracellular Vesicles.",
     "source_code_url": "https://github.com/Danish-Society-of-EVs/webpage/tree/develop",
     "contact_info": {
-      "name": "Danish Society for Extracellular vesicles",
-      "email": "contact@dsev.dk"
+      "name": "Danish Society for Extracellular vesicles"
     },
     "footer": {
       "copyright": "DSEV",
-      "contact": "contact@dsev.dk",
+	  "linkedin_url": "https://www.linkedin.com/company/danish-society-for-extracellular-vesicles/",
       "source_text": "Source",
       "source_url": "https://github.com/Danish-Society-of-EVs/webpage",
       "admin_text": "Admin",
