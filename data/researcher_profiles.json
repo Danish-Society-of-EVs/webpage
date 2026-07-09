@@ -41,7 +41,7 @@
       "photo": "/images/portraits/peter2.png"
     },
     {
-      "description": "### EV Expertise\n\nEV Array, EV biomarkers, Microarray, Multimarker analysis\n\n### Affiliation\n\nHead of Research, Senior Scientist\\\nDepartment of Clinical Immunology\\\n(Aalborg University Hospital)\n\nAssociate Professor\\\nDepartment of Clinical Medicine\\\n(Aalborg University)\n\n### Censor Corps\n\nYes (until 2026)\n\n### MOVE Host\n\nYes[](<>)",
+      "description": "### EV Expertise\n\nEV Array, EV biomarkers, Microarray, Multimarker analysis\n\n### Affiliation\n\nHead of Research, Senior Scientist\\\nDepartment of Clinical Immunology\\\n(Aalborg University Hospital)\n\nAssociate Professor\\\nDepartment of Clinical Medicine\\\n(Aalborg University)\n\n### Censor Corps\n\nYes\n\n### MOVE Host\n\nYes[](<>)",
       "name": "Malene Møller Jørgensen",
       "photo": "/images/portraits/malene2.png",
       "position": "Aalborg University Hospital",
@@ -119,6 +119,14 @@
       "position": "Roskilde University",
       "email": "ltd@ruc.dk",
       "web_url": "microrna.ruc.dk/"
+    },
+    {
+      "name": "Stefan Vogel",
+      "photo": "/images/portraits/sv.png",
+      "position": "University of Copenhagen",
+      "email": "stefan.vogel@sund.ku.dk",
+      "web_url": "drug.ku.dk/staff/?pure=en/persons/322978",
+      "description": "### EV Expertise\n\nOligonucleotide delivery, EV characterization (NTA), EV cargo loading by membrane fusion\n\n### Affiliation\n\nProfessor\\\nDepartment of Drug Design and Pharmacology\n\n### Censor Corps\n\nYes (Chemistry, Pharmacy)\n\n### MOVE Host\n\nNo"
     }
   ]
 }
