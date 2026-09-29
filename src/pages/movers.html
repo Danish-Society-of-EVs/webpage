@@ -49,7 +49,7 @@ figure: "/src/images/icons/icon_education.svg"
 
             <!-- Description -->
             {% if inner_data.description %}
-            <div class="prose prose-sm prose-indigo prose-headings:text-gray-700 dark:prose-headings:text-gray-300 text-gray-700 dark:text-gray-300 px-4 pb-4 leading-relaxed">
+            <div class="prose prose-sm prose-indigo prose-headings:text-gray-700 dark:prose-headings:text-gray-300 prose-strong:text-gray-700 dark:prose-strong:text-gray-300 text-gray-700 text-gray-700 dark:text-gray-300 px-4 pb-4 leading-relaxed">
                 <div class="description max-h-52 overflow-hidden relative">
                     {{ inner_data.description | markdown | safe }}
                     
