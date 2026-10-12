@@ -31,16 +31,6 @@
       "web_url": "vbn.aau.dk/en/persons/malenemj"
     },
     {
-      "name": "Jonas Ellegaard Mortensen",
-      "photo": "/images/portraits/jonas.png",
-      "position": "Treasurer",
-      "current_board_member": true,
-      "start_date": "2021",
-      "end_date": "",
-      "email": "j.ellegaard@rn.dk",
-      "web_url": ""
-    },
-    {
       "start_date": "2023",
       "end_date": "YYYY",
       "name": "Yuya Hayashi",
@@ -59,16 +49,6 @@
       "end_date": "",
       "email": "",
       "web_url": ""
-    },
-    {
-      "name": "Reza Yarani",
-      "photo": "/images/portraits/reza.png",
-      "position": "Secretary",
-      "current_board_member": false,
-      "start_date": "2022",
-      "end_date": "2026",
-      "email": "Reza.yarani.01@regionh.dk",
-      "web_url": "www.linkedin.com/in/reza-yarani-8b326439/"
     },
     {
       "start_date": "2024",
@@ -106,6 +86,36 @@
       "position": "Member at Large",
       "current_board_member": true,
       "email": "suzette.soerensen@rn.dk"
+    },
+    {
+      "start_date": "2026",
+      "end_date": "YYYY",
+      "name": "Stefan Vogel",
+      "photo": "/images/portraits/sv.png",
+      "position": "Member at Large",
+      "current_board_member": true,
+      "email": "stefan.vogel@sund.ku.dk",
+      "web_url": "drug.ku.dk/staff/?pure=en/persons/322978"
+    },
+    {
+      "name": "Jonas Ellegaard Mortensen",
+      "photo": "/images/portraits/jonas.png",
+      "position": "Treasurer",
+      "current_board_member": false,
+      "start_date": "2021",
+      "end_date": "2026",
+      "email": "j.ellegaard@rn.dk",
+      "web_url": ""
+    },
+    {
+      "name": "Reza Yarani",
+      "photo": "/images/portraits/reza.png",
+      "position": "Secretary",
+      "current_board_member": false,
+      "start_date": "2022",
+      "end_date": "2026",
+      "email": "Reza.yarani.01@regionh.dk",
+      "web_url": "www.linkedin.com/in/reza-yarani-8b326439/"
     },
     {
       "start_date": "2023",
