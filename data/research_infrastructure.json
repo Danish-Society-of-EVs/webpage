@@ -41,6 +41,12 @@
       "photo": "/images/portraits/oni.png",
       "location": "Aarhus University, Interdisciplinary Nanoscience Center (iNANO)",
       "body": "#### Description\n\nNanoimager fluorescent and super-resolution microscopy with imaging modes for epifluorescence, total internal reflection (TIRF) and HiLo. The microscope has four laser lines 405 nm, 488 nm, 561 nm, and 640 nm. The microscope can image in real-time ideal for tracking of single molecules and is equipped with a temperature controller and a micro fluiding pumping system. This setup has been applied to single-vesicle analysis e.g. single EV tracking of uptake and internalisation in cells.\n\n#### Whom to contact\n\nMette Malle ([malle@inano.au.dk](mailto:malle@inano.au.dk)) and Jørgen Kjems ([jk@mbg.au.dk](mailto:jk@mbg.au.dk))\n\n*The microscope is not trivial to use and Mette is happy to collaborate and/or help with everything from guiding which fluorophores should be used, microscope surface preparation and imaging conditions.*\n\n#### Access\n\nThrough collaborations"
+    },
+    {
+      "infrastructure": "ZetaView Evolution MONO",
+      "photo": "/images/portraits/zetaview.png",
+      "location": "Aarhus University Hospital, CFIN",
+      "body": "#### Description\n\nZetaView MONO is a compact nanoparticle tracking analysis (NTA) instrument designed for the characterization of extracellular vesicles (EVs), exosomes, viruses, liposomes, and other nanoparticles in suspension. It measures particle size, concentration, and fluorescence using a single laser (488 nm) and automated scanning technology, enabling robust and reproducible analysis of individual particles. The system features automated focusing and alignment, rapid measurements, and fluorescence-based detection of nanoparticle subpopulations. It has a very simple user-interface and minimal training is necessary for operation.  \n\n#### Whom to contact\n\nKim Ryun Drasbek ([ryun@cfin.au.dk](mailto:ryun@cfin.au.dk))\n<https://cfin.au.dk/cfin-labs-research-groups/molecular-and-cellular-neuroscience-lab>\n\n#### Access\n\nAccess with hourly charges"
     }
   ]
 }
