@@ -114,6 +114,10 @@ collections:
                 name: "position"
                 widget: "string"
                 required: true
+              - label: "Institution"
+                name: "institution"
+                widget: "string"
+                required: true
               - label: "Current Board Member"
                 name: "current_board_member"
                 widget: "boolean"
