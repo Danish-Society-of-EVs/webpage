@@ -1,20 +1,20 @@
 {
   "movers": [
     {
+      "description": "### Affiliation\n\nPhD student\nDepartment of Molecular Medicine\n\n### MOVE host lab\n\n**Dr. Oscar Wiklander**\nKarolinska Institute, Department of Laboratory Medicine\\\n**Sweden**\n\n### Grant amount and period of the research stay\n\nDKK 15.000 for 3 months (Oct 2026 – Dec 2026)\n\n### EV techniques\n\nEV engineering, EV isolation from breast cancer cell lines, Flow cytometry analysis of tumor microenvironment, In vivo EV tracking\n\n### Project title\n\nUnravelling the Crosstalk between Tumor-Derived Extracellular Vesicles and the Tumor Microenvironment\n\n### Project in a nutshell\n\nThe project addresses a timely question in extracellular vesicle (EV) research: how tumor-derived EVs shape the immunosuppressive tumor microenvironment that drives therapy resistance in ER+ breast cancer. During my stay, I will generate and use fluorescently tagged EV-reporter breast cancer cell lines to determine which immune cell populations take up tumor-derived EVs, which EV subtypes mediate this signaling, and how these EVs interact with the microenvironment. This work can advance our understanding of EV-mediated immune modulation and reveal new strategies for overcoming therapy resistance.",
+      "name": "Josefine Bech Jesnen",
+      "photo": "/images/portraits/josefine.png",
+      "position": "University of Southern Denmark",
+      "email": "josefinebechjensen@health.sdu.dk",
+      "web_url": "orcid.org/0009-0003-1908-9164"
+    },
+    {
       "name": "Anna Sophia Feix",
       "photo": "/images/portraits/asf.png",
       "position": "Aarhus University",
       "email": "afeix@anivet.au.dk",
       "web_url": "orcid.org/0000-0001-5068-2546",
       "description": "### Affiliation\n\nPostdoc\\\nDepartment of Animal and Veterinary Sciences\n\n### MOVE host lab\n\n**Prof. Alireza Fazeli** and **Dr. Suranga Kodithuwakku**\\\nUniversity of Tartu, Institute of Biomedicine and Translational Medicine\\\nEstonian University of Life Sciences, Institute of Veterinary Medicine and Animal Sciences\\\n**Estonia**\n\n### Grant amount and period of the research stay\n\nDKK 15.000 for 2 months (Oct 2025 – Nov 2025)\n\n### EV techniques\n\nEV isolation, upscaling and characterization from parasite vesicles\n\n### Project title\n\nEV isolation and upscaling from helminths, host-cells and host feces\n\n### Project in a nutshell\n\nEVs from *Ascaridia galli* are considered promising vaccine candidates, but their development is currently constrained by insufficient characterization and limited large-scale production. In this project, deep characterization and upscaling of *A. galli* EV production are pursued using combined differential centrifugation and size exclusion chromatography to improve EV yield, purity, and biological integrity. Isolation of EVs from fecal samples is also addressed, building on protocols developed by the host group and enabling analysis of parasite- and host-derived EVs under natural infection conditions. Access to the advanced EV isolation expertise and standardized methodologies available in Tartu is therefore considered essential to overcome current bottlenecks, enable antigen discovery, and support future comparative EV analyses across parasites and host systems."
-    },
-    {
-      "description": "### Affiliation\n\nPhD student\nDepartment of Molecular Medicine\n\n### MOVE host lab\n\n**Dr. Oscar Wiklander**\nKarolinska Institute, Department of Laboratory Medicine\n**Sweden**\n\n### Grant amount and period of the research stay\n\nDKK 15.000 for 3 months (Oct 2026 – Dec 2026)\n\n### EV techniques\n\nEV engineering, EV isolation from breast cancer cell lines, Flow cytometry analysis of tumor microenvironment, In vivo EV tracking\n\n### Project title\n\nUnravelling the Crosstalk between Tumor-Derived Extracellular Vesicles and the Tumor Microenvironment\n\n### Project in a nutshell\n\nThe project addresses a timely question in extracellular vesicle (EV) research: how tumor-derived EVs shape the immunosuppressive tumor microenvironment that drives therapy resistance in ER+ breast cancer. During my stay, I will generate and use fluorescently tagged EV-reporter breast cancer cell lines to determine which immune cell populations take up tumor-derived EVs, which EV subtypes mediate this signaling, and how these EVs interact with the microenvironment. This work can advance our understanding of EV-mediated immune modulation and reveal new strategies for overcoming therapy resistance.",
-      "name": "Josefine Bech Jesnen",
-      "photo": "/images/portraits/josefine.png",
-      "position": "University of Southern Denmark",
-      "email": "josefinebechjensen@health.sdu.dk",
-      "web_url": "orcid.org/0009-0003-1908-9164"
     }
   ]
 }
