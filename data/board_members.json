@@ -1,6 +1,28 @@
 {
   "board_members": [
     {
+      "web_url": "portal.findresearcher.sdu.dk/da/persons/psvenningsen",
+      "position": "President",
+      "start_date": "2021",
+      "name": "Per Svenningsen",
+      "end_date": "",
+      "photo": "/images/portraits/per2.png",
+      "institution": "University of Southern Denmark",
+      "current_board_member": true,
+      "email": "psvenningsen@health.sdu.dk"
+    },
+    {
+      "web_url": "aalborguh.rn.dk/da/Forskning/Forskningsomraader/Forskningscentre/The-CardioMetabolic-and-Biomedical-Research-Group",
+      "position": "Vice President",
+      "start_date": "2024",
+      "name": "Maiken Mellergaard",
+      "end_date": "YYYY",
+      "photo": "/images/portraits/maiken.png",
+      "institution": "Aalborg University Hospital",
+      "current_board_member": true,
+      "email": "maiken.pedersen@rn.dk"
+    },
+    {
       "web_url": "vbn.aau.dk/en/persons/malenemj",
       "position": "Secretary            (President, 2019-2024)",
       "start_date": "2020",
@@ -10,6 +32,17 @@
       "institution": "Aalborg University Hospital",
       "current_board_member": true,
       "email": "maljoe@rn.dk"
+    },
+    {
+      "web_url": "mbg.au.dk/yuya-hayashi/",
+      "position": "PR/Web Manager",
+      "start_date": "2023",
+      "name": "Yuya Hayashi",
+      "end_date": "YYYY",
+      "photo": "/images/portraits/yuya.png",
+      "institution": "Aarhus University",
+      "current_board_member": true,
+      "email": "yuya.hayashi@mbg.au.dk"
     },
     {
       "web_url": "pure.au.dk/portal/en/persons/pn@clin.au.dk",
@@ -111,17 +144,6 @@
       "email": "j.ellegaard@rn.dk"
     },
     {
-      "web_url": "portal.findresearcher.sdu.dk/da/persons/psvenningsen",
-      "position": "President",
-      "start_date": "2021",
-      "name": "Per Svenningsen",
-      "end_date": "",
-      "photo": "/images/portraits/per2.png",
-      "institution": "University of Southern Denmark",
-      "current_board_member": true,
-      "email": "psvenningsen@health.sdu.dk"
-    },
-    {
       "web_url": "www.linkedin.com/in/reza-yarani-8b326439/",
       "position": "Secretary",
       "start_date": "2022",
@@ -140,28 +162,6 @@
       "position": "Member at Large",
       "institution": "Technical University of Denmark",
       "current_board_member": false
-    },
-    {
-      "web_url": "mbg.au.dk/yuya-hayashi/",
-      "position": "PR/Web Manager",
-      "start_date": "2023",
-      "name": "Yuya Hayashi",
-      "end_date": "YYYY",
-      "photo": "/images/portraits/yuya.png",
-      "institution": "Aarhus University",
-      "current_board_member": true,
-      "email": "yuya.hayashi@mbg.au.dk"
-    },
-    {
-      "web_url": "aalborguh.rn.dk/da/Forskning/Forskningsomraader/Forskningscentre/The-CardioMetabolic-and-Biomedical-Research-Group",
-      "position": "Vice President",
-      "start_date": "2024",
-      "name": "Maiken Mellergaard",
-      "end_date": "YYYY",
-      "photo": "/images/portraits/maiken.png",
-      "institution": "Aalborg University Hospital",
-      "current_board_member": true,
-      "email": "maiken.pedersen@rn.dk"
     },
     {
       "start_date": "2024",
