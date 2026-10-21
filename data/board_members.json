@@ -23,8 +23,18 @@
       "email": "maiken.pedersen@rn.dk"
     },
     {
+      "start_date": "2026",
+      "end_date": "YYYY",
+      "name": "Katja Lund Cliff",
+      "position": "Secretary",
+      "institution": "Aalborg University Hospital",
+      "current_board_member": true,
+      "email": "k.cliff@rn.dk",
+      "photo": "/images/portraits/katja.png"
+    },
+    {
       "web_url": "vbn.aau.dk/en/persons/malenemj",
-      "position": "Secretary            (President, 2019-2024)",
+      "position": "Treasurer            (President, 2019-2024)",
       "start_date": "2020",
       "name": "Malene Møller Jørgensen",
       "end_date": "",
@@ -234,16 +244,6 @@
       "institution": "Aalborg University Hospital",
       "current_board_member": true,
       "email": "jadq@rn.dk"
-    },
-    {
-      "start_date": "2026",
-      "end_date": "YYYY",
-      "name": "Katja Lund Cliff",
-      "position": "Member at Large",
-      "institution": "Aalborg University Hospital",
-      "current_board_member": true,
-      "email": "k.cliff@rn.dk",
-      "photo": "/images/portraits/katja.png"
     },
     {
       "start_date": "2026",
