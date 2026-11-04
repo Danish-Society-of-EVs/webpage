@@ -1,6 +1,7 @@
 ---
 date: 2025-01-10
-title: Postdoc in Reimagining Brainbow for Extracellular Vesicle Bioimaging
+title: "[Applications Closed] Postdoc in Reimagining Brainbow for Extracellular
+  Vesicle Bioimaging"
 employer: Aarhus University
 deadline: 2026-10-28T23:59
 startdate: 2027-01-01
