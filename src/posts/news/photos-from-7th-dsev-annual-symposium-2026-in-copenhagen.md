@@ -9,8 +9,6 @@ Thank you for a great meeting - and please mark your calendars for next year's s
 
 ![](/images/news/dsev2026_participants2.jpg "Group photo")
 
-(photo: Ole Østergaard)
-
 Group photo
 
 \---
@@ -19,7 +17,7 @@ Group photo
 
 (photo: Ole Østergaard)
 
-**Keynote Speaker (right)**: Edit Buzás; Semmelweis University*, Hungary.*
+**Keynote Speaker (right)**: Edit Buzás; *Semmelweis University, Hungary.*
 
 *"Inducible changes in EV biogenesis"*
 
