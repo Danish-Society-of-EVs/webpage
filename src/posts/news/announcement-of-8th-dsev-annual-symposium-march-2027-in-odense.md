@@ -11,6 +11,5 @@ Place
 
 Keynote
 
-Important deadlines
-
+Important deadlines\
 Registration fee
