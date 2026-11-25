@@ -3,9 +3,6 @@ title: 8th DSEV Annual Symposium 2027 in Odense
 date: 2026-11-25
 author: Javier Donoso-Quezada & Yuya Hayashi
 ---
-Registration and abstract submission are now open!\
-Sign up here: [8th annual meeting of DSEV 2027 - Google Forms](https://forms.gle/jJNo5vwVwCvM5dPPA)
-
 We are pleased to invite you to the 8th annual meeting of DSEV on **March 4, 2027**
 
 ## Venue
@@ -23,7 +20,7 @@ University of Nantes 
 
 *How to sign up*
 
-Registration and abstract submission will open on December 1, 2026, and can be found here: Google Forms
+Registration and abstract submission will open on December 1, 2026.
 
 *Registration fee*
 
@@ -63,8 +60,6 @@ Deadline for registration + abstract submission: **1st Sep 2026***
 Notification of decisions on submitted abstracts: **latest 15th Sep 2026**
 
 Registration closes: **15th Sep 2026**
-
-
 
 ## Call for MOVE Fellowship
 
