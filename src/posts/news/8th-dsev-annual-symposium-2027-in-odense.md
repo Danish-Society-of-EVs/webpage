@@ -4,35 +4,26 @@ date: 2026-11-25
 author: Javier Donoso-Quezada & Yuya Hayashi
 ---
 Registration and abstract submission are now open!\
-Signup here: [8th annual meeting of DSEV 2027 - Google Forms](https://forms.gle/jJNo5vwVwCvM5dPPA)
+Sign up here: [8th annual meeting of DSEV 2027 - Google Forms](https://forms.gle/jJNo5vwVwCvM5dPPA)
 
-## Call for MOVE Fellowship
-
-MOVE fellowship is awarded at the annual symposium. Please find the details in the DSEV grant page. Application deadline is **1st Sep 2026**.
-
-## Keynote Speaker
-
-**Prof. Edit Buzas**
-
-Department of Genetics, Cell- and Immunobiology\
-Semmelweis  University, Hungary
+We are pleased to invite you to the 8th annual meeting of DSEV on **March 4, 2027**
 
 ## Venue
 
-University of Copenhagen (exact location TBA)\
-Thursday, 1 October 2026, 10.00 - 21.00
+**University of Southern Denmark**\
+Campusvej 55, 5230 Odense M\
+Room O100
+
+## Keynote Speaker
+
+**Dr. Guillaume van Niel** \
+University of Nantes 
 
 ## Registration
 
 *How to sign up*
 
-This is the single-point entry form for registration with or without abstract submission.
-
-\> Please select "Registration Only" if no abstract is to be submitted.
-
-\> Please select "Registration + Abstract Submission" for submitting an abstract.
-
-In both cases, registration is followed by a questionnaire that we kindly ask you to fill out to make DSEV better. Please allow **15-30 min** to complete the registration process along with the questionnaire.
+Registration and abstract submission will open on December 1, 2026, and can be found here: Google Forms
 
 *Registration fee*
 
@@ -72,3 +63,9 @@ Deadline for registration + abstract submission: **1st Sep 2026***
 Notification of decisions on submitted abstracts: **latest 15th Sep 2026**
 
 Registration closes: **15th Sep 2026**
+
+
+
+## Call for MOVE Fellowship
+
+MOVE fellowship is awarded at the annual symposium. Please find the details in the DSEV grant page. Application deadline is **1st Sep 2026**.
