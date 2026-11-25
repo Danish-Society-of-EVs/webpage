@@ -24,7 +24,7 @@ Registration and abstract submission will open on December 1, 2026.
 
 ## *Registration fee*
 
-Registration for the symposiumis linked to a DSEV membership, and the payment of the membership fee of DKK200 will grant you voting access to the DSEV General Assembly, which takesplace during the symposium. This fee also covers breakfast, coffee, and lunchat the symposium. However, if you want to participate in the evening dinner at 8pm, it will cost an additional DKK 200 (note the price increase).
+Registration for the symposium is linked to a DSEV membership, and the payment of the membership fee of 200 DKK will grant you voting access to the DSEV General Assembly, which takes place during the symposium. This fee also covers breakfast, coffee, and lunch at the symposium. However, if you want to participate in the evening dinner at 8pm, it will cost an additional DKK 200 (note the price increase).
 
 #### \*\*\* New initiative to reduce expense and food waste that could be avoided \*\*\*
 
@@ -72,7 +72,7 @@ The DSEV board is seeking a PhD student or postdoc to serve as DSEV’s SNEV amb
 
 When the DSEV meeting registration opens, there will be a checkbox where you can indicate your interest in this role.
 
-# Sandwich grants
+# Sandwich Grants
 
 DSEV’s mission is to advance EV research by promoting scientific communication among researchers in Denmark at all career stages. Our annual symposium is an excellent opportunity to connect EV researchers nationwide, and we now also wish to support local EV communities through a new initiative we have termed: "Sandwich Grant". If your local EV network wants to apply for a Sandwich Grant, information can be found here: [Sandwich Grants.](https://dsev.dk/pages/grants/)
 
