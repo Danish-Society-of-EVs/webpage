@@ -77,4 +77,4 @@ When the DSEV meeting registration opens, there will be a checkbox where you can
 
 DSEV’s mission is to advance EV research by promoting scientific communication among researchers in Denmark at all career stages. Our annual symposium is an excellent opportunity to connect EV researchers nationwide, and we now also wish to support local EV communities through a new initiative we have termed: "Sandwich Grant". If your local EV network wants to apply for a Sandwich Grant, information can be found here: [Sandwich Grants.](https://dsev.dk/pages/grants/)
 
-**Deadline: February 1, 2027.**
+**Deadline for applying: February 1, 2027.**
