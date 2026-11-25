@@ -25,7 +25,7 @@ Registration and abstract submission will open on December 1, 2026.
 
 # Abstract submission
 
-To promote networking across institutions, you are strongly encouraged to submit an abstract, including reuse of abstracts for posters presented at other events. All abstracts will be reviewed and selected for oral or poster presentation (please indicate your preference during abstract submission). Note that registration is required when you submit an abstract. Abstracts must not exceed 1,500 characters (including spaces).
+To promote networking across institutions, we strongly encourage all of you to submit an abstract, including reuse of abstracts for posters presented at other events. All abstracts will be reviewed and selected for oral or poster presentation (please indicate your preference during abstract submission). Note that registration is required when you submit an abstract. Abstracts must not exceed 1,500 characters (including spaces).
 
 # Important dates
 
