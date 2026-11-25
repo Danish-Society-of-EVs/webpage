@@ -14,7 +14,8 @@ Room O100
 # Keynote Speaker
 
 **Dr. Guillaume van Niel** \
-University of Nantes 
+University of Nantes \
+*[See details](https://scholar.google.com/citations?user=3lAklLIAAAAJ&hl=fr)*
 
 # Registration
 
